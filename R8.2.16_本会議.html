@@ -58,6 +58,21 @@
         padding: 20px;
       }
     }
+    .yt-btn:hover {
+      opacity: 0.8;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    @media (max-width: 480px) {
+      #floating-player-container {
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        border-radius: 0 !important;
+        border: none !important;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.3) !important;
+      }
+    }
   </style>
 </head>
 <body>
@@ -268,6 +283,7 @@
     </div>
   </details>
 
+  
 
   <article class="markdown-body">
     <h1>R8.2.16 本会議</h1>
@@ -1088,5 +1104,46 @@
 生涯学習全般としては、新たな教育目標・基本方針を実現するため、令和8年度からの第5次生涯学習推進計画に、3つの施策「みんなが楽しく学べる場や機会の充実」「学びを生かし地域とつながる仕組みや仕掛けの支援」「学びとつながりを支える基盤の整備」を掲げ、具体的な施策事業を展開します。<br />
 その中で、スポーツの振興については、運動等を通じて市民の健康増進を図るとともに、誰もがつながり合える環境づくりを進め、笑顔で過ごすことができるまちを目指します。そこで令和8年度は</p>
   </article>
+
+  <div id="floating-player-container" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 350px; height: 197px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius: 8px; overflow: hidden; z-index: 1000; background: #000; border: 2px solid #cbd5e0;">
+    <div id="close-player-btn" style="position: absolute; top: -5px; right: 8px; color: white; cursor: pointer; z-index: 1001; font-weight: bold; font-size: 24px; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); line-height: 1;">&times;</div>
+    <div id="yt-player-wrapper" style="width: 100%; height: 100%;"></div>
+  </div>
+  <script>
+    var container = document.getElementById("floating-player-container");
+    var closeBtn = document.getElementById("close-player-btn");
+    var wrapper = document.getElementById("yt-player-wrapper");
+    
+    closeBtn.addEventListener("click", function() {
+        container.style.display = "none";
+        wrapper.innerHTML = ""; // Stop video
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll(".yt-btn");
+        links.forEach(function(link) {
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+                var href = this.getAttribute("href");
+                var matchVid = href.match(/v=([a-zA-Z0-9_-]+)/);
+                if (!matchVid) matchVid = href.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
+                var matchTime = href.match(/t=(\d+)s?/);
+                
+                if (matchVid) {
+                    var vid = matchVid[1];
+                    var time = matchTime ? parseInt(matchTime[1], 10) : 0;
+                    
+                    container.style.display = "block";
+                    // Using direct iframe instead of YT API avoids 'origin=null' CORS issues when opening local files
+                    var iframeHtml = '<iframe width="100%" height="100%" ' +
+                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1&origin=https://localhost" ' +
+                        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
+                        'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+                    wrapper.innerHTML = iframeHtml;
+                }
+            });
+        });
+    });
+  </script>
 </body>
 </html>
