@@ -40,10 +40,6 @@
       border-radius: 6px;
       overflow-x: auto;
     }
-    pre code {
-      background-color: transparent;
-      padding: 0;
-    }
     blockquote {
       border-left: 4px solid #3498db;
       padding-left: 15px;
@@ -51,12 +47,8 @@
       margin-left: 0;
     }
     @media (max-width: 768px) {
-      body {
-        padding: 15px;
-      }
-      .markdown-body {
-        padding: 20px;
-      }
+      body { padding: 15px; }
+      .markdown-body { padding: 20px; }
     }
     .yt-btn:hover {
       opacity: 0.8;
@@ -69,8 +61,6 @@
         right: 0 !important;
         width: 100% !important;
         border-radius: 0 !important;
-        border: none !important;
-        box-shadow: 0 -2px 10px rgba(0,0,0,0.3) !important;
       }
     }
   </style>
@@ -421,7 +411,7 @@
     
     closeBtn.addEventListener("click", function() {
         container.style.display = "none";
-        wrapper.innerHTML = ""; // Stop video
+        wrapper.innerHTML = "";
     });
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -431,7 +421,6 @@
                 e.preventDefault();
                 var href = this.getAttribute("href");
                 var matchVid = href.match(/v=([a-zA-Z0-9_-]+)/);
-                if (!matchVid) matchVid = href.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
                 var matchTime = href.match(/t=(\d+)s?/);
                 
                 if (matchVid) {
@@ -439,9 +428,8 @@
                     var time = matchTime ? parseInt(matchTime[1], 10) : 0;
                     
                     container.style.display = "block";
-                    // Using direct iframe instead of YT API avoids 'origin=null' CORS issues when opening local files
                     var iframeHtml = '<iframe width="100%" height="100%" ' +
-                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1&origin=https://localhost" ' +
+                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1" ' +
                         'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
                         'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
                     wrapper.innerHTML = iframeHtml;
