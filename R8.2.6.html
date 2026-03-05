@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>R8.2.6</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #f7f9fc;
+    }
+    .markdown-body {
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      color: #2c3e50;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    code {
+      background-color: #f0f3f5;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    pre {
+      background-color: #f0f3f5;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    blockquote {
+      border-left: 4px solid #3498db;
+      padding-left: 15px;
+      color: #7f8c8d;
+      margin-left: 0;
+    }
+    @media (max-width: 768px) {
+      body { padding: 15px; }
+      .markdown-body { padding: 20px; }
+    }
+    .yt-btn:hover {
+      opacity: 0.8;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    @media (max-width: 480px) {
+      #floating-player-container {
+        bottom: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        border-radius: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="margin-bottom:10px;">
+        <a href="index.html" style="display:inline-block; color:#fff; text-decoration:none; background:#3498db; padding:5px 15px; border-radius:4px;">← 一覧に戻る</a>
+    </div>
+    <h1 style="margin-bottom: 5px;">R8.2.6</h1>
+    <p style="color: #7f8c8d; margin-top: 0; margin-bottom: 30px;">AIによる文字起こし・自動校正データ</p>
+  </header>
+  
+  
+  <details style="background: #edf2f7; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #cbd5e0; cursor: pointer; outline: none;">
+    <summary style="font-weight: bold; color: #2b6cb0; font-size: 1.2em; display: flex; align-items: center;">
+      <span style="margin-right: 8px;">💡</span>AIが作成した要約をチェックする（クリックで開閉）
+    </summary>
+    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #a0aec0; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
+      <h3>提出議案の一覧</h3>
+<ul>
+<li><strong>調査項目</strong><ul>
+<li>庁舎等建設及び公共施設マネジメントの推進にかかる諸問題の調査</li>
+</ul>
+</li>
+<li><strong>陳情（計17件）</strong><ul>
+<li>7陳情第78号：現設計での庁舎等建設の断念を踏まえ速やかに新しい設計の準備を始めることを求める陳情書</li>
+<li>7陳情第91号：2回の入札不調に至った原因究明を求める陳情書</li>
+<li>7陳情第92号：市民要望の反映と設計条件・入札条件での見直しを求める陳情書</li>
+<li>7陳情第93号：予算上限130億円、民間による建替え提案を求める陳情書</li>
+<li>7陳情第94号：新たなスタートを新たな体制で始めることを求める陳情書</li>
+<li>7陳情第106号：2度の入札不調の意味を深く受け止め、シナリオA・B・Cの選択を行わないことを求める陳情書</li>
+<li>7陳情第107号：シナリオD、誰も否定しない市民の笑顔が生まれる環境を整える案の検討、入札要綱の早期策定を求める陳情書</li>
+<li>7陳情（番号不明）：9月18日特別委員会における議員各位の質疑及び行政側回答に対する補足を求める陳情書</li>
+<li>7陳情第109号：設計ではない、皆さんを通して設計とは何かを説明する機会を求める陳情書</li>
+<li>7陳情第122号：その1、小金井市新庁舎・新福祉会館建設事業、12月議会における市長の予測・方針と課題分析に関する陳情書</li>
+<li>7陳情第123号：その2、小金井市新庁舎・新福祉会館建設事業、市民の願いが息づく庁舎・行政に求められる判断と建築の公共的価値に関する陳情書</li>
+<li>7陳情第124号：その3、新庁舎・新福祉会館建設事業における執行権の適正化と合意形成プロセスの改善に関する陳情書</li>
+<li>7陳情第125号：その4、小金井市新庁舎・新福祉会館建設事業、課題の本質とは、変革への提言に関する陳情書</li>
+<li>7陳情第126号：新庁舎及び福祉会館の設計の見直しに関する陳情書、その1</li>
+<li>7陳情第127号：新庁舎及び福祉会館の設計の見直しに関する陳情書、その2</li>
+<li>7陳情第128号：新庁舎及び福祉会館の設計の見直しに関する陳情書、その3</li>
+<li>7陳情第129号：新庁舎及び福祉会館の設計の見直しに関する陳情書、その4</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3>議案の審議ごとの要約</h3>
+<h4>庁舎等建設に関する基本方針の質疑（調査項目2）</h4>
+<ul>
+<li><strong>方針策定と財政見通しの順序</strong><br />
+    庁舎建設における「考え方」と「方針」について、担当部長は市の大きな方向性として同義であると答弁。また、事業費に関する財政見通しは企画財政部内で議論中であり現段階で明言できないが、今後適切なタイミングで説明するとした。</li>
+<li><strong>委員からの指摘・批判</strong><br />
+    渡辺大三委員から「方針ありきで財政が後回しになり、辻褄合わせをしているのではないか」との懸念が示された。これに対し担当部長は、内部で数字の精査は行っており財政を後回しにしているわけではないと釈明した。他の委員からは、市長からの見解が示されないことに対し、議会への不誠実さを指摘する声も上がった。本調査項目の現時点の質疑は終了した。</li>
+</ul>
+<h4>新庁舎・新福祉会館建設等に関する陳情（全17件）の取り扱い</h4>
+<ul>
+<li><strong>一括保留の決定</strong><br />
+    第1回定例会で市政方針が配布され、日程の考え方が示される予定であることから、関連する全17件の陳情については、一括して現時点での質疑を終了し「保留」とすることが全会一致で決定された。</li>
+</ul>
+<h4>公共施設マネジメントの推進について（調査項目1）</h4>
+<p><strong>（1）公共施設等総合管理計画について（個別施設計画を除く）</strong><br />
+*   <strong>報告事項</strong><br />
+    「小金井市公共施設のあり方再編方針案」に対する意見募集（パブリックコメント）の実施および、市民懇談会の開催について部局より報告された。<br />
+*   <strong>市民への周知方法（水谷たかこ委員）</strong><br />
+    市民懇談会の説明スライドが分かりやすかったため、音声読み上げ機能を活用した動画配信などを提案。市側は他事業での事例も参考に、できるところから対応するよう努めると回答した。<br />
+*   <strong>公共施設LED化事業の進捗と効果（沖浦あつし委員）</strong><br />
+    LED化工事の進捗は全体で80%であり、機器納品の影響はあるものの3月末までに完了見込みであると報告された。効果として、体育館照明の即時点灯による現場の負担軽減や明るさの改善、さらに学校施設等での大幅な電気料金の削減（100万円単位）が確認されていることが示された。<br />
+*   <strong>再編方針と市民の声の反映（森戸よう子委員）</strong><br />
+    再編方針案における集会施設の機能集約への懸念、利用実態の分析不足、複合化によるコスト増加のリスク、市民の反対意見への対応について質疑が行われた。市側は、一律の削減ではなくエリアの実情に応じた配置を検討すること、具体的な利用分析は方針策定後の令和8年度以降に行うこと、複合化は土地の創出や管理コスト縮減に有効な手法の1つであると認識していること、そして今後の個別検討において利用者の意見も聞きながら丁寧に進める方針であることを回答した。</p>
+<p><strong>（2）跡地活用について</strong><br />
+*   部局からの報告および委員からの質疑はなく、現時点の質疑を終了した。</p>
+<h4>委員会の今後の扱いと次回日程（協議会）</h4>
+<ul>
+<li>「庁舎等建設及び公共施設マネジメントの推進にかかる諸問題の調査」については、引き続き「継続調査」とすることが決定された。</li>
+<li>第1回定例会閉会中の次回の特別委員会は、4月14日（午前10時開始）に開催することが決定された。</li>
+</ul>
+    </div>
+  </details>
+
+  
+  <details style="background: #fff5f5; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #feb2b2; cursor: pointer; outline: none;">
+    <summary style="font-weight: bold; color: #c53030; font-size: 1.2em; display: flex; align-items: center;">
+      <span style="margin-right: 8px;">▶️</span>この議事録の原典動画を見る（1本）
+    </summary>
+    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #fc8181; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
+      <p style="color: #718096; font-size: 0.9em; margin-bottom: 20px;">動画を再生しながら議事録を読むことができます。</p>
+      
+    <div style="margin-bottom: 20px;">
+        <h4 style="margin-top: 0; margin-bottom: 10px; color: #4a5568;">📺 動画 1</h4>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" src="https://www.youtube.com/embed/jPDEYSYrk-g" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    </div>
+  </details>
+
+
+  <article class="markdown-body">
+    <h1>R8.2.6</h1>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 00:01 再生</a>　の考え方でした。誰？考え方じゃこのままでは終わらない。あれが方針じゃない？[笑い] あれは選択肢、どなたがなんです？財政の話入って選択肢って書いてある。今後の対応とかの選択肢についてって書いてあった。</p>
+<p>◯委員長　どの辺りが答弁されますか。大三委員から聞かれていますよ。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=36s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="36"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 00:36 再生</a>　まあ、なる人しか答えられない。はい、庁舎建設担当部長。</p>
+<p>◯庁舎建設担当部長　国語の時間みたいな感じなんですけれども、「考え方」と「方針」ということなんですけれども。私としてはですね、今後どういう対応をしていくのかという市の大きな方向性、方針ということの考え方がまとまったというような意味合いで捉えておりますので、何が違うのかと問われると、同義語という風に取っていただいてもいいのかなという風には思っております。<br />
+それから、財政の見通しの話なんですけれども、これはですね、ちょっと企画財政部の中でも今議論をしているところですので、本会議までにお示しできるかというと、そこについては現段階で明確にできますという風には答弁できないということで、現時点でお答えをさせていただきたい。<br />
+ただやはり、大きな事業費を伴う事業ですので、一定のそういう数字の面というのもやっぱりお示しをしないと説明にはならないのかなという風には、担当としては考えておりますので、今後ともですね、然るべきタイミングでご説明ができるよう、庁内でも調整をしていきたいという風に考えます。以上です。</p>
+<p>◯渡辺 大三　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=128s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="128"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 02:08 再生</a>　多分私以外の人も今首を傾げたと思うんですけど、財政の整合性がつくから考え方がまとまるんじゃないですか。考え方がまとまってそれに財政の方を合わせるんですかという風に聞こえるじゃないですか。今の話だと。だってまだ財政の話は財政当局とついてないってことなんでしょ。<br />
+ただ一定の考え方がまとまってもう市政方針に乗ってるって言うんでしょ。方針ありきで財政は後から辻褄合わせるってことなんですかということになっちゃうから、今の答弁は順番が逆なんですよ。<br />
+何かの考え方や方針まとめるんだったら、財政的にもきちんと整合するような形で方針がまとまると。で、それが市政方針。市政方針って重いもんですからね。市政方針に謳うって言うんだったら、それをきちんと裏付ける財政的な分析から全部終わっての話ですよ。<br />
+それ後から辻褄合わせて、財政の方は方針だけ先にポーンと出してね、あとはなんとか財政的にはそれに合うように財政フレームは作文してもらいましょうっていうんだったら、そういう話がこんな公の議事録に残るとこで行っちゃいけないんですよ。<br />
+もう財政的にも全部一部の隙もないぐらいきちんと分析できてきて大丈夫だってことがあるから方針がまとまるのね。高橋部長ね。だから[笑い]今の話はこれから財政と話がどうとかって言われると、聞いててすごく大丈夫なのかなって思うので、私の言いたいこと分かりますよね。はい。ちょっとそこはちゃんとした説明していただけないですかね。すみません。</p>
+<p>◯庁舎建設担当部長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=191s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="191"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 03:11 再生</a>　すみません。ちょっと誤解を招くようなというか、言葉が足らなかったかと思いますが、私ども当然検討するにあたっては、そういう内部的にですね、数字の精査等もしております。<br />
+それをどういう風に表現をしていくのかというところについて内部で調整をしているということでございますので、財政を後回しにして後から辻褄合わせるとかって、そういう考え方で私どもこの間進めてきておりませんので、そこについてはちょっと先ほどの私の答弁が不明確だったなと反省しておりますので、よろしくご理解いただければと思います。以上です。</p>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=231s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="231"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 03:51 再生</a>　議事進行。はい、ごめん。あのね、ちょっと本当にね、残念ですね。で、市長からは何も一言もない。で、しかもさっきもあったようにもう暗中模索っていうか何が出てくるのかも分からないというね、現時点ですよ。<br />
+でいう中でですね、今後どういう方向性で進めるのかということも含めて、方向性も考え方も同じだという風におっしゃったわけですけれども、その点からするとですね、ちょっとあれですよね。不誠実です。議会に対して極めて不誠実。<br />
+市長からもですね、市長としてどういう考えなのかっていうことぐらいはですね、やっぱり答弁すべきですね。そのことはですね、意見として申し上げておきたいと思います。以上です。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=277s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="277"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 04:37 再生</a>　ということですが、何かありますか。はい。じゃあそれでよろしいですね。じゃあ、次にございますか。他にございますか。話しました。いかがでしょう。他になければ。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=360s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="360"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 06:00 再生</a>　はい、よろしいでしょうか。一括ですね。陳情の方も何かあればよろしいですかね。17件ぐらいありますけどございませんか。はい、それでは休憩いたします。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=393s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="393"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 06:33 再生</a>　取り扱いについてはいかがいたしましょうか。全部継続。はい。渡辺大三委員。</p>
+<p>◯渡辺 大三　ということで、先ほどのやり取りの通り月曜日には市政方針が配布されますし、定例会中日程の考えでしたっけ、が示されるようなので、各陳情は全部それと密接な関係を有することから、第1回定例会で合わせて、もし議論するのであれば、一括して全て保留にしておいていただければなと思います。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=425s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="425"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 07:05 再生</a>　ということですが、他にございますか。よろしいですか。よろしいでしょうか。はい、ということで一括して17件全て保留ということで諮らせていただければと思います。はい。再開します。<br />
+7陳情第78号、現設計での庁舎等建設の断念を踏まえ速やかに新しい設計の準備を始めることを求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第91号、2回の入札不調に至った原因究明を求める陳情書。お諮りいたします。本件は現時点での質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第92号、市民要望の反映と設計条件・入札条件での見直しを求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第93号、予算上限130億円、民間による建替え提案を求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第94号、新たなスタートを新たな体制で始めることを求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第106号、2度の入札不調の意味を深く受け止め、シナリオA・B・Cの選択を行わないことを求める陳情書。お諮りいたします。本件は現時点での質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に107号か。次に、7陳情第107号、シナリオD、誰も否定しない市民の笑顔が生まれる環境を整える案の検討、入札要綱の早期策定を求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情、9月18日特別委員会における議員各位の質疑及び行政側回答に対する補足を求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第109号、設計ではない、皆さんを通して設計とは何かを説明する機会を求める陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第122号、その1、小金井市新庁舎・新福祉会館建設事業、12月議会における市長の予測・方針と課題分析に関する陳情書。お諮りいたします。本件は現時点での質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第123号、その2、小金井市新庁舎・新福祉会館建設事業、市民の願いが息づく庁舎・行政に求められる判断と建築の公共的価値に関する陳情書。お諮りいたします。本件は現時点での質疑を終了し、引き続き審査する必要がある…申し訳ありません。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第124号、その3、新庁舎・新福祉会館建設事業における執行権の適正化と合意形成プロセスの改善に関する陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第125号、その4、小金井市新庁舎・新福祉会館建設事業、課題の本質とは、変革への提言に関する陳情書。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議がありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第126号、新庁舎及び福祉会館の設計の見直しに関する陳情書、その1。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第127号、新庁舎及び福祉会館の設計の見直しに関する陳情書、その2。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第128号、新庁舎及び福祉会館の設計の見直しに関する陳情書、その3。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+次に、7陳情第129号、新庁舎及び福祉会館の設計の見直しに関する陳情書、その4。お諮りいたします。本件は現時点の質疑を終了し、保留といたしたいと思います。これにご異議ありませんか。ご異議なしと認めます。従って本件は保留と決定いたしました。<br />
+お諮りいたします。以上で調査項目2について現時点の質疑を終了することにご異議がありませんか。ご異議なしと認め、調査項目2について現時点の質疑を終了します。<br />
+次に、庁舎等建設及び公共施設マネジメントの推進にかかる諸問題の調査の調査項目1、公共施設マネジメントの推進について、括弧1、公共施設等総合管理計画について（個別施設計画を除く）を議題といたします。部局から報告事項の説明を求めます。</p>
+<p>◯公共施設マネジメント推進担当課長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=858s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="858"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 14:18 再生</a>　はい。それでは企画財政部、公共施設マネジメント推進担当より、小金井市公共施設のあり方再編方針案に対する意見募集の実施につきまして報告させていただきます。<br />
+本方針案は、小金井市公共施設等総合管理計画に基づき、公共施設の再編に向けた考え方を整理するため、公募市民、学識経験者等によって構成されます公共施設あり方検討委員会による検討を踏まえて作成したものでございます。<br />
+本方針案につきましては、小金井市民参加条例第15条の規定に基づきまして、市民及び在勤者の意見募集、パブリックコメントを、令和8年1月23日から2月24日まで実施をしているところでございます。寄せられたご意見に対する回答につきましては、令和8年3月頃、市ホームページにて公表する予定でございます。<br />
+合わせまして、本方針案に関しまして市民説明を行うために、2月1日に市民懇談会を開催したところでございます。報告は以上になります。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=918s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="918"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 15:18 再生</a>　これから質疑を行います。何かありますか。あ、はい。副委員長。</p>
+<p>◯副委員長　はい。どなたもないようなので、小金井市公共施設のあり方再編方針に係る市民懇談会について今ご説明</p>
+<p>◯水谷 たかこ　ご報告いただいたところです。私、これに参加させていただきました。<br />
+元々2回予定されていたものが、急な選挙の予定が入ったということで、2回目の予定が中止になってしまったところです。<br />
+参加したところ、その時に説明されたスライド、今ホームページにも公開していただいていますけれども、このスライド自体はとても分かりやすかったと思っていますし、説明の中身も、初めて聞く人にとっても、今までどういうことをやってきて、大きな方針としては何を考えているのかというのが伝わりやすいものだったと思います。<br />
+パブリックコメントをより多くの方に出していただくために、少し再度お知らせをする意味で、何か自動の音声読み上げの機能などを使って、このスライドを耳でも聞きながら受け止めることができるような工夫をしていただけないかと思います。<br />
+目で見るのが得意な方もいれば、ちょっと私は耳でも聞きながらの方が中身が入っていきやすいというところがありますので、ご検討いただきたいんですが、その点だけ伺います。ご検討いかがでしょうか。（笑い）</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1012s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1012"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 16:52 再生</a>　公共施設マネジメント推進担当課長。</p>
+<p>◯公共施設マネジメント推進担当課長　はい。水谷委員からいただきましたスライドの関係で、音声を入れて動画という形になるかと思うんですけれども、ということをやってみないかというご質問かと思います。<br />
+以前確か、沖浦議員からも公共施設マネジメントの関係で、動画等を使ってもっと普及した方がいいんじゃないかというご意見はいただいているところで、まだ我々の方で対応できていないところがあって申し訳ないところがあるんですが。<br />
+ちょっとその点も含めまして、我々の方で他の事業においてもそういったパワーポイントとか、スライドの編集ソフトを使って音声などを入れて公開している事例もあるのを拝見していますので、できるところから対応させていただくように努力していきたいと思いますので、そのようにお答弁させていただきます。</p>
+<p>◯水谷 たかこ　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1074s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1074"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 17:54 再生</a>　指名されてない。あ、委員長。</p>
+<p>◯委員長　はい。</p>
+<p>◯水谷 たかこ　ご答弁ありがとうございました。もう期限もそんなに長くないので、手間をかけて、お金をかけてということではなく、技術も使って簡便なもので構いませんので、よろしくお願いします。以上です。</p>
+<p>◯委員長　はい。他にございませんか。沖浦さん。</p>
+<p>◯沖浦 あつし　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1104s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1104"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 18:24 再生</a>　はい。公共施設のLED化事業について、大きく2点ほど伺いたいと思います。<br />
+これが今、時期的には設置工事等の最終盤というか、大詰めになってきていると理解をしております。約5、6ヶ月前ぐらいに進捗状況というか、どういう感じで進んでいますかとお伺いしたんですけれども、またこのタイミングで進捗状況をお伺いしたいと思います。<br />
+一応、当初のスケジュール的には今年の3月末で工事予定と、その4月から省エネルギー効果の検証・保証業務等の開始ということで予定されているかとは思いますけれども、そこに時期的な変更というか、微修正が出ているのかどうかというところを一応、状況としてご報告いただければと思っております。<br />
+もう1点なんですけれども、LED化をされた施設の、関係者というか、そういう方からですね、例えばこれは宮地楽器ホールなんですけれども、舞台関係の担当の方が、LED化されて今までできなかった照明のいろいろなことができるようになったと。<br />
+前は消したら点くのに時間がかかるから切り替えができなかったんだけれども、それが普通にできるようになったと。すごくありがたいというか、でも他のホールではもうすでにそういうことはできるようになっているから、やっと普通になったんだけどねって苦笑されてましたけれども、そういう効果を感じている関係者の方、あとは利用者の方というのもいらっしゃるのかなと思ってまして。<br />
+何か変わったみたいなそういう声というか、そういうのを市民の方からどういう形で受けているか、何かありましたらそれもご報告いただければと思っております。以上2点です。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1260s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1260"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 21:00 再生</a>　担当課長。</p>
+<p>◯公共施設マネジメント推進担当課長　はい。沖浦委員の1点目でございます。<br />
+進捗状況でございますが、1月23日時点で、全体で80%の進捗状況になっております。正直申し上げまして、昨今のLEDの需要の増加によりまして、かなり機器の納品の期間というのが厳しいというところは事業者の方から再三相談を受けているところではございますが、現状、3月末で工事を完了する見込みという形で調整の方をさせていただいておりますので、予定通り3月までに工事の方は終わらせまして、4月からは維持管理、効果検証というところを考えております。<br />
+本来、予定としてもう少し2月ぐらいで全てのところを完了させればという思いはあったんですが、なかなか納期の関係等もございまして、3月にちょっとずれ込みそうだという形ではありますが、工事自体は3月で完了する予定と考えているところでございます。<br />
+それから2点目の、各施設のご意見というところになりますが、なかなか私の方が企画財政部にいる関係で、直接お話を伺う機会はないんですけれども、間接的にはなりますが、まず学校の体育館になりますけれども、今まで水銀灯だった関係で、点けるまでに約30分とか15分とか経たないと点かないところが、一瞬で点く形になりましたので、教員の先生たちの負担というのが少し減ったというようなお話と、あと校長先生の方からは、明るくなりましたというご意見をいただいているところが1点。<br />
+それから、宮地楽器ホールの方、今ご紹介いただきましたけれども、宮地楽器ホールも館内の方、かなり明るくなったというようなご意見もいただいてますので、そういった照明の効果としての実際のところという評価については、今のところ私が伺っている限りでは、おおむねいい評価をいただいているところになります。<br />
+それから、削減保証の関係になりますけれども、実際今、学校施設だけちょっと個別でお話を伺っているんですが、学校施設も予定通り、だいたい7月、8月、9月ぐらいで全体の8割ぐらい終わってるんですけれども、かなり100万単位で電気料金の削減が行われているのは今、実績として確認できておりますので、削減効果も含めて今、効果としてはかなり出ているのではないかと考えているところでございます。以上でございます。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1402s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1402"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 23:22 再生</a>　はい。沖浦さん。</p>
+<p>◯沖浦 あつし　はい。詳細なご報告ありがとうございます。<br />
+今、調達等の厳しい状況の中でも工事を予定通り進めていただいている、ご尽力いただいているということで、進捗管理をしっかりやられているのではないかと受け止めました。こちらについては引き続きよろしくお願いしますと申し上げておきたいと思います。<br />
+質問は特になくなると思うんですけれども、いわゆるLEDの工事をした結果というか、その効果が費用の削減効果にとどまらず、照明が明るくなったとか、先ほどご紹介いただいた体育館の、点けても徐々にしか明るくならないようなところが一瞬で明るくなったと。<br />
+そういうところはある意味、すぐ中で活動ができるという時間短縮とか、係りの方の負担とか、そういうところにも2次的、3次的に繋がってくるという良い効果も出ているということをご報告いただきましたけれども。<br />
+いろいろいい効果が出ているということで、これからまたその削減効果、光熱水費等の効果については、どこかある程度の期間、こんな感じで進んでいますと、今、学校施設の方ではかなりその効果が出ているという数字も示されましたけれども、どこかでそういう資料的なものを今後要求をさせていただいて、多分まだやるには早いのかなと今のタイミングはですね。<br />
+またどこかでそういう資料要求もさせていただきながら、しっかりその効果の確認をさせていただければと思っておりますので、よろしくお願いいたします。以上です。</p>
+<p>◯委員長　他にございませんか。森戸さん。</p>
+<p>◯森戸 よう子　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1564s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1564"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 26:04 再生</a>　はい。今、公共施設あり方再編方針に対する意見募集をされていますので、ということでありまして、これはこれでどういう風に意見が出てくるかなということがあるかと思いますが、ちょっと伺いたいのはですね、この公共施設の再編の方向性という文章の中で、よくわからない表現があるのでちょっと確認したいんですが。<br />
+39ページのエリア別の再編の方向性というところで、かっこ1に「地域コミュニティエリアにおける再編の方向性」で、上から2行目で「このため全てのエリアに同じ機能を一律に配置するのではなく、地域ごとの実情に応じて必要な機能を整理し、適切な配置とすることが必要である」と述べているんですね。<br />
+同じ機能っていうのは何を指すかって、例えば集会施設は同じ機能なわけですよね。しかしこの集会施設があることで、市民活動が非常に活発に行われているということであるとするとですね、その同じ機能を一律に配置するのではなくっていうのはどういうことなんですかね。もう何箇所も地域にある集会所は、集約化していくということになっていくということなんでしょうか。<br />
+ちょっと表現としてですね、表現っていうか、その先にこの言葉の中に見えてくるものがですね、じゃあもう集会施設は減らしていくんだっていうことに繋がっていくのかどうかですね。ちょっと言葉が非常に分かりづらい。普通の市民が読んでいて分かりづらいんで、ちょっと説明をしていただけないでしょうかということです。<br />
+それとこの分析の中にないのは、今使われている各例えば集会施設などを含めてですね、どのぐらいの利用量があって、その市民の必要性がどのぐらいのものなのかという分析がされていないんですね。ですから言葉としては非常に綺麗にいろんな言葉が並んでるんだけれども、結果的には再編をして集約化していくっていうことだけで、実情が書かれていない、分析の中に。<br />
+で、一方的に財政が厳しいと、財政が困難になるから再編が必要なんだっていう話しか出てこないので、ちょっとこういう形でいいのかなと思います。その辺りは意見では出したいと思いますけれども、もう少し分析を複合的にしていく必要があるんじゃないかということです。<br />
+それから3つ目に、複合化をするんだということを言われています。今後の進め方の中でですね、複合化も含めて検討するんだと言っているんですが、今回、市役所新庁舎建設で分かったことは、複合化をするとですね、建設費全体が大きくなって、結局その負担が極めて大変な、莫大な税金か費用になって返ってきてですね、その点で二進も三進もいかなくなっているっていうところもあるんじゃないかと思います。<br />
+で、この文章の中にはその、懸念…</p>
+<p>◯森戸 よう子　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1820s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1820"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 30:20 再生</a>　ケースバイケースだよということは書かれているんですけれども、再編の中で複合化が全て良いというものではないと思うのですが、その辺りの、この再編に当たっての市の考え方はどういう考え方なのかということは少し聞いておきたいなと思いますので、よろしくお願いします。<br />
+それから4つ目には、私はかなり前から、市民関係者との連携ということ、市民の利用者の声を聞くべきだということを言っています。この中では、市民ワークショップ、アンケート、地域団体や施設利用者との意見交換、パブリックコメントなどを検討内容に応じて実施することで地域のニーズに対応した公共施設再編を進めるとあるんですね。<br />
+例えば保育園などを見ても、色々な声がある、反対の声が多かったわけですが、そういういわゆる利用者の存続して欲しいという声などが全く無視されて進められていくということになっていくと、やはり色々なところで問題が出てくるのではないかと思います。<br />
+だから基本は、そういう施設利用者の声を大切にするやり方を取っていく必要があるのではないか。反対が多ければ見直すということも考えるべきではないかと思いますが、そういうことはここには一切出ていないので、市としてはどういう風に考えていらっしゃるのか、見解を伺います。以上です。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1915s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1915"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 31:55 再生</a>　公共施設マネジメント推進担当課長。</p>
+<p>◯公共施設マネジメント推進担当課長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=1947s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1947"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 32:27 再生</a>　はい。森戸委員からいただきましたご質問について順次ご答弁させていただきます。<br />
+まず1点目、素案の39ページ「全てのエリアに同じ機能を一律に配置するのではなく」というところの説明ということで、ご質問いただいたかと認識しております。<br />
+こちらに関しましては今回、エリアごとによって必要な公共機能というのが地域の特性や状況によって変わってくるのかなと私たちの方では考えておりますので、その状況に応じた公共施設等の配置というのを今後検討していきたいという考えの中でこういった文を書いております。<br />
+従いまして、今議員の方でご紹介いただきました集会施設を潰していくとかというような話を今この段階でしているわけではなくてですね、今後そのエリアの中においてどういった機能が必要なのかというのを考えていきましょうというところの中で、こういった表現を使っているという風に、ご答弁の方はさせていただければと思います。<br />
+それから2点目の、これ少しご意見だったのかもしれませんけれども、分析の部分のところのお話でございます。利用実態の分析等のお話がございました。<br />
+この点につきましては今後、令和8年度以降この一定の方針をもとに、各施設所管と我々公共施設マネジメント推進担当において、利用状態も含めましてデータをきちんと整理をした上で施設のあり方等を検討していくというような流れの方で考えておりますので、現時点では分析等の方はしておりませんけれども、今後施設の再編を具体的に図っていく中では分析等をしていく形になるかと思いますので、そのようにここはご答弁させていただきます。<br />
+それから3点目、集約化・複合化の関係でございます。<br />
+こちらの集約・複合化につきましては、公共施設総合管理計画の中でも一定、市の方針としては位置付けているところではございます。<br />
+委員おっしゃる通り、確かに集約・複合化することによって建築コストが高くなるというのはおっしゃる通りかと思いますけれども、その代わりとしましては、集約・複合化することによって土地が新たに生まれたりとか、もしくは管理コストの縮減とかというのにもつながるとは感じておりますので、市としては集約・複合化は1つの方針・方向性というか、1つの手法としては有効なものと捉えているところでございますが、素案にも書いておりますけれども、全ての施設が集約化できるわけではないというような認識を持っておりますので、この辺のところは丁寧で、今後検討していきたいという風に考えております。<br />
+それから最後の、利用者の関係のところでございます。<br />
+これ、以前もご答弁したかと思いますけれども、現段階では大きい市の方針を作っているところになりまして、当然具体的な個々の施設の再編を考えていく中では、素案の45ページの「市民参加による検討の深化」というところにも書いてございますけれども、利用者との意見交換等のところは明示させていただいておりますので、その辺のところは前からもうお答弁差し上げてますけれども、今後の検討の中では利用者の声も聞きながら対応していきたいという風に考えておりますので、そのように対応していきたいというところでご答弁させていただきます。以上になります。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2102s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2102"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 35:02 再生</a>　森戸委員。</p>
+<p>◯森戸 よう子　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2135s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2135"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 35:35 再生</a>　はい。1点目は地域の特性が状況によって変わっていくと。で、どういった施設が必要なのかということを検討していくということであって、その施設をなくすということではないということなんですかね。<br />
+ただですね、人口の減少の状況を見ても、例えば地方みたいに人口が半分に減るというような予測ではないわけですよね。今回のこの分析の状況を見ると、だから大幅に集会施設を減らしたりとかそういうことでもないのかなという風に、私は東京の特性というのはあると思うんですよね。<br />
+で、しかもその生産年齢人口が減っていくというのがあるんだけれども、高齢者人口が増えるというのがあるんですけど、高齢者が今働き始めているわけですよ。働かなきゃ年金ももらえないから65歳以上、今度は70歳になる可能性もあってね。<br />
+そうすると70歳まではですね、ある意味生産年齢人口にもなっていくわけですよね。だからそういう意味で言うと、少しこの分析の中で、高齢者が増えて生産年齢人口が減るから財政的にも厳しくなるとか、そういうことにはなっていってないのかなと思うわけです。<br />
+その辺りがですね、この分析でいくと非常に実態に合っていないんじゃないかなと思っていて、今まで通りの考え方でしか分析されておらず、ある意味、今後の方向性にも少し影響するのではないかなと思っています。<br />
+その点ではですね、状況によって変わっていくということなんですが、それは分からない話の中で答弁されてはいると思いますが、もう少しですね、その辺りは実態をよく見た、表現の仕方を含めてですね、考えていく必要があったのではないかということは申し上げておきます。<br />
+それから分析の点で、その利用実態などは令和8年、この施設の考え方を作った上で、令和8年度以降考えていくということなんですが、私はですね、そこをしっかりと見ていかないと、せっかく市民の集会施設などは特に交流が多く進められていて、もうとにかく東公民館が閉鎖になっていることで東町地域はですね、もう二進も三進もいかないという状況なんですね。<br />
+で、やはり1つの施設で修繕や大規模修繕をやって閉鎖するということになれば、代替施設というのはどうしても必要になってくるわけですから、そういう余裕を持った施設を保持していくということはですね、特に小金井市はそれでなくても公共施設は少ないと言われている中なわけですから、やはりやっていくべきだということは申し上げておきたいと思います。<br />
+それから集約・複合化の手法についても、複合化についてですね、是非その辺りは各所管が十分に検討されることになると思いますが、これも慎重に行っていく必要があるのではないかということは申し上げておきます。<br />
+で、最後、利用者の声ということであります。結果的にですね、利用者から反対の声があった場合に市は見直すつもりがあるんでしょうかね。その辺りの姿勢が私は非常に問われていて、毎回例えば閉鎖になるたびにですね、市民から反対の声が上がった時にどうするんですかということだと思うんですよ。<br />
+で、一点張りでどんどん進めていくということになるとですね、本来のこの公共施設のあり方そのものの方針にも反することになっていくのではないかと思いますので、その辺りは市の姿勢が問われる問題です。<br />
+その辺りのことはですね、この方針の中には何も書かれていないので、是非その市としてのこの腹積もりはですね、しっかり持っていただきたいなという風に思います。<br />
+これはまた少し今日はもう意見だけに申しておきますので、出来上がった次の段階も含めてですね、しっかりと意見は申し上げていきたいと思います。以上です。</p>
+<p>◯委員長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2448s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2448"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 40:48 再生</a>　はい。他にございますか。よろしいですか。よろしいですね。<br />
+はい、お諮りいたします。以上で調査項目1の括弧1について、現時点の質疑を終了することについてご異議ありませんか。<br />
+ご異議なしと認め、調査項目1の括弧1について現時点の質疑を終了いたします。<br />
+次に庁舎等建設及び公共施設マネジメントの推進にかかる諸問題の調査の調査項目1、公共施設マネジメントの推進について、括弧2、跡地活用について議題といたします。<br />
+部局から発言がありましたらこれを求めます。<br />
+これから質疑を行います。<br />
+お諮りいたします。調査項目1の括弧2について、現時点の質疑を終了することにご異議ありませんか。<br />
+ご異議なしと認め、調査項目1の括弧2について現時点の質疑を終了いたします。<br />
+お諮りいたします。庁舎等建設及び公共施設マネジメントの推進にかかる諸問題の調査については、引き続き調査する必要があると認め、継続調査といたしたいと思います。これにご異議ありませんか。<br />
+ご異議なしと認めます。従って本件は継続調査と決定いたしました。<br />
+以上で本日の日程は全部終了しました。本日は以上で庁舎等建設及び公共施設マネジメント推進特別委員会を閉会いたします。<br />
+日程ですね。日程決めがありますので、まだ協議会の日程を。</p>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2568s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2568"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 42:48 再生</a>　（笑い）そう。</p>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2604s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2604"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 43:24 再生</a>　これ。</p>
+<p>◯座長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2646s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2646"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 44:06 再生</a>　それでは協議会に入らせていただきます。<br />
+令和8年第1回定例会閉会中の委員会の開催についてですけれども、お手元に向こう3ヶ月行事予定表があるかと存じますが、4月、5月のゴールデンウィーク……</p>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2679s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2679"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 44:39 再生</a>　入りました。そうすると（笑い）ゴールデンウィークは避けるとして、13日とか、多分月曜18日ですよ。</p>
+<p>◯不明　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2709s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2709"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 45:09 再生</a>　13、18、え、4月13日だと近すぎませんか。</p>
+<p>◯不明　うん。</p>
+<p>◯不明　あたりがいいか。なんか早めそう、早めに、13、4月13日、じゃあ17、14。オッケー。4月14日。</p>
+<p>◯座長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2742s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2742"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 45:42 再生</a>　だめ。じゃあお尋ねいたします。4月14日、いかがでしょうか。ダメな方っていらっしゃらないですか。</p>
+<p>◯不明　あ、ちょっと待って。ちょっと待って、待って、待って、待って。ちょっと待って、待って、待って。午後の教育長って何時頃から？</p>
+<p>◯不明　4時まで教育長会です。</p>
+<p>◯不明　2時間ぐらいですか。あれよ、そこ行くんでしょ？でも教育長会だと短いか。</p>
+<p>◯座長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2775s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2775"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 46:15 再生</a>　じゃあ14日でよろしいですか。公共施設を先にやってはという意見が出てます。</p>
+<p>◯不明　陳情があるから今、うん。</p>
+<p>◯座長　そこはじゃあまた当日お諮りさせていただいて。</p>
+<p>◯不明　事前にね。</p>
+<p>◯座長　あ、はい。じゃあ、4月の14日でよろしいでしょうか。</p>
+<p>◯不明　はい。</p>
+<p>◯座長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2806s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2806"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 46:46 再生</a>　はい。それでは、第1回定例会閉会中の委員会の開催については4月の14日といたし、10時からといたします。<br />
+その他何かありましたか。その他ですけど何かございますか。<br />
+はい。それではなしということで。</p>
+<p>◯不明　方針が分からない。そうですもんね。</p>
+<p>◯不明　そうですね。</p>
+<p>◯座長　<a href="https://www.youtube.com/watch?v=jPDEYSYrk-g&t=2838s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="2838"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 47:18 再生</a>　はい。それではこれにて全て終了とさせていただきます。お疲れ様でした。</p>
+<p>◯不明　お疲れ様でございました。17km疲れるね。ます。</p>
+  </article>
+
+  <div id="floating-player-container" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 350px; height: 197px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius: 8px; overflow: hidden; z-index: 1000; background: #000; border: 2px solid #cbd5e0;">
+    <div id="close-player-btn" style="position: absolute; top: -5px; right: 8px; color: white; cursor: pointer; z-index: 1001; font-weight: bold; font-size: 24px; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); line-height: 1;">&times;</div>
+    <div id="yt-player-wrapper" style="width: 100%; height: 100%;"></div>
+  </div>
+  <script>
+    var container = document.getElementById("floating-player-container");
+    var closeBtn = document.getElementById("close-player-btn");
+    var wrapper = document.getElementById("yt-player-wrapper");
+    
+    closeBtn.addEventListener("click", function() {
+        container.style.display = "none";
+        wrapper.innerHTML = "";
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll(".yt-btn");
+        links.forEach(function(link) {
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+                var href = this.getAttribute("href");
+                var matchVid = href.match(/v=([a-zA-Z0-9_-]+)/);
+                var matchTime = href.match(/t=(\d+)s?/);
+                
+                if (matchVid) {
+                    var vid = matchVid[1];
+                    var time = matchTime ? parseInt(matchTime[1], 10) : 0;
+                    
+                    container.style.display = "block";
+                    var iframeHtml = '<iframe width="100%" height="100%" ' +
+                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1" ' +
+                        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
+                        'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+                    wrapper.innerHTML = iframeHtml;
+                }
+            });
+        });
+    });
+  </script>
+</body>
+</html>
