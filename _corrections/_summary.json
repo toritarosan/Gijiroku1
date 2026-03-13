@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T21:23:33.221969+09:00",
-  "total_edits": 10,
-  "total_corrections": 26,
+  "last_updated": "2026-03-13T21:27:51.731310+09:00",
+  "total_edits": 11,
+  "total_corrections": 30,
   "global_error_types": {
-    "speaker_wrong": 24,
+    "speaker_wrong": 28,
     "timestamp_residue": 6,
     "text_correction": 9,
     "speaker_unknown": 2,
@@ -11,7 +11,7 @@
     "text_duplicate": 1,
     "masking": 1,
     "chunk_marker": 1,
-    "typo": 4
+    "typo": 8
   },
   "session_stats": {
     "R8.3.12_予算特別委員会": {
@@ -38,18 +38,18 @@
       "last_edited": "2026-03-13T21:11:42.758767+09:00"
     },
     "R8.3.4_厚生文教委員会": {
-      "total_corrections": 5,
-      "edit_count": 2,
+      "total_corrections": 9,
+      "edit_count": 3,
       "error_types": {
         "speaker_unknown": 1,
         "masking": 1,
         "timestamp_residue": 1,
         "chunk_marker": 1,
         "text_correction": 1,
-        "speaker_wrong": 4,
-        "typo": 4
+        "speaker_wrong": 8,
+        "typo": 8
       },
-      "last_edited": "2026-03-13T21:23:28.968069+09:00"
+      "last_edited": "2026-03-13T21:27:47.214074+09:00"
     }
   },
   "common_mistakes": {
@@ -78,6 +78,9 @@
       },
       "清水": {
         "水谷": 2
+      },
+      "岸田": {
+        "吉良": 3
       }
     }
   }
