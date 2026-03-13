@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T22:52:58.185298+09:00",
-  "total_edits": 14,
-  "total_corrections": 40,
+  "last_updated": "2026-03-13T22:54:41.679694+09:00",
+  "total_edits": 15,
+  "total_corrections": 43,
   "global_error_types": {
-    "speaker_wrong": 37,
+    "speaker_wrong": 40,
     "timestamp_residue": 6,
     "text_correction": 13,
     "speaker_unknown": 2,
@@ -52,14 +52,14 @@
       "last_edited": "2026-03-13T21:27:47.214074+09:00"
     },
     "R8.3.6_総務企画委員会": {
-      "total_corrections": 10,
-      "edit_count": 3,
+      "total_corrections": 13,
+      "edit_count": 4,
       "error_types": {
         "typo": 6,
-        "speaker_wrong": 9,
+        "speaker_wrong": 12,
         "text_correction": 4
       },
-      "last_edited": "2026-03-13T22:52:52.482201+09:00"
+      "last_edited": "2026-03-13T22:54:35.759378+09:00"
     }
   },
   "common_mistakes": {
@@ -100,6 +100,9 @@
       },
       "中井": {
         "ながとり": 2
+      },
+      "座長": {
+        "委員長": 3
       }
     }
   }
