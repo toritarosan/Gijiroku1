@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T16:13:55.335000+09:00",
-  "total_edits": 7,
-  "total_corrections": 17,
+  "last_updated": "2026-03-13T21:11:46.468268+09:00",
+  "total_edits": 8,
+  "total_corrections": 21,
   "global_error_types": {
-    "speaker_wrong": 16,
+    "speaker_wrong": 20,
     "timestamp_residue": 5,
     "text_correction": 8,
     "speaker_unknown": 1,
@@ -25,14 +25,14 @@
       "last_edited": "2026-03-13T14:09:37.486001+09:00"
     },
     "R8.3.3_議会運営委員会": {
-      "total_corrections": 11,
-      "edit_count": 3,
+      "total_corrections": 15,
+      "edit_count": 4,
       "error_types": {
-        "speaker_wrong": 11,
+        "speaker_wrong": 15,
         "text_correction": 4,
         "timestamp_residue": 1
       },
-      "last_edited": "2026-03-13T16:13:52.001944+09:00"
+      "last_edited": "2026-03-13T21:11:42.758767+09:00"
     }
   },
   "common_mistakes": {
@@ -52,6 +52,12 @@
       },
       "委員長（清水学）": {
         "委員長": 7
+      },
+      "水上洋志（委員）": {
+        "水上洋志": 2
+      },
+      "岸田正義（委員）": {
+        "岸田正義": 2
       }
     }
   }
