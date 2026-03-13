@@ -1,14 +1,16 @@
 {
-  "last_updated": "2026-03-13T21:11:46.468268+09:00",
-  "total_edits": 8,
-  "total_corrections": 21,
+  "last_updated": "2026-03-13T21:18:36.811497+09:00",
+  "total_edits": 9,
+  "total_corrections": 22,
   "global_error_types": {
     "speaker_wrong": 20,
-    "timestamp_residue": 5,
-    "text_correction": 8,
-    "speaker_unknown": 1,
+    "timestamp_residue": 6,
+    "text_correction": 9,
+    "speaker_unknown": 2,
     "text_missing": 1,
-    "text_duplicate": 1
+    "text_duplicate": 1,
+    "masking": 1,
+    "chunk_marker": 1
   },
   "session_stats": {
     "R8.3.12_予算特別委員会": {
@@ -33,6 +35,18 @@
         "timestamp_residue": 1
       },
       "last_edited": "2026-03-13T21:11:42.758767+09:00"
+    },
+    "R8.3.4_厚生文教委員会": {
+      "total_corrections": 1,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_unknown": 1,
+        "masking": 1,
+        "timestamp_residue": 1,
+        "chunk_marker": 1,
+        "text_correction": 1
+      },
+      "last_edited": "2026-03-13T21:18:32.825973+09:00"
     }
   },
   "common_mistakes": {
