@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T22:50:53.835494+09:00",
-  "total_edits": 13,
-  "total_corrections": 38,
+  "last_updated": "2026-03-13T22:52:58.185298+09:00",
+  "total_edits": 14,
+  "total_corrections": 40,
   "global_error_types": {
-    "speaker_wrong": 35,
+    "speaker_wrong": 37,
     "timestamp_residue": 6,
     "text_correction": 13,
     "speaker_unknown": 2,
@@ -11,7 +11,7 @@
     "text_duplicate": 1,
     "masking": 1,
     "chunk_marker": 1,
-    "typo": 12
+    "typo": 14
   },
   "session_stats": {
     "R8.3.12_予算特別委員会": {
@@ -52,14 +52,14 @@
       "last_edited": "2026-03-13T21:27:47.214074+09:00"
     },
     "R8.3.6_総務企画委員会": {
-      "total_corrections": 8,
-      "edit_count": 2,
+      "total_corrections": 10,
+      "edit_count": 3,
       "error_types": {
-        "typo": 4,
-        "speaker_wrong": 7,
+        "typo": 6,
+        "speaker_wrong": 9,
         "text_correction": 4
       },
-      "last_edited": "2026-03-13T22:50:48.496203+09:00"
+      "last_edited": "2026-03-13T22:52:52.482201+09:00"
     }
   },
   "common_mistakes": {
@@ -97,6 +97,9 @@
       },
       "鈴木": {
         "委員長": 4
+      },
+      "中井": {
+        "ながとり": 2
       }
     }
   }
