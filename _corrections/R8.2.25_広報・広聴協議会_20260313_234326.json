@@ -1,0 +1,23 @@
+{
+  "session": "R8.2.25_広報・広聴協議会",
+  "datetime": "2026-03-13T23:43:26.333695+09:00",
+  "total_corrections": 1,
+  "error_type_summary": {
+    "typo": 1
+  },
+  "corrections": [
+    {
+      "line_range": [
+        429,
+        429
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "片山さんとは話したりはちょっとしてました。",
+      "added": "吉良さんとは話したりはちょっとしてました。",
+      "timestamp_s": null,
+      "speaker": null
+    }
+  ]
+}
