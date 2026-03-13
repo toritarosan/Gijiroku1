@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-13T23:43:32.697232+09:00",
-  "total_edits": 16,
-  "total_corrections": 44,
+  "last_updated": "2026-03-14T00:09:32.656419+09:00",
+  "total_edits": 17,
+  "total_corrections": 45,
   "global_error_types": {
-    "typo": 15,
-    "speaker_wrong": 40,
+    "typo": 16,
+    "speaker_wrong": 41,
     "timestamp_residue": 6,
     "text_correction": 13,
     "speaker_unknown": 2,
@@ -21,6 +21,15 @@
         "typo": 1
       },
       "last_edited": "2026-03-13T23:43:26.333695+09:00"
+    },
+    "R8.3.11_予算特別委員会": {
+      "total_corrections": 1,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_wrong": 1,
+        "typo": 1
+      },
+      "last_edited": "2026-03-14T00:09:25.916355+09:00"
     },
     "R8.3.12_予算特別委員会": {
       "total_corrections": 6,
@@ -72,6 +81,9 @@
   },
   "common_mistakes": {
     "speaker_corrections": {
+      "水上": {
+        "太田": 1
+      },
       "坂井": {
         "議長": 1
       },
