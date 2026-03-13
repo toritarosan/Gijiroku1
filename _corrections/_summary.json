@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-13T21:27:51.731310+09:00",
-  "total_edits": 11,
-  "total_corrections": 30,
+  "last_updated": "2026-03-13T22:49:34.504225+09:00",
+  "total_edits": 12,
+  "total_corrections": 34,
   "global_error_types": {
-    "speaker_wrong": 28,
+    "speaker_wrong": 31,
     "timestamp_residue": 6,
     "text_correction": 9,
     "speaker_unknown": 2,
@@ -11,7 +11,7 @@
     "text_duplicate": 1,
     "masking": 1,
     "chunk_marker": 1,
-    "typo": 8
+    "typo": 12
   },
   "session_stats": {
     "R8.3.12_予算特別委員会": {
@@ -50,6 +50,15 @@
         "typo": 8
       },
       "last_edited": "2026-03-13T21:27:47.214074+09:00"
+    },
+    "R8.3.6_総務企画委員会": {
+      "total_corrections": 4,
+      "edit_count": 1,
+      "error_types": {
+        "typo": 4,
+        "speaker_wrong": 3
+      },
+      "last_edited": "2026-03-13T22:49:29.580396+09:00"
     }
   },
   "common_mistakes": {
@@ -81,6 +90,9 @@
       },
       "岸田": {
         "吉良": 3
+      },
+      "渡辺": {
+        "たゆ": 3
       }
     }
   }
