@@ -1,22 +1,28 @@
 {
-  "last_updated": "2026-03-13T13:56:44.469498+09:00",
-  "total_edits": 2,
-  "total_corrections": 2,
+  "last_updated": "2026-03-13T14:03:42.635073+09:00",
+  "total_edits": 3,
+  "total_corrections": 5,
   "global_error_types": {
-    "speaker_wrong": 2,
-    "timestamp_residue": 2,
-    "text_correction": 2
+    "speaker_wrong": 4,
+    "timestamp_residue": 3,
+    "text_correction": 3,
+    "speaker_unknown": 1,
+    "text_missing": 1,
+    "text_duplicate": 1
   },
   "session_stats": {
     "R8.3.12_予算特別委員会": {
-      "total_corrections": 2,
-      "edit_count": 2,
+      "total_corrections": 5,
+      "edit_count": 3,
       "error_types": {
-        "speaker_wrong": 2,
-        "timestamp_residue": 2,
-        "text_correction": 2
+        "speaker_wrong": 4,
+        "timestamp_residue": 3,
+        "text_correction": 3,
+        "speaker_unknown": 1,
+        "text_missing": 1,
+        "text_duplicate": 1
       },
-      "last_edited": "2026-03-13T13:56:42.801423+09:00"
+      "last_edited": "2026-03-13T14:03:40.570119+09:00"
     }
   },
   "common_mistakes": {
@@ -26,6 +32,9 @@
       },
       "議長": {
         "不明": 1
+      },
+      "不明": {
+        "委員長": 1
       }
     }
   }
