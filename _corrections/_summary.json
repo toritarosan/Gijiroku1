@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-13T16:01:17.204928+09:00",
-  "total_edits": 5,
-  "total_corrections": 7,
+  "last_updated": "2026-03-13T16:05:23.573613+09:00",
+  "total_edits": 6,
+  "total_corrections": 16,
   "global_error_types": {
-    "speaker_wrong": 6,
+    "speaker_wrong": 15,
     "timestamp_residue": 4,
-    "text_correction": 5,
+    "text_correction": 7,
     "speaker_unknown": 1,
     "text_missing": 1,
     "text_duplicate": 1
@@ -25,13 +25,13 @@
       "last_edited": "2026-03-13T14:09:37.486001+09:00"
     },
     "R8.3.3_議会運営委員会": {
-      "total_corrections": 1,
-      "edit_count": 1,
+      "total_corrections": 10,
+      "edit_count": 2,
       "error_types": {
-        "speaker_wrong": 1,
-        "text_correction": 1
+        "speaker_wrong": 10,
+        "text_correction": 3
       },
-      "last_edited": "2026-03-13T16:01:14.454021+09:00"
+      "last_edited": "2026-03-13T16:05:20.609818+09:00"
     }
   },
   "common_mistakes": {
@@ -47,6 +47,9 @@
       },
       "委員長": {
         "議長": 1
+      },
+      "委員長（清水学）": {
+        "委員長": 7
       }
     }
   }
