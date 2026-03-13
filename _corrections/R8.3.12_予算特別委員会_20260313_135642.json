@@ -1,0 +1,27 @@
+{
+  "session": "R8.3.12_予算特別委員会",
+  "datetime": "2026-03-13T13:56:42.801423+09:00",
+  "total_corrections": 1,
+  "error_type_summary": {
+    "speaker_wrong": 1,
+    "timestamp_residue": 1,
+    "text_correction": 1
+  },
+  "corrections": [
+    {
+      "line_range": [
+        112,
+        117
+      ],
+      "error_type": [
+        "speaker_wrong",
+        "timestamp_residue",
+        "text_correction"
+      ],
+      "removed": "◯議長　【T:8BtyD48ZSPo:1320】 坂井さん。\n\n◯坂井 えつ子　【T:8BtyD48ZSPo:1325】はい、おはようございます。\n今日は3項目伺ってまいります。項目先に申し上げます。285ページや287ページにあります気候市民会議に要する経費です。223万2,000円ですね、総額。2点目が、同じ285ページの井戸水等水質検査委託料70万3,000円。3項目が331ページの都市計画道路にかかる調査研究支援委託料435万6,000円です。\n今日3項目取り上げますけれども、1項目と2項目については2問目を行わない予定ですので、申し伝えておきます。\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1374s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-d",
+      "added": "【T:8BtyD48ZSPo:1325】◯不明　はい、おはようございます。\n\n【T:8BtyD48ZSPo:1328】　今日は3項目伺ってまいります。\n項目を先に申し上げます。\n285ページ、287ページにあります気候市民会議に要する経費です。\n223万2,000円ですね。\n総額2点目が、同じ285ページの井戸水等水質検査委託料70万3,000円。\n3項目が331ページの都市計画道路にかかる調査研究支援委託量435万6,000円です。\n\n【T:8BtyD48ZSPo:1362】　今日3項目取り上げますけれども、1項目と2項目については、2問目行わない予定ですので、申し伝えておきます。\n\n【T:8BtyD48ZSPo:1374】　まず1問目ですね。\n気候市民会議に要する経費、これ、資料提出いただきましてありがとうございました。\nここ、7問、伺ってまいります。\n今回ですね、気候市民会議から若者気候市民会議となりました。",
+      "timestamp_s": 1374,
+      "speaker": "議長"
+    }
+  ]
+}
