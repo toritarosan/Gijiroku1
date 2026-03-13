@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-03-13T13:41:59.415714+09:00",
+  "total_edits": 1,
+  "total_corrections": 1,
+  "global_error_types": {
+    "speaker_wrong": 1,
+    "timestamp_residue": 1,
+    "text_correction": 1
+  },
+  "session_stats": {
+    "R8.3.12_予算特別委員会": {
+      "total_corrections": 1,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_wrong": 1,
+        "timestamp_residue": 1,
+        "text_correction": 1
+      },
+      "last_edited": "2026-03-13T13:41:58.072321+09:00"
+    }
+  },
+  "common_mistakes": {
+    "speaker_corrections": {
+      "坂井": {
+        "議長": 1
+      }
+    }
+  }
+}
