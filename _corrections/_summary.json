@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-13T22:49:34.504225+09:00",
-  "total_edits": 12,
-  "total_corrections": 34,
+  "last_updated": "2026-03-13T22:50:53.835494+09:00",
+  "total_edits": 13,
+  "total_corrections": 38,
   "global_error_types": {
-    "speaker_wrong": 31,
+    "speaker_wrong": 35,
     "timestamp_residue": 6,
-    "text_correction": 9,
+    "text_correction": 13,
     "speaker_unknown": 2,
     "text_missing": 1,
     "text_duplicate": 1,
@@ -52,13 +52,14 @@
       "last_edited": "2026-03-13T21:27:47.214074+09:00"
     },
     "R8.3.6_総務企画委員会": {
-      "total_corrections": 4,
-      "edit_count": 1,
+      "total_corrections": 8,
+      "edit_count": 2,
       "error_types": {
         "typo": 4,
-        "speaker_wrong": 3
+        "speaker_wrong": 7,
+        "text_correction": 4
       },
-      "last_edited": "2026-03-13T22:49:29.580396+09:00"
+      "last_edited": "2026-03-13T22:50:48.496203+09:00"
     }
   },
   "common_mistakes": {
@@ -93,6 +94,9 @@
       },
       "渡辺": {
         "たゆ": 3
+      },
+      "鈴木": {
+        "委員長": 4
       }
     }
   }
