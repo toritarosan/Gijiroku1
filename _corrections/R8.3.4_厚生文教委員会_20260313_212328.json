@@ -1,0 +1,67 @@
+{
+  "session": "R8.3.4_厚生文教委員会",
+  "datetime": "2026-03-13T21:23:28.968069+09:00",
+  "total_corrections": 4,
+  "error_type_summary": {
+    "speaker_wrong": 4,
+    "typo": 4
+  },
+  "corrections": [
+    {
+      "line_range": [
+        74,
+        77
+      ],
+      "error_type": [
+        "speaker_wrong",
+        "typo"
+      ],
+      "removed": "休憩いたします。取り扱いについていかがいたしましょうかということで先ほどの話になります。一応審議未了のご提案をいただいている中で、皆様から取り扱いについての表明をいただければと思っております。はい、清水さん。\n\n\n◯清水 学　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=690s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class",
+      "added": "休憩いたします。取り扱いについていかがいたしましょうかということで先ほどの話になります。一応審議未了のご提案をいただいている中で、皆様から取り扱いについての表明をいただければと思っております。はい、水谷さん。\n\n\n◯水谷 たかこ　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=690s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" cla",
+      "timestamp_s": 690,
+      "speaker": "清水"
+    },
+    {
+      "line_range": [
+        88,
+        91
+      ],
+      "error_type": [
+        "speaker_wrong",
+        "typo"
+      ],
+      "removed": "◯委員長　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=752s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"752\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-b",
+      "added": "◯委員長　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=752s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"752\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-b",
+      "timestamp_s": 752,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        446,
+        449
+      ],
+      "error_type": [
+        "speaker_wrong",
+        "typo"
+      ],
+      "removed": "◯委員長　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=4433s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4433\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text",
+      "added": "◯委員長　<a href=\"https://www.youtube.com/watch?v=TYI4_WCc5U4&t=4433s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4433\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text",
+      "timestamp_s": 4433,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        3110,
+        3113
+      ],
+      "error_type": [
+        "speaker_wrong",
+        "typo"
+      ],
+      "removed": "◯委員長　はい。清水さん。\n\n\n◯清水 学　はい。私も意見の表明だけで終わります。上限額が3000円であったものが2200円に下がるということに対して、前向きに評価している会派がなかったのではないかというようなご発言もあったので、表明させていただきます。3000円受け取っておられた方からすると、下がってしまうというところは辛いと、なんとかしてくれとおっしゃる気持ちがあるのは、私も理解をいたします。で、一方で、今片山さんからもお話がありましたけれども、市長からもお話がありました。事務の手続きのことや、私自身も領収書を貯めて申請するっていうのが実は苦手なタイプでして、額が減っても事務の煩雑さがなくなる方が嬉しいと思う性質の人間なので、そういった人もいらっしゃってこれまで利用できない方がいらっしゃったのではないかということを考えて、全体としては予算総額を増やして、単価は下がるけれども、利用できる方がたくさん増えるということを評価して、今回の条例の提案については賛成をしたいと考えております。以上です。",
+      "added": "◯委員長　はい。水谷さん。\n\n\n◯水谷 たかこ　はい。私も意見の表明だけで終わります。上限額が3000円であったものが2200円に下がるということに対して、前向きに評価している会派がなかったのではないかというようなご発言もあったので、表明させていただきます。3000円受け取っておられた方からすると、下がってしまうというところは辛いと、なんとかしてくれとおっしゃる気持ちがあるのは、私も理解をいたします。で、一方で、今片山さんからもお話がありましたけれども、市長からもお話がありました。事務の手続きのことや、私自身も領収書を貯めて申請するっていうのが実は苦手なタイプでして、額が減っても事務の煩雑さがなくなる方が嬉しいと思う性質の人間なので、そういった人もいらっしゃってこれまで利用できない方がいらっしゃったのではないかということを考えて、全体としては予算総額を増やして、単価は下がるけれども、利用できる方がたくさん増えるということを評価して、今回の条例の提案については賛成をしたいと考えております。以上です。",
+      "timestamp_s": null,
+      "speaker": "委員長"
+    }
+  ]
+}
