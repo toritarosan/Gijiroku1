@@ -1,0 +1,141 @@
+{
+  "session": "R8.3.12_予算特別委員会",
+  "datetime": "2026-03-14T21:30:53.663120+09:00",
+  "total_corrections": 10,
+  "error_type_summary": {
+    "typo": 8,
+    "text_correction": 2
+  },
+  "corrections": [
+    {
+      "line_range": [
+        10,
+        12
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=245s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"245\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=245s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"245\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 245,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        22,
+        30
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "今後の安全確保として、\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=404s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"404\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align",
+      "added": "今後の安全確保として、運転をする車の方に注意喚起表示や路面表示など、さらなる安全対策についてもご検討していく考えがあるのか見解をお示しください。<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=404s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"404\"><svg width",
+      "timestamp_s": 404,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        38,
+        40
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "実際、南側においては\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=538s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"538\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align:",
+      "added": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=538s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"538\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 538,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        52,
+        52
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=694s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"694\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "〇交通対策課長 <a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=694s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"694\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: tex",
+      "timestamp_s": 694,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        58,
+        58
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=788s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"788\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "〇道路管理課長 <a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=788s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"788\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: tex",
+      "timestamp_s": 788,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        100,
+        100
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1218s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1218\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "〇まちづくり推進課長 <a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1218s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1218\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align",
+      "timestamp_s": 1218,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        168,
+        182
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "3問目です。331ページの都市計画道路にかかる調査研究支援委託料です。まず、\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1694s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1694\"><svg width=\"18\" height=\"18\" viewBox=\"0 0",
+      "added": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1694s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1694\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1694,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        194,
+        196
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "続きまして5問目です。知見を有する者について記載がありますけれども、これ何名ということが書かれていないんですけれども、今のところ何名選定するのかのお考えについて聞かせていただきたいと思い\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1912s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-ti",
+      "added": "\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=1912s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1912\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bo",
+      "timestamp_s": 1912,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        228,
+        236
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=2182s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2182\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=2182s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2182\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2182,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        246,
+        255
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "続きまして、飛びまして6問目でございます。今年度意見を反映\n\n<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=2373s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2373\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" s",
+      "added": "続きまして、飛びまして6問目でございます。今年度意見を反映する仕組みとしたことについての担当としての評価というようなご質問であったという風に思います。担当としましては評価をするという風になってしまうとおこがましい部分もあるのですが、担当部局としては率直に、実施して良かったという風な思いしかございません。<a href=\"https://www.youtube.com/watch?v=8BtyD48ZSPo&t=2373s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical",
+      "timestamp_s": 2373,
+      "speaker": "委員長"
+    }
+  ]
+}
