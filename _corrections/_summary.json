@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-14T21:31:00.158870+09:00",
-  "total_edits": 18,
-  "total_corrections": 55,
+  "last_updated": "2026-03-15T11:12:35.196004+09:00",
+  "total_edits": 19,
+  "total_corrections": 57,
   "global_error_types": {
-    "typo": 24,
+    "typo": 26,
     "speaker_wrong": 41,
     "timestamp_residue": 6,
     "text_correction": 15,
@@ -44,6 +44,14 @@
         "typo": 8
       },
       "last_edited": "2026-03-14T21:30:53.663120+09:00"
+    },
+    "R8.3.2_本会議": {
+      "total_corrections": 2,
+      "edit_count": 1,
+      "error_types": {
+        "typo": 2
+      },
+      "last_edited": "2026-03-15T11:12:28.278565+09:00"
     },
     "R8.3.3_議会運営委員会": {
       "total_corrections": 15,
