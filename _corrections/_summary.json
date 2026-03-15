@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-15T17:13:58.367290+09:00",
-  "total_edits": 21,
-  "total_corrections": 60,
+  "last_updated": "2026-03-16T07:34:13.161826+09:00",
+  "total_edits": 22,
+  "total_corrections": 75,
   "global_error_types": {
     "typo": 27,
     "speaker_wrong": 41,
     "timestamp_residue": 6,
-    "text_correction": 17,
+    "text_correction": 18,
     "speaker_unknown": 2,
-    "text_missing": 1,
-    "text_duplicate": 1,
+    "text_missing": 10,
+    "text_duplicate": 6,
     "masking": 1,
     "chunk_marker": 1
   },
@@ -46,13 +46,15 @@
       "last_edited": "2026-03-15T11:54:07.554493+09:00"
     },
     "R8.3.2_本会議": {
-      "total_corrections": 4,
-      "edit_count": 2,
+      "total_corrections": 19,
+      "edit_count": 3,
       "error_types": {
         "typo": 2,
-        "text_correction": 2
+        "text_correction": 3,
+        "text_missing": 9,
+        "text_duplicate": 5
       },
-      "last_edited": "2026-03-15T17:13:50.768110+09:00"
+      "last_edited": "2026-03-16T07:34:05.083151+09:00"
     },
     "R8.3.3_議会運営委員会": {
       "total_corrections": 15,
