@@ -1,0 +1,689 @@
+{
+  "session": "R8.3.16_予算特別委員会",
+  "datetime": "2026-03-17T13:30:40.418496+09:00",
+  "total_corrections": 52,
+  "error_type_summary": {
+    "typo": 52,
+    "masking": 2
+  },
+  "corrections": [
+    {
+      "line_range": [
+        922,
+        922
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=1873s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1873\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=1873s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1873\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1873,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1002,
+        1002
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=2473s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2473\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=2473s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2473\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2473,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1071,
+        1071
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3060s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3060\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3060s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3060\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3060,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1093,
+        1093
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3255s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3255\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3255s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3255\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3255,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1116,
+        1116
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3573s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3573\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3573s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3573\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3573,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1133,
+        1133
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3730s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3730\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=3730s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3730\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3730,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1175,
+        1175
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4334s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4334\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4334s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4334\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4334,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1189,
+        1189
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4500s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4500\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4500s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4500\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4500,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1205,
+        1205
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4593s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4593\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4593s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4593\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4593,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1225,
+        1225
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4816s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4816\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4816s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4816\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4816,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1243,
+        1243
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4973s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4973\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=4973s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4973\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4973,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1291,
+        1291
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5292s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5292\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5292s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5292\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5292,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1297,
+        1297
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5323s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5323\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5323s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5323\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5323,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1305,
+        1305
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5361s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5361\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5361s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5361\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5361,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1313,
+        1313
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5392s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5392\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5392s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5392\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5392,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1329,
+        1329
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5563s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5563\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=SMDINpHqC_8&t=5563s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5563\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5563,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1686,
+        1686
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1469s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1469\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1469s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1469\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1469,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1690,
+        1690
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1537s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1537\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1537s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1537\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1537,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1716,
+        1716
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1569s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1569\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1569s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1569\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1569,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1761,
+        1761
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1905s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1905\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=1905s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1905\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1905,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1868,
+        1870
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=2911s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2911\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=2911s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2911\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2911,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1886,
+        1888
+      ],
+      "error_type": [
+        "masking",
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3202s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3202\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3202s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3202\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3202,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1906,
+        1908
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3425s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3425\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3425s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3425\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3425,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1916,
+        1922
+      ],
+      "error_type": [
+        "masking",
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3560s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3560\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3560s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3560\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3560,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1930,
+        1930
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3782s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3782\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3782s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3782\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3782,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1960,
+        1960
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3891s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3891\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=3891s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3891\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3891,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2170,
+        2172
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5262s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5262\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5262s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5262\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5262,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2186,
+        2188
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5390s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5390\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5390s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5390\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5390,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2198,
+        2200
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5453s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5453\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5453s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5453\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5453,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2225,
+        2227
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5674s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5674\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=5674s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5674\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5674,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2268,
+        2270
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6118s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6118\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6118s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6118\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6118,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2273,
+        2275
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6118s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6118\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6118s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6118\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6118,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2282,
+        2284
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6224s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6224\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6224s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6224\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6224,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2297,
+        2299
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6353s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6353\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6353s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6353\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6353,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2306,
+        2308
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6416s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6416\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6416s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6416\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6416,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2312,
+        2312
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6511s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6511\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6511s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6511\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6511,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2343,
+        2343
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6799s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6799\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6799s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6799\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6799,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2351,
+        2351
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6862s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6862\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6862s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6862\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6862,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2357,
+        2357
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6903s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6903\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=6903s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6903\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6903,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2375,
+        2375
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7028s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7028\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7028s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7028\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7028,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2389,
+        2389
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7121s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7121\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7121s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7121\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7121,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2401,
+        2401
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7227s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7227\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7227s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7227\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7227,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2417,
+        2417
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7356s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7356\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7356s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7356\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7356,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2431,
+        2431
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7389s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7389\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7389s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7389\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7389,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2455,
+        2455
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7581s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7581\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7581s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7581\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7581,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2471,
+        2471
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7707s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7707\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=Yg7Johve2HE&t=7707s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7707\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7707,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2495,
+        2495
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=248s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"248\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=248s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"248\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 248,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2499,
+        2499
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=295s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"295\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=295s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"295\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 295,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2611,
+        2611
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1292s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1292\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1292s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1292\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1292,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2638,
+        2638
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1420s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1420\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1420s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1420\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1420,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2643,
+        2645
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1451s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1451\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=yGhoCKx0bZo&t=1451s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1451\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1451,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        2661,
+        2661
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=pFPGVXIXpsU&t=31s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"31\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom; ",
+      "added": "<a href=\"https://www.youtube.com/watch?v=pFPGVXIXpsU&t=31s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"31\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom; ",
+      "timestamp_s": 31,
+      "speaker": null
+    }
+  ]
+}
