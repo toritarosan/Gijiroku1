@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T19:03:02.524999+09:00",
-  "total_edits": 23,
-  "total_corrections": 76,
+  "last_updated": "2026-03-17T10:09:55.407080+09:00",
+  "total_edits": 24,
+  "total_corrections": 77,
   "global_error_types": {
     "typo": 28,
     "speaker_wrong": 41,
     "timestamp_residue": 6,
-    "text_correction": 18,
+    "text_correction": 19,
     "speaker_unknown": 2,
     "text_missing": 10,
     "text_duplicate": 6,
@@ -44,6 +44,14 @@
         "typo": 9
       },
       "last_edited": "2026-03-15T11:54:07.554493+09:00"
+    },
+    "R8.3.16_予算特別委員会": {
+      "total_corrections": 1,
+      "edit_count": 1,
+      "error_types": {
+        "text_correction": 1
+      },
+      "last_edited": "2026-03-17T10:09:46.834967+09:00"
     },
     "R8.3.2_本会議": {
       "total_corrections": 19,
