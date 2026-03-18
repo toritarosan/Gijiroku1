@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-18T09:22:35.739899+09:00",
-  "total_edits": 29,
-  "total_corrections": 239,
+  "last_updated": "2026-03-18T14:12:49.586966+09:00",
+  "total_edits": 30,
+  "total_corrections": 255,
   "global_error_types": {
     "typo": 130,
-    "speaker_wrong": 94,
+    "speaker_wrong": 110,
     "timestamp_residue": 6,
     "text_correction": 79,
     "speaker_unknown": 2,
@@ -65,6 +65,14 @@
         "masking": 1
       },
       "last_edited": "2026-03-18T09:22:25.389257+09:00"
+    },
+    "R8.3.18_議会運営委員会": {
+      "total_corrections": 16,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_wrong": 16
+      },
+      "last_edited": "2026-03-18T14:12:39.140190+09:00"
     },
     "R8.3.2_本会議": {
       "total_corrections": 19,
@@ -130,6 +138,9 @@
         "議長": 1,
         "水上": 1
       },
+      "座長": {
+        "委員長": 19
+      },
       "委員長（清水学）": {
         "委員長": 7
       },
@@ -153,9 +164,6 @@
       },
       "中井": {
         "ながとり": 2
-      },
-      "座長": {
-        "委員長": 3
       }
     }
   }
