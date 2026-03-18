@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-03-17T13:43:21.709564+09:00",
-  "total_edits": 28,
-  "total_corrections": 209,
+  "last_updated": "2026-03-18T09:22:35.739899+09:00",
+  "total_edits": 29,
+  "total_corrections": 239,
   "global_error_types": {
-    "typo": 105,
+    "typo": 130,
     "speaker_wrong": 94,
     "timestamp_residue": 6,
-    "text_correction": 74,
+    "text_correction": 79,
     "speaker_unknown": 2,
     "text_missing": 10,
     "text_duplicate": 6,
-    "masking": 5,
+    "masking": 6,
     "chunk_marker": 1
   },
   "session_stats": {
@@ -55,6 +55,16 @@
         "masking": 4
       },
       "last_edited": "2026-03-17T13:30:40.418496+09:00"
+    },
+    "R8.3.17_庁舎等建設及び公共施設マネジメント推進調査特別委員会": {
+      "total_corrections": 30,
+      "edit_count": 1,
+      "error_types": {
+        "typo": 25,
+        "text_correction": 5,
+        "masking": 1
+      },
+      "last_edited": "2026-03-18T09:22:25.389257+09:00"
     },
     "R8.3.2_本会議": {
       "total_corrections": 19,
