@@ -1,360 +1,239 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>小金井市議会 議事録アーカイブ</title>
-    <style>
-        * { box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6; color: #1a202c; max-width: 860px; margin: 0 auto; padding: 24px 16px;
-            background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
-            min-height: 100vh;
-        }
-        .page-header {
-            text-align: center; margin-bottom: 32px; padding: 28px 20px;
-            background: #fff; border-radius: 16px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-        }
-        .page-header h1 {
-            color: #1e3a5f; font-size: 1.7em; margin: 0 0 8px 0;
-            letter-spacing: 0.02em;
-        }
-        .page-header p { color: #64748b; margin: 0; font-size: 0.95em; }
-
-        /* 検索ボックス */
-        .search-box {
-            width: 100%; padding: 12px 18px; font-size: 1em;
-            border: 2px solid #e2e8f0; border-radius: 12px;
-            outline: none; margin: 18px 0 12px 0;
-            background: #f8fafc; transition: border-color 0.2s;
-        }
-        .search-box:focus { border-color: #3b82f6; background: #fff; }
-        .search-box::placeholder { color: #94a3b8; }
-
-        /* フィルタボタン */
-        .filter-bar {
-            display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;
-            justify-content: center;
-        }
-        .filter-btn {
-            padding: 6px 16px; border: 2px solid #e2e8f0; border-radius: 20px;
-            background: #fff; cursor: pointer; font-size: 0.85em; font-weight: 600;
-            color: #475569; transition: all 0.2s;
-        }
-        .filter-btn:hover { background: #f1f5f9; }
-        .filter-btn.active {
-            background: #1e3a5f; color: #fff; border-color: #1e3a5f;
-        }
-
-        /* セッションブロック */
-        .session-block {
-            margin-bottom: 28px; background: #fff; border-radius: 14px;
-            padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-        }
-        .session-title {
-            font-size: 1.25em; color: #1e3a5f; margin: 0 0 18px 0;
-            padding-bottom: 12px; border-bottom: 2px solid #e2e8f0;
-            display: flex; align-items: center; gap: 8px;
-        }
-        .count-badge {
-            font-size: 0.65em; background: #e2e8f0; color: #475569;
-            padding: 2px 10px; border-radius: 12px; font-weight: 600;
-            margin-left: auto;
-        }
-
-        /* カテゴリブロック */
-        .category-block { margin-bottom: 18px; }
-        .category-title {
-            font-size: 1em; margin: 0 0 10px 0;
-            display: flex; align-items: center; gap: 6px;
-        }
-        .count-badge-sm {
-            font-size: 0.75em; background: #f1f5f9; color: #64748b;
-            padding: 1px 8px; border-radius: 10px; font-weight: 600; margin-left: 4px;
-        }
-
-        /* アイテムカード */
-        .item-list { display: flex; flex-direction: column; gap: 6px; }
-        .item-card {
-            display: flex; align-items: center; gap: 12px;
-            padding: 12px 16px; background: #fafbfc;
-            border: 1px solid #e8ecf0; border-left: 4px solid #3498db;
-            border-radius: 8px; text-decoration: none; color: #2d3748;
-            font-weight: 600; font-size: 0.95em;
-            transition: all 0.2s ease;
-        }
-        .item-card:hover {
-            background: #f0f7ff; transform: translateX(4px);
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-        }
-        .item-date {
-            font-size: 0.8em; font-weight: 700; padding: 3px 10px;
-            border-radius: 6px; white-space: nowrap;
-            min-width: 48px; text-align: center;
-        }
-        .item-name { flex: 1; }
-
-        /* フィルタ非表示 */
-        .item-card.hidden, .category-block.hidden, .session-block.hidden { display: none; }
-
-        /* 検索結果なし */
-        .no-results {
-            text-align: center; padding: 40px; color: #94a3b8;
-            font-size: 1.1em; display: none;
-        }
-
-        .footer {
-            margin-top: 40px; font-size: 0.85em;
-            color: #94a3b8; padding: 24px;
-            max-width: 720px; margin-left: auto; margin-right: auto;
-        }
-        .footer a { color: #64748b; }
-        .footer .disclaimer-title {
-            font-size: 1em; font-weight: 600; color: #64748b;
-            margin-bottom: 10px; text-align: center;
-        }
-        .footer .disclaimer-body {
-            text-align: left; line-height: 1.7;
-            background: #f1f5f9; border-radius: 10px; padding: 16px 20px;
-        }
-        .footer .disclaimer-body p {
-            margin: 6px 0;
-        }
-        .footer .disclaimer-body ul {
-            margin: 8px 0 8px 1.2em; padding: 0;
-        }
-        .footer .disclaimer-body li {
-            margin: 4px 0;
-        }
-        .footer .disclaimer-meta {
-            margin-top: 10px; text-align: center; font-size: 0.95em;
-        }
-
-        @media (max-width: 640px) {
-            body { padding: 12px 8px; }
-            .session-block { padding: 16px; }
-            .page-header { padding: 20px 16px; }
-            .page-header h1 { font-size: 1.3em; }
-            .filter-btn { font-size: 0.78em; padding: 5px 10px; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小金井市議会 会議録アーカイブ</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
+    background: linear-gradient(135deg, #667eea33 0%, #764ba233 100%), #f5f7fa;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 8px;
+    font-size: 1.8em;
+}
+.subtitle {
+    text-align: center;
+    color: #718096;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+.meeting-list {
+    list-style: none;
+}
+.meeting-item {
+    background: white;
+    border-radius: 12px;
+    padding: 16px 24px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.meeting-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.meeting-item a {
+    text-decoration: none;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.meeting-date {
+    background: #ebf4ff;
+    color: #3182ce;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.meeting-name {
+    font-size: 1.05em;
+}
+.disclaimer {
+    margin-top: 30px;
+    padding: 16px;
+    background: #fffbeb;
+    border: 1px solid #f6e05e;
+    border-radius: 8px;
+    font-size: 0.82em;
+    color: #744210;
+    line-height: 1.6;
+}
+.disclaimer h3 {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+}
+.count-badge {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.count-badge span {
+    background: #4299e1;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 0.85em;
+}
+</style>
 </head>
 <body>
-    <div class="page-header">
-        <h1>📋 小金井市議会 議事録アーカイブ</h1>
-        <p>AIによる自動文字起こし・校正・要約付き議事録</p>
-        <input type="text" class="search-box" id="searchBox" placeholder="🔍 議事録を検索（例: 予算、本会議、3.12 ...）">
-    </div>
-
-    <div class="filter-bar" id="filterBar">
-        <button class="filter-btn active" data-filter="all">すべて</button>
-<button class="filter-btn" data-filter="本会議" style="--accent:#e74c3c;">🏛️ 本会議</button>
-<button class="filter-btn" data-filter="予算特別委員会" style="--accent:#d97706;">💰 予算特別委員会</button>
-<button class="filter-btn" data-filter="常任委員会" style="--accent:#2563eb;">📋 常任委員会</button>
-<button class="filter-btn" data-filter="議会運営委員会" style="--accent:#7c3aed;">⚙️ 議会運営委員会</button>
-<button class="filter-btn" data-filter="特別委員会・協議会" style="--accent:#059669;">🏗️ 特別委員会・協議会</button>
-
-    </div>
-
-    <div id="contentArea">
-        <div class="session-block">
-  <h2 class="session-title">📅 令和8年 第1回定例会<span class="count-badge">18件</span></h2>
-  <div class="category-block" data-category="本会議">
-    <h3 class="category-title" style="color:#e74c3c;">🏛️ 本会議<span class="count-badge-sm">7</span></h3>
-    <div class="item-list">
-      <a href="R8.3.2_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">3.2</span>
-        <span class="item-name">本会議（一般質問）</span>
-      </a>
-      <a href="R8.2.27_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.27</span>
-        <span class="item-name">本会議（一般質問）</span>
-      </a>
-      <a href="R8.2.26_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.26</span>
-        <span class="item-name">本会議（一般質問）</span>
-      </a>
-      <a href="R8.2.24_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.24</span>
-        <span class="item-name">本会議（一般質問）</span>
-      </a>
-      <a href="R8.2.18_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.18</span>
-        <span class="item-name">本会議</span>
-      </a>
-      <a href="R8.2.17_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.17</span>
-        <span class="item-name">本会議</span>
-      </a>
-      <a href="R8.2.16_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
-        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">2.16</span>
-        <span class="item-name">本会議</span>
-      </a>
-    </div>
-  </div>
-  <div class="category-block" data-category="予算特別委員会">
-    <h3 class="category-title" style="color:#d97706;">💰 予算特別委員会<span class="count-badge-sm">6</span></h3>
-    <div class="item-list">
-      <a href="R8.3.16_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.16</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-      <a href="R8.3.13_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.13</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-      <a href="R8.3.12_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.12</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-      <a href="R8.3.11_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.11</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-      <a href="R8.3.10_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.10</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-      <a href="R8.3.9_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
-        <span class="item-date" style="background:#fffbeb;color:#d97706;border:1px solid #fde68a;">3.9</span>
-        <span class="item-name">予算特別委員会</span>
-      </a>
-    </div>
-  </div>
-  <div class="category-block" data-category="常任委員会">
-    <h3 class="category-title" style="color:#2563eb;">📋 常任委員会<span class="count-badge-sm">3</span></h3>
-    <div class="item-list">
-      <a href="R8.3.6_総務企画委員会.html" class="item-card" data-category="常任委員会" style="border-left-color:#2563eb;">
-        <span class="item-date" style="background:#eff6ff;color:#2563eb;border:1px solid #bfdbfe;">3.6</span>
-        <span class="item-name">総務企画委員会</span>
-      </a>
-      <a href="R8.3.5_建設環境委員会.html" class="item-card" data-category="常任委員会" style="border-left-color:#2563eb;">
-        <span class="item-date" style="background:#eff6ff;color:#2563eb;border:1px solid #bfdbfe;">3.5</span>
-        <span class="item-name">建設環境委員会</span>
-      </a>
-      <a href="R8.3.4_厚生文教委員会.html" class="item-card" data-category="常任委員会" style="border-left-color:#2563eb;">
-        <span class="item-date" style="background:#eff6ff;color:#2563eb;border:1px solid #bfdbfe;">3.4</span>
-        <span class="item-name">厚生文教委員会</span>
-      </a>
-    </div>
-  </div>
-  <div class="category-block" data-category="議会運営委員会">
-    <h3 class="category-title" style="color:#7c3aed;">⚙️ 議会運営委員会<span class="count-badge-sm">1</span></h3>
-    <div class="item-list">
-      <a href="R8.3.3_議会運営委員会.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
-        <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.3</span>
-        <span class="item-name">議会運営委員会</span>
-      </a>
-    </div>
-  </div>
-  <div class="category-block" data-category="特別委員会・協議会">
-    <h3 class="category-title" style="color:#059669;">🏗️ 特別委員会・協議会<span class="count-badge-sm">1</span></h3>
-    <div class="item-list">
-      <a href="R8.2.25_広報・広聴協議会.html" class="item-card" data-category="特別委員会・協議会" style="border-left-color:#059669;">
-        <span class="item-date" style="background:#ecfdf5;color:#059669;border:1px solid #a7f3d0;">2.25</span>
-        <span class="item-name">広報・広聴協議会</span>
-      </a>
-    </div>
-  </div>
+<div class="container">
+<h1>📋 小金井市議会 会議録アーカイブ</h1>
+<p class="subtitle">AIによる文字起こし・校正済みの会議録を公開しています</p>
+<div class="count-badge"><span>全 22 件の会議録</span></div>
+<ul class="meeting-list">
+<li class="meeting-item">
+<a href="R8.3.17_庁舎等建設及び公共施設マネジメント推進調査特別委員会.html">
+<span class="meeting-date">R8.3.17</span>
+<span class="meeting-name">庁舎等建設及び公共施設マネジメント推進調査特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.16_予算特別委員会.html">
+<span class="meeting-date">R8.3.16</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.13_予算特別委員会.html">
+<span class="meeting-date">R8.3.13</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.12_予算特別委員会.html">
+<span class="meeting-date">R8.3.12</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.11_予算特別委員会.html">
+<span class="meeting-date">R8.3.11</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.10_予算特別委員会.html">
+<span class="meeting-date">R8.3.10</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.9_予算特別委員会.html">
+<span class="meeting-date">R8.3.9</span>
+<span class="meeting-name">予算特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.6_総務企画委員会.html">
+<span class="meeting-date">R8.3.6</span>
+<span class="meeting-name">総務企画委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.5_建設環境委員会.html">
+<span class="meeting-date">R8.3.5</span>
+<span class="meeting-name">建設環境委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.4_厚生文教委員会.html">
+<span class="meeting-date">R8.3.4</span>
+<span class="meeting-name">厚生文教委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.3_議会運営委員会.html">
+<span class="meeting-date">R8.3.3</span>
+<span class="meeting-name">議会運営委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.3.2_本会議.html">
+<span class="meeting-date">R8.3.2</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.27_本会議.html">
+<span class="meeting-date">R8.2.27</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.26_本会議.html">
+<span class="meeting-date">R8.2.26</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.25_広報・広聴協議会.html">
+<span class="meeting-date">R8.2.25</span>
+<span class="meeting-name">広報・広聴協議会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.24_本会議.html">
+<span class="meeting-date">R8.2.24</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.18_本会議.html">
+<span class="meeting-date">R8.2.18</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.17_本会議.html">
+<span class="meeting-date">R8.2.17</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.16_本会議.html">
+<span class="meeting-date">R8.2.16</span>
+<span class="meeting-name">本会議</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.6_庁舎等建設及び公共施設マネジメント推進調査特別委員会.html">
+<span class="meeting-date">R8.2.6</span>
+<span class="meeting-name">庁舎等建設及び公共施設マネジメント推進調査特別委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.2_議会運営委員会.html">
+<span class="meeting-date">R8.2.2</span>
+<span class="meeting-name">議会運営委員会</span>
+</a>
+</li>
+<li class="meeting-item">
+<a href="R8.2.2_総務企画委員会.html">
+<span class="meeting-date">R8.2.2</span>
+<span class="meeting-name">総務企画委員会</span>
+</a>
+</li>
+</ul>
+<div class="disclaimer">
+<h3>⚠️ 免責事項</h3>
+<p>この会議録はAI（Gemini）による自動文字起こし・校正を行ったものであり、正式な議事録ではありません。
+内容の正確性は保証されません。正式な内容は<a href="https://www.city.koganei.tokyo.dbsr.jp/" target="_blank">小金井市議会会議録検索システム</a>をご確認ください。</p>
+<p>動画原本: <a href="https://www.youtube.com/@koganei_shigikai" target="_blank">小金井市議会公式YouTubeチャンネル</a></p>
 </div>
-<div class="session-block">
-  <h2 class="session-title">📁 その他</h2>
-  <div class="item-list">
-    <a href="R8.2.6_庁舎等建設及び公共施設マネジメント推進調査特別委員会.html" class="item-card" data-category="その他">R8.2.6 庁舎等建設及び公共施設マネジメント推進調査特別委員会</a>
-    <a href="R8.2.2_議会運営委員会.html" class="item-card" data-category="その他">R8.2.2 議会運営委員会</a>
-    <a href="R8.2.2_総務企画委員会.html" class="item-card" data-category="その他">R8.2.2 総務企画委員会</a>
-  </div>
 </div>
-
-    </div>
-
-    <div class="no-results" id="noResults">
-        該当する議事録が見つかりません。
-    </div>
-
-    <div class="footer">
-        <div class="disclaimer-title">⚠️ 免責事項</div>
-        <div class="disclaimer-body">
-            <p>本サイトに掲載されている議事録は、小金井市議会がYouTubeで公開している本会議・委員会等の動画記録をもとに、AI（Google Gemini）による自動文字起こし・校正・要約を行ったものであり、小金井市議会が作成・承認した<strong>公式の会議録ではありません</strong>。</p>
-            <p style="margin-top: 10px; color: #64748b;">【ご利用にあたっての注意】</p>
-            <ul>
-                <li>AIによる処理のため、発言者名の取り違え、語句の誤変換、内容の欠落等が含まれている可能性があります</li>
-                <li>正確な発言内容の確認には、小金井市議会の公式会議録またはYouTube動画の原本をご参照ください</li>
-                <li>本サイトの内容に基づく判断・行動について、作成者は一切の責任を負いません</li>
-                <li>本サイトの内容を引用・転載する場合は、AI自動生成である旨を併記してください</li>
-            </ul>
-        </div>
-        <div class="disclaimer-meta">
-            動画原本: <a href="https://www.youtube.com/@koganei_shigikai" target="_blank">小金井市議会YouTubeチャンネル</a><br>
-            作成・運営: ながとり太郎（小金井市議会議員）<br>
-            使用技術: Google Gemini（文字起こし・校正）、YouTube自動字幕
-        </div>
-    </div>
-
-    <script>
-    (function() {
-        var searchBox = document.getElementById('searchBox');
-        var filterBtns = document.querySelectorAll('.filter-btn');
-        var cards = document.querySelectorAll('.item-card');
-        var catBlocks = document.querySelectorAll('.category-block');
-        var sessionBlocks = document.querySelectorAll('.session-block');
-        var noResults = document.getElementById('noResults');
-        var activeFilter = 'all';
-
-        function applyFilters() {
-            var query = searchBox.value.toLowerCase().trim();
-            var visibleCount = 0;
-
-            cards.forEach(function(card) {
-                var text = card.textContent.toLowerCase();
-                var cat = card.getAttribute('data-category');
-                var matchSearch = !query || text.indexOf(query) >= 0;
-                var matchFilter = activeFilter === 'all' || cat === activeFilter;
-
-                if (matchSearch && matchFilter) {
-                    card.classList.remove('hidden');
-                    visibleCount++;
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-
-            // カテゴリブロックの表示/非表示
-            catBlocks.forEach(function(block) {
-                var visCards = block.querySelectorAll('.item-card:not(.hidden)');
-                if (visCards.length === 0) {
-                    block.classList.add('hidden');
-                } else {
-                    block.classList.remove('hidden');
-                }
-            });
-
-            // セッションブロックの表示/非表示
-            sessionBlocks.forEach(function(block) {
-                var visCats = block.querySelectorAll('.category-block:not(.hidden)');
-                if (visCats.length === 0) {
-                    block.classList.add('hidden');
-                } else {
-                    block.classList.remove('hidden');
-                }
-            });
-
-            noResults.style.display = visibleCount === 0 ? 'block' : 'none';
-        }
-
-        searchBox.addEventListener('input', applyFilters);
-
-        filterBtns.forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                filterBtns.forEach(function(b) { b.classList.remove('active'); });
-                btn.classList.add('active');
-                activeFilter = btn.getAttribute('data-filter');
-                applyFilters();
-            });
-        });
-    })();
-    </script>
 </body>
 </html>
