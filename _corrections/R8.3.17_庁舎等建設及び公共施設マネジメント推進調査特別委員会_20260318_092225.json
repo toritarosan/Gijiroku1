@@ -1,0 +1,403 @@
+{
+  "session": "R8.3.17_庁舎等建設及び公共施設マネジメント推進調査特別委員会",
+  "datetime": "2026-03-18T09:22:25.389257+09:00",
+  "total_corrections": 30,
+  "error_type_summary": {
+    "typo": 25,
+    "text_correction": 5,
+    "masking": 1
+  },
+  "corrections": [
+    {
+      "line_range": [
+        4,
+        4
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=149s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"149\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=149s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"149\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 149,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        86,
+        86
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=627s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"627\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=627s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"627\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 627,
+      "speaker": "陳情者"
+    },
+    {
+      "line_range": [
+        178,
+        178
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=1596s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1596\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=1596s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1596\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1596,
+      "speaker": "陳情者"
+    },
+    {
+      "line_range": [
+        256,
+        258
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=2454s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2454\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=2454s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2454\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2454,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        269,
+        269
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=2519s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2519\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=2519s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2519\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2519,
+      "speaker": "陳情者"
+    },
+    {
+      "line_range": [
+        350,
+        350
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=3387s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3387\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=3387s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3387\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3387,
+      "speaker": "座長"
+    },
+    {
+      "line_range": [
+        451,
+        453
+      ],
+      "error_type": [
+        "masking",
+        "text_correction"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=4373s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4373\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=4373s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4373\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4373,
+      "speaker": "座長"
+    },
+    {
+      "line_range": [
+        639,
+        639
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=6562s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6562\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=6562s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6562\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6562,
+      "speaker": "庁舎等建設担当課長"
+    },
+    {
+      "line_range": [
+        665,
+        667
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=6951s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6951\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=6951s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6951\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6951,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        784,
+        786
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=7842s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7842\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=a1wzcoS8pPY&t=7842s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"7842\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 7842,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        817,
+        817
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=466s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"466\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=466s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"466\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 466,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        911,
+        911
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1225s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1225\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1225s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1225\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1225,
+      "speaker": "庁舎等建設担当部長"
+    },
+    {
+      "line_range": [
+        927,
+        927
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1473s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1473\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1473s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1473\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1473,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        940,
+        940
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1505s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1505\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1505s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1505\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1505,
+      "speaker": "渡辺"
+    },
+    {
+      "line_range": [
+        961,
+        961
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1566s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1566\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1566s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1566\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1566,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        1001,
+        1001
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1854s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1854\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=1854s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"1854\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 1854,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1023,
+        1023
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2039s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2039\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2039s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2039\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2039,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1032,
+        1032
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2103s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2103\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2103s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2103\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2103,
+      "speaker": "藤川"
+    },
+    {
+      "line_range": [
+        1050,
+        1050
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2289s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2289\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2289s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2289\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2289,
+      "speaker": "村上"
+    },
+    {
+      "line_range": [
+        1086,
+        1086
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2672s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2672\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=2672s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"2672\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 2672,
+      "speaker": null
+    },
+    {
+      "line_range": [
+        1229,
+        1229
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4011s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4011\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4011s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4011\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4011,
+      "speaker": "森戸"
+    },
+    {
+      "line_range": [
+        1297,
+        1297
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4670s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4670\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4670s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4670\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4670,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        1316,
+        1316
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4800s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4800\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4800s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4800\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4800,
+      "speaker": "企画財政部長"
+    },
+    {
+      "line_range": [
+        1332,
+        1332
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4954s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4954\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=4954s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"4954\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 4954,
+      "speaker": "市長"
+    },
+    {
+      "line_range": [
+        1359,
+        1359
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=5142s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5142\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=5142s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5142\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5142,
+      "speaker": "企画政策課主査"
+    },
+    {
+      "line_range": [
+        1419,
+        1419
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=5589s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5589\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=5589s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"5589\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 5589,
+      "speaker": "森戸よう子"
+    },
+    {
+      "line_range": [
+        1519,
+        1519
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=6496s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6496\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=6496s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6496\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6496,
+      "speaker": "企画財政部長"
+    },
+    {
+      "line_range": [
+        1549,
+        1549
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=6786s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6786\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=A5b0uBhVrek&t=6786s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"6786\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 6786,
+      "speaker": "委員長"
+    },
+    {
+      "line_range": [
+        1702,
+        1704
+      ],
+      "error_type": [
+        "text_correction"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=kqPgz7Ip6rQ&t=896s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"896\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "added": "<a href=\"https://www.youtube.com/watch?v=kqPgz7Ip6rQ&t=896s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"896\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bottom",
+      "timestamp_s": 896,
+      "speaker": "企画財政部長"
+    },
+    {
+      "line_range": [
+        2201,
+        2201
+      ],
+      "error_type": [
+        "typo"
+      ],
+      "removed": "<a href=\"https://www.youtube.com/watch?v=kqPgz7Ip6rQ&t=3212s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3212\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "added": "<a href=\"https://www.youtube.com/watch?v=kqPgz7Ip6rQ&t=3212s\" target=\"_blank\" style=\"display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;\" class=\"yt-btn\" data-timestamp=\"3212\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" style=\"vertical-align: text-bott",
+      "timestamp_s": 3212,
+      "speaker": "委員長"
+    }
+  ]
+}
