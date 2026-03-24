@@ -48,34 +48,7 @@
             background: #1e3a5f; color: #fff; border-color: #1e3a5f;
         }
 
-        /* セッションブロック */
-        .session-block {
-            margin-bottom: 28px; background: #fff; border-radius: 14px;
-            padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-        }
-        .session-title {
-            font-size: 1.25em; color: #1e3a5f; margin: 0 0 18px 0;
-            padding-bottom: 12px; border-bottom: 2px solid #e2e8f0;
-            display: flex; align-items: center; gap: 8px;
-        }
-        .count-badge {
-            font-size: 0.65em; background: #e2e8f0; color: #475569;
-            padding: 2px 10px; border-radius: 12px; font-weight: 600;
-            margin-left: auto;
-        }
-
-        /* カテゴリブロック */
-        .category-block { margin-bottom: 18px; }
-        .category-title {
-            font-size: 1em; margin: 0 0 10px 0;
-            display: flex; align-items: center; gap: 6px;
-        }
-        .count-badge-sm {
-            font-size: 0.75em; background: #f1f5f9; color: #64748b;
-            padding: 1px 8px; border-radius: 10px; font-weight: 600; margin-left: 4px;
-        }
-
-        /* セッション折りたたみ */
+        /* セッションブロック/折りたたみ */
         details.session-details {
             margin-bottom: 28px; background: #fff; border-radius: 14px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.04); overflow: hidden;
@@ -100,8 +73,12 @@
         }
         details.session-details[open] .session-toggle-icon { transform: rotate(180deg); }
         .session-inner { padding: 20px 24px 8px 24px; }
+        .count-badge {
+            font-size: 0.65em; background: #e2e8f0; color: #475569;
+            padding: 2px 10px; border-radius: 12px; font-weight: 600;
+        }
 
-        /* カテゴリ折りたたみ */
+        /* カテゴリブロック/折りたたみ */
         details.category-details { margin-bottom: 18px; }
         details.category-details > summary.category-title {
             list-style: none; cursor: pointer;
@@ -118,6 +95,10 @@
         }
         details.category-details[open] .cat-toggle-icon { transform: rotate(180deg); }
         details.category-details > .item-list { margin-top: 10px; }
+        .count-badge-sm {
+            font-size: 0.75em; background: #f1f5f9; color: #64748b;
+            padding: 1px 8px; border-radius: 10px; font-weight: 600; margin-left: 4px;
+        }
 
         /* アイテムカード */
         .item-list { display: flex; flex-direction: column; gap: 6px; }
@@ -141,7 +122,7 @@
         .item-name { flex: 1; }
 
         /* フィルタ非表示 */
-        .item-card.hidden, .category-block.hidden, .session-block.hidden { display: none; }
+        .item-card.hidden, details.category-details.hidden, details.session-details.hidden { display: none; }
 
         /* 検索結果なし */
         .no-results {
@@ -203,12 +184,16 @@
     </div>
 
     <div id="contentArea">
-        <details class="session-details">
-  <summary class="session-title">📅 令和8年 第1回定例会<span class="count-badge">27件</span><span class="session-toggle-icon">▼</span></summary>
+        <details class="session-details" open>
+  <summary class="session-title">📅 令和8年 第1回定例会<span class="count-badge">28件</span><span class="session-toggle-icon">▼</span></summary>
   <div class="session-inner">
-  <details class="category-details" data-category="本会議">
-    <summary class="category-title" style="color:#e74c3c;">🏛️ 本会議<span class="count-badge-sm">7</span><span class="cat-toggle-icon">▼</span></summary>
+  <details class="category-details" data-category="本会議" open>
+    <summary class="category-title" style="color:#e74c3c;">🏛️ 本会議<span class="count-badge-sm">8</span><span class="cat-toggle-icon">▼</span></summary>
     <div class="item-list">
+      <a href="R8.3.23_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
+        <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">3.23</span>
+        <span class="item-name">本会議（一般質問）</span>
+      </a>
       <a href="R8.3.2_本会議.html" class="item-card" data-category="本会議" style="border-left-color:#e74c3c;">
         <span class="item-date" style="background:#fef2f2;color:#e74c3c;border:1px solid #fecaca;">3.2</span>
         <span class="item-name">本会議（一般質問）</span>
@@ -239,7 +224,7 @@
       </a>
     </div>
   </details>
-  <details class="category-details" data-category="予算特別委員会">
+  <details class="category-details" data-category="予算特別委員会" open>
     <summary class="category-title" style="color:#d97706;">💰 予算特別委員会<span class="count-badge-sm">7</span><span class="cat-toggle-icon">▼</span></summary>
     <div class="item-list">
       <a href="R8.3.18_予算特別委員会.html" class="item-card" data-category="予算特別委員会" style="border-left-color:#d97706;">
@@ -272,7 +257,7 @@
       </a>
     </div>
   </details>
-  <details class="category-details" data-category="常任委員会">
+  <details class="category-details" data-category="常任委員会" open>
     <summary class="category-title" style="color:#2563eb;">📋 常任委員会<span class="count-badge-sm">5</span><span class="cat-toggle-icon">▼</span></summary>
     <div class="item-list">
       <a href="R8.3.18_厚生文教委員会.html" class="item-card" data-category="常任委員会" style="border-left-color:#2563eb;">
@@ -297,16 +282,28 @@
       </a>
     </div>
   </details>
-  <details class="category-details" data-category="議会運営委員会">
-    <summary class="category-title" style="color:#7c3aed;">⚙️ 議会運営委員会<span class="count-badge-sm">3</span><span class="cat-toggle-icon">▼</span></summary>
+  <details class="category-details" data-category="議会運営委員会" open>
+    <summary class="category-title" style="color:#7c3aed;">⚙️ 議会運営委員会<span class="count-badge-sm">6</span><span class="cat-toggle-icon">▼</span></summary>
     <div class="item-list">
+      <a href="R8.3.23_議会運営委員会1.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
+        <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.23</span>
+        <span class="item-name">議会運営委員会1</span>
+      </a>
+      <a href="R8.3.23_議会運営委員会2.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
+        <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.23</span>
+        <span class="item-name">議会運営委員会2</span>
+      </a>
+      <a href="R8.3.23_議会運営委員会3.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
+        <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.23</span>
+        <span class="item-name">議会運営委員会3</span>
+      </a>
       <a href="R8.3.18_議会運営委員会.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
         <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.18</span>
         <span class="item-name">議会運営委員会</span>
       </a>
       <a href="R8.3.18_議会運営委員会_10:00～.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
         <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.18</span>
-        <span class="item-name">議会運営委員会（10:00～）</span>
+        <span class="item-name">議会運営委員会 10:00～</span>
       </a>
       <a href="R8.3.3_議会運営委員会.html" class="item-card" data-category="議会運営委員会" style="border-left-color:#7c3aed;">
         <span class="item-date" style="background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;">3.3</span>
@@ -314,7 +311,7 @@
       </a>
     </div>
   </details>
-  <details class="category-details" data-category="特別委員会・協議会">
+  <details class="category-details" data-category="特別委員会・協議会" open>
     <summary class="category-title" style="color:#059669;">🏗️ 特別委員会・協議会<span class="count-badge-sm">2</span><span class="cat-toggle-icon">▼</span></summary>
     <div class="item-list">
       <a href="R8.3.17_庁舎等建設及び公共施設マネジメント推進調査特別委員会.html" class="item-card" data-category="特別委員会・協議会" style="border-left-color:#059669;">
@@ -329,13 +326,13 @@
   </details>
   </div>
 </details>
-<details class="session-details">
+<details class="session-details" open>
   <summary class="session-title">📁 閉会中委員会<span class="count-badge">3件</span><span class="session-toggle-icon">▼</span></summary>
   <div class="session-inner">
   <div class="item-list">
     <a href="R8.2.6_庁舎等建設及び公共施設マネジメント推進調査特別委員会.html" class="item-card" data-category="閉会中委員会">R8.2.6 庁舎等建設及び公共施設マネジメント推進調査特別委員会</a>
-    <a href="R8.2.2_議会運営委員会.html" class="item-card" data-category="閉会中委員会">R8.2.2 議会運営委員会</a>
     <a href="R8.2.2_総務企画委員会.html" class="item-card" data-category="閉会中委員会">R8.2.2 総務企画委員会</a>
+    <a href="R8.2.2_議会運営委員会.html" class="item-card" data-category="閉会中委員会">R8.2.2 議会運営委員会</a>
   </div>
   </div>
 </details>
@@ -393,8 +390,8 @@
                 }
             });
 
-            // カテゴリブロックの表示/非表示
-            catBlocks.forEach(function(block) {
+            // カテゴリブロックの表示/非表示（details対応）
+            document.querySelectorAll('details.category-details').forEach(function(block) {
                 var visCards = block.querySelectorAll('.item-card:not(.hidden)');
                 if (visCards.length === 0) {
                     block.classList.add('hidden');
@@ -405,17 +402,8 @@
 
             // セッションブロックの表示/非表示（details対応）
             document.querySelectorAll('details.session-details').forEach(function(block) {
-                var visCards = block.querySelectorAll('.item-card:not(.hidden)');
-                if (visCards.length === 0) {
-                    block.classList.add('hidden');
-                } else {
-                    block.classList.remove('hidden');
-                }
-            });
-            // カテゴリdetailsの表示/非表示
-            document.querySelectorAll('details.category-details').forEach(function(block) {
-                var visCards = block.querySelectorAll('.item-card:not(.hidden)');
-                if (visCards.length === 0) {
+                var visCats = block.querySelectorAll('.item-card:not(.hidden)');
+                if (visCats.length === 0) {
                     block.classList.add('hidden');
                 } else {
                     block.classList.remove('hidden');
