@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-27T16:04:45.658808+09:00",
-  "total_edits": 33,
-  "total_corrections": 259,
+  "last_updated": "2026-03-27T16:17:35.554696+09:00",
+  "total_edits": 34,
+  "total_corrections": 261,
   "global_error_types": {
     "typo": 130,
-    "speaker_wrong": 114,
+    "speaker_wrong": 115,
     "timestamp_residue": 6,
-    "text_correction": 80,
-    "speaker_unknown": 2,
-    "text_missing": 11,
+    "text_correction": 81,
+    "speaker_unknown": 3,
+    "text_missing": 12,
     "text_duplicate": 7,
     "masking": 6,
     "chunk_marker": 1
@@ -75,14 +75,16 @@
       "last_edited": "2026-03-18T14:12:39.140190+09:00"
     },
     "R8.3.23_本会議": {
-      "total_corrections": 2,
-      "edit_count": 1,
+      "total_corrections": 4,
+      "edit_count": 2,
       "error_types": {
-        "speaker_wrong": 2,
-        "text_missing": 1,
-        "text_duplicate": 1
+        "speaker_wrong": 3,
+        "text_missing": 2,
+        "text_duplicate": 1,
+        "speaker_unknown": 1,
+        "text_correction": 1
       },
-      "last_edited": "2026-03-27T16:04:33.975723+09:00"
+      "last_edited": "2026-03-27T16:17:23.782989+09:00"
     },
     "R8.3.2_本会議": {
       "total_corrections": 21,
