@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-27T16:17:35.554696+09:00",
-  "total_edits": 34,
-  "total_corrections": 261,
+  "last_updated": "2026-03-27T16:20:55.497655+09:00",
+  "total_edits": 35,
+  "total_corrections": 263,
   "global_error_types": {
     "typo": 130,
-    "speaker_wrong": 115,
+    "speaker_wrong": 116,
     "timestamp_residue": 6,
-    "text_correction": 81,
-    "speaker_unknown": 3,
+    "text_correction": 82,
+    "speaker_unknown": 4,
     "text_missing": 12,
-    "text_duplicate": 7,
+    "text_duplicate": 8,
     "masking": 6,
     "chunk_marker": 1
   },
@@ -75,16 +75,16 @@
       "last_edited": "2026-03-18T14:12:39.140190+09:00"
     },
     "R8.3.23_本会議": {
-      "total_corrections": 4,
-      "edit_count": 2,
+      "total_corrections": 6,
+      "edit_count": 3,
       "error_types": {
-        "speaker_wrong": 3,
+        "speaker_wrong": 4,
         "text_missing": 2,
-        "text_duplicate": 1,
-        "speaker_unknown": 1,
-        "text_correction": 1
+        "text_duplicate": 2,
+        "speaker_unknown": 2,
+        "text_correction": 2
       },
-      "last_edited": "2026-03-27T16:17:23.782989+09:00"
+      "last_edited": "2026-03-27T16:20:43.416395+09:00"
     },
     "R8.3.2_本会議": {
       "total_corrections": 21,
@@ -145,7 +145,8 @@
         "不明": 1
       },
       "不明": {
-        "委員長": 1
+        "委員長": 1,
+        "議長": 1
       },
       "委員長": {
         "議長": 1,
