@@ -1,0 +1,23 @@
+{
+  "session": "R8.4.21_広報・広聴協議会",
+  "datetime": "2026-04-24T11:43:14.446459+09:00",
+  "total_corrections": 1,
+  "error_type_summary": {
+    "speaker_wrong": 1
+  },
+  "corrections": [
+    {
+      "line_range": [
+        846,
+        846
+      ],
+      "error_type": [
+        "speaker_wrong"
+      ],
+      "removed": "◯企画財政部長　そうですね。あの市の所有している会場であれば、使用は可能でございます。調整の上ですけれども、はい。",
+      "added": "◯事務局次長　そうですね。あの市の所有している会場であれば、使用は可能でございます。調整の上ですけれども、はい。",
+      "timestamp_s": null,
+      "speaker": "企画財政部長"
+    }
+  ]
+}
