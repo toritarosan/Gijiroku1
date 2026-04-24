@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-24T11:03:43.400429+09:00",
-  "total_edits": 37,
-  "total_corrections": 270,
+  "last_updated": "2026-04-24T11:22:57.199070+09:00",
+  "total_edits": 38,
+  "total_corrections": 274,
   "global_error_types": {
-    "typo": 136,
-    "speaker_wrong": 117,
+    "typo": 137,
+    "speaker_wrong": 120,
     "text_correction": 83,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -134,12 +134,13 @@
       "last_edited": "2026-03-13T22:54:35.759378+09:00"
     },
     "R8.4.21_広報・広聴協議会": {
-      "total_corrections": 6,
-      "edit_count": 1,
+      "total_corrections": 10,
+      "edit_count": 2,
       "error_types": {
-        "typo": 6
+        "typo": 7,
+        "speaker_wrong": 3
       },
-      "last_edited": "2026-04-24T11:03:30.183970+09:00"
+      "last_edited": "2026-04-24T11:22:43.752335+09:00"
     }
   },
   "common_mistakes": {
@@ -187,6 +188,10 @@
       },
       "中井": {
         "ながとり": 2
+      },
+      "企画政策課主査": {
+        "議会事務局次長": 1,
+        "事務局次長": 2
       }
     }
   }
