@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-06-10T16:54:44.018709+09:00",
-  "total_edits": 48,
-  "total_corrections": 372,
+  "last_updated": "2026-06-10T16:57:23.804507+09:00",
+  "total_edits": 49,
+  "total_corrections": 376,
   "global_error_types": {
-    "typo": 159,
+    "typo": 163,
     "speaker_wrong": 204,
     "text_correction": 83,
     "timestamp_residue": 6,
@@ -162,13 +162,13 @@
       "last_edited": "2026-05-24T10:20:39.492207+09:00"
     },
     "R8.6.10_広報・広聴協議会": {
-      "total_corrections": 1,
-      "edit_count": 1,
+      "total_corrections": 5,
+      "edit_count": 2,
       "error_types": {
         "speaker_wrong": 1,
-        "typo": 1
+        "typo": 5
       },
-      "last_edited": "2026-06-10T16:54:26.442741+09:00"
+      "last_edited": "2026-06-10T16:57:05.327750+09:00"
     }
   },
   "common_mistakes": {
