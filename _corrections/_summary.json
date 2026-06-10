@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-09T12:28:30.895041+09:00",
-  "total_edits": 46,
-  "total_corrections": 370,
+  "last_updated": "2026-06-10T16:40:21.419681+09:00",
+  "total_edits": 47,
+  "total_corrections": 371,
   "global_error_types": {
-    "typo": 157,
-    "speaker_wrong": 202,
+    "typo": 158,
+    "speaker_wrong": 203,
     "text_correction": 83,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -143,14 +143,14 @@
       "last_edited": "2026-04-24T11:43:14.446459+09:00"
     },
     "R8.5.18_議会運営委員会": {
-      "total_corrections": 55,
-      "edit_count": 6,
+      "total_corrections": 56,
+      "edit_count": 7,
       "error_types": {
-        "speaker_wrong": 53,
-        "typo": 6,
+        "speaker_wrong": 54,
+        "typo": 7,
         "masking": 4
       },
-      "last_edited": "2026-06-09T12:28:14.560525+09:00"
+      "last_edited": "2026-06-10T16:40:02.827707+09:00"
     },
     "R8.5.22_広報・広聴協議会": {
       "total_corrections": 40,
@@ -230,6 +230,9 @@
       },
       "吉良": {
         "水谷": 1
+      },
+      "西川": {
+        "議事係長": 1
       }
     }
   }
