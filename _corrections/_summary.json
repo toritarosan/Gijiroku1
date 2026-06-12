@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-12T14:15:18.644855+09:00",
-  "total_edits": 56,
-  "total_corrections": 385,
+  "last_updated": "2026-06-12T14:25:16.584378+09:00",
+  "total_edits": 57,
+  "total_corrections": 386,
   "global_error_types": {
     "typo": 165,
-    "speaker_wrong": 211,
+    "speaker_wrong": 212,
     "text_correction": 85,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -143,15 +143,15 @@
       "last_edited": "2026-04-24T11:43:14.446459+09:00"
     },
     "R8.5.18_議会運営委員会": {
-      "total_corrections": 64,
-      "edit_count": 13,
+      "total_corrections": 65,
+      "edit_count": 14,
       "error_types": {
-        "speaker_wrong": 60,
+        "speaker_wrong": 61,
         "typo": 9,
         "masking": 4,
         "text_correction": 2
       },
-      "last_edited": "2026-06-12T14:14:57.790805+09:00"
+      "last_edited": "2026-06-12T14:24:56.029376+09:00"
     },
     "R8.5.22_広報・広聴協議会": {
       "total_corrections": 40,
@@ -186,7 +186,8 @@
         "太田": 1
       },
       "坂井": {
-        "議長": 1
+        "議長": 1,
+        "小林": 1
       },
       "議長": {
         "不明": 1,
