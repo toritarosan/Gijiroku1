@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-17T13:24:27.606509+09:00",
-  "total_edits": 71,
-  "total_corrections": 415,
+  "last_updated": "2026-06-17T14:14:00.110835+09:00",
+  "total_edits": 72,
+  "total_corrections": 416,
   "global_error_types": {
-    "typo": 171,
-    "speaker_wrong": 240,
+    "typo": 172,
+    "speaker_wrong": 241,
     "text_correction": 85,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -180,6 +180,15 @@
         "typo": 1
       },
       "last_edited": "2026-06-12T16:35:16.979906+09:00"
+    },
+    "R8.6.15_総務企画委員会": {
+      "total_corrections": 1,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_wrong": 1,
+        "typo": 1
+      },
+      "last_edited": "2026-06-17T14:13:34.962320+09:00"
     },
     "R8.6.16_議会運営委員会": {
       "total_corrections": 28,
