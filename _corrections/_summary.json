@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-17T13:05:59.922079+09:00",
-  "total_edits": 68,
-  "total_corrections": 410,
+  "last_updated": "2026-06-17T13:07:57.624415+09:00",
+  "total_edits": 69,
+  "total_corrections": 412,
   "global_error_types": {
     "typo": 169,
-    "speaker_wrong": 235,
+    "speaker_wrong": 237,
     "text_correction": 85,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -182,14 +182,14 @@
       "last_edited": "2026-06-12T16:35:16.979906+09:00"
     },
     "R8.6.16_議会運営委員会": {
-      "total_corrections": 23,
-      "edit_count": 10,
+      "total_corrections": 25,
+      "edit_count": 11,
       "error_types": {
-        "speaker_wrong": 22,
+        "speaker_wrong": 24,
         "typo": 3,
         "masking": 1
       },
-      "last_edited": "2026-06-17T13:05:35.404811+09:00"
+      "last_edited": "2026-06-17T13:07:32.923945+09:00"
     }
   },
   "common_mistakes": {
@@ -203,7 +203,8 @@
       },
       "議長": {
         "不明": 1,
-        "次長": 1
+        "次長": 1,
+        "議長（斎藤康夫）": 1
       },
       "不明": {
         "委員長": 1,
@@ -298,7 +299,8 @@
         "河野": 1
       },
       "太田宏徳": {
-        "水谷": 1
+        "水谷": 1,
+        "委員長": 1
       }
     }
   }
