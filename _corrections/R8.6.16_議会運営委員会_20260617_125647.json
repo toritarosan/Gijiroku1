@@ -1,0 +1,23 @@
+{
+  "session": "R8.6.16_議会運営委員会",
+  "datetime": "2026-06-17T12:56:47.996636+09:00",
+  "total_corrections": 1,
+  "error_type_summary": {
+    "speaker_wrong": 1
+  },
+  "corrections": [
+    {
+      "line_range": [
+        979,
+        979
+      ],
+      "error_type": [
+        "speaker_wrong"
+      ],
+      "removed": "◯ながとり委員　ちょっといいですか？はい。",
+      "added": "◯議長　ちょっといいですか？はい。",
+      "timestamp_s": null,
+      "speaker": "ながとり委員"
+    }
+  ]
+}
