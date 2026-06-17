@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-17T13:01:14.038510+09:00",
-  "total_edits": 66,
-  "total_corrections": 405,
+  "last_updated": "2026-06-17T13:04:26.060297+09:00",
+  "total_edits": 67,
+  "total_corrections": 408,
   "global_error_types": {
-    "typo": 167,
-    "speaker_wrong": 230,
+    "typo": 168,
+    "speaker_wrong": 233,
     "text_correction": 85,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -182,14 +182,14 @@
       "last_edited": "2026-06-12T16:35:16.979906+09:00"
     },
     "R8.6.16_議会運営委員会": {
-      "total_corrections": 18,
-      "edit_count": 8,
+      "total_corrections": 21,
+      "edit_count": 9,
       "error_types": {
-        "speaker_wrong": 17,
-        "typo": 1,
+        "speaker_wrong": 20,
+        "typo": 2,
         "masking": 1
       },
-      "last_edited": "2026-06-17T13:00:49.560312+09:00"
+      "last_edited": "2026-06-17T13:04:01.341202+09:00"
     }
   },
   "common_mistakes": {
@@ -289,6 +289,13 @@
       },
       "天野かな": {
         "水谷": 1
+      },
+      "片山かおる": {
+        "委員長": 1,
+        "河野": 2
+      },
+      "片山": {
+        "河野": 1
       }
     }
   }
