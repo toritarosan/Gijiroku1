@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-17T14:14:00.110835+09:00",
-  "total_edits": 72,
-  "total_corrections": 416,
+  "last_updated": "2026-06-18T15:17:24.967847+09:00",
+  "total_edits": 73,
+  "total_corrections": 419,
   "global_error_types": {
     "typo": 172,
-    "speaker_wrong": 241,
+    "speaker_wrong": 244,
     "text_correction": 85,
     "timestamp_residue": 6,
     "speaker_unknown": 4,
@@ -199,6 +199,14 @@
         "masking": 1
       },
       "last_edited": "2026-06-17T13:24:02.789048+09:00"
+    },
+    "R8.6.17_予算特別委員会": {
+      "total_corrections": 3,
+      "edit_count": 1,
+      "error_types": {
+        "speaker_wrong": 3
+      },
+      "last_edited": "2026-06-18T15:16:58.700023+09:00"
     }
   },
   "common_mistakes": {
@@ -226,7 +234,7 @@
         "座長": 28
       },
       "座長": {
-        "委員長": 51
+        "委員長": 54
       },
       "委員長（清水学）": {
         "委員長": 7
