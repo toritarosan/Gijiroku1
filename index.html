@@ -193,12 +193,8 @@ document.querySelectorAll('.entry').forEach(e=>{
 document.getElementById('back').addEventListener('click',()=>{
   document.body.classList.remove('show-detail');
 });
-document.getElementById('dashlink').addEventListener('click',(e)=>{
-  e.preventDefault();
-  document.querySelectorAll('.entry').forEach(x=>x.classList.remove('is-active'));
-  frame.src='dashboard.html';
-  document.body.classList.add('show-detail');
-});
+// 発言時間ダッシュボードは独立ページ（自前のサイドバーを持つ）。
+// iframe内に出すと左ペインと二重になるため、通常のフルページ遷移にする。
 document.querySelectorAll('.facet').forEach(f=>{
   f.addEventListener('click',()=>{
     document.querySelectorAll('.facet').forEach(x=>x.classList.remove('is-active'));
