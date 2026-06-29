@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>R8.2.2_総務企画委員会</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      background-color: #f7f9fc;
-    }
-    .markdown-body {
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.5em;
-      margin-bottom: 0.5em;
-      color: #2c3e50;
-    }
-    ul, ol {
-      padding-left: 20px;
-    }
-    code {
-      background-color: #f0f3f5;
-      padding: 2px 4px;
-      border-radius: 4px;
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    }
-    pre {
-      background-color: #f0f3f5;
-      padding: 15px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    blockquote {
-      border-left: 4px solid #3498db;
-      padding-left: 15px;
-      color: #7f8c8d;
-      margin-left: 0;
-    }
-    @media (max-width: 768px) {
-      body { padding: 15px; }
-      .markdown-body { padding: 20px; }
-    }
-    .yt-btn:hover {
-      opacity: 0.8;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    @media (max-width: 480px) {
-      #floating-player-container {
-        bottom: 0 !important;
-        right: 0 !important;
-        width: 100% !important;
-        border-radius: 0 !important;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>令和8年2月2日 総務企画委員会</title>
+<style>
+  :root{
+    --paper:#ffffff; --ink:#17150f; --navy:#1d3a63; --pop:#e8482a;
+    --muted:#6f6d68; --line:#e6e6e2;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--serif);
+       line-height:1.4; -webkit-font-smoothing:antialiased;}
+  .prog{position:fixed; top:0; left:0; height:3px; width:0; background:var(--pop); z-index:50;}
+  .wrap{max-width:780px; margin:0 auto; padding:0 24px 72px;}
+
+  .top{display:flex; align-items:center; gap:9px; font-family:var(--sans); font-size:12px;
+       letter-spacing:.14em; color:var(--muted); padding:22px 0 10px;}
+  .top .sq{width:9px;height:9px;background:var(--pop);}
+  .top a{color:var(--muted); text-decoration:none;}
+  .top a:hover{color:var(--pop);}
+
+  .hero{padding:16px 0 24px;}
+  .hero .date{font-family:var(--sans); font-weight:500; font-size:17px; letter-spacing:.1em; color:var(--muted); margin:0 0 10px;}
+  .hero h1{font-family:var(--sans); font-weight:900; font-size:clamp(24px,4vw,34px); line-height:1.2;
+           letter-spacing:.01em; margin:0; color:var(--ink);}
+  .hero .src{font-family:var(--sans); font-size:14px; color:var(--muted); margin-top:10px;
+             display:inline-block;}
+
+  /* 要約 */
+  .sum{padding:22px 26px; background:#f5f7fa; border:1px solid var(--line); margin-bottom:28px;}
+  .sum .lab{font-family:var(--sans); font-weight:700; font-size:12px; letter-spacing:.2em; color:var(--pop); margin:0 0 16px;}
+  .sum h3{font-family:var(--sans); font-weight:700; font-size:16px; margin:20px 0 8px; color:var(--navy);}
+  .sum h3:first-of-type{margin-top:0;}
+  .sum h4{font-family:var(--sans); font-weight:700; font-size:14.5px; margin:16px 0 6px; color:var(--ink); line-height:1.4;}
+  .sum ul{font-size:14.5px; line-height:1.35; color:var(--ink); margin:0 0 10px; padding-left:1.3em;}
+  .sum li{margin:1px 0;}
+  .sum p{font-size:14.5px; margin:0 0 10px;}
+  .sum strong{color:var(--navy); font-weight:700;}
+
+  /* 原典動画 */
+  .media{margin-bottom:28px;}
+  .media .lab{font-family:var(--sans); font-weight:700; font-size:12px; letter-spacing:.2em; color:var(--pop); margin:0 0 14px;}
+  .media .frame{position:relative; aspect-ratio:16/9; background:#000; border:1px solid var(--line);}
+  .media .frame+.frame{margin-top:12px;}
+  .media .frame iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+  .media .cap{font-family:var(--sans); font-size:12.5px; color:var(--muted); margin:10px 0 0;}
+
+  /* 本文 */
+  .turn{padding:10px 0; border-top:1px solid var(--line);}
+  .turn:first-of-type{border-top:none;}
+  .meta{display:flex; align-items:baseline; gap:16px; margin-bottom:7px;}
+  .meta .name{font-family:var(--sans); font-weight:700; font-size:16px; color:var(--navy); letter-spacing:.02em;}
+  .turn.chair .meta .name{font-weight:500; font-size:15px; color:var(--muted);}
+  .turn.voice .meta .name{font-weight:500; font-size:13px; color:var(--muted);}
+  .turn.voice .say{color:var(--muted); font-size:14px;}
+  .say{font-size:16px; line-height:1.4; letter-spacing:.01em;}
+  .say+.say{margin-top:8px;}
+
+  /* インライン動画チップ */
+  .ts{display:inline-flex; align-items:center; gap:3px; vertical-align:baseline;
+      font-family:var(--sans); font-weight:700; font-size:11px; letter-spacing:.03em;
+      color:var(--pop); text-decoration:none; margin:0 5px; white-space:nowrap; cursor:pointer;}
+  .ts svg{width:10px; height:10px;}
+  .ts:hover{text-decoration:underline;}
+
+  /* スクロール出現 */
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:none;}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+  @media(max-width:680px){
+    .hero{padding:14px 0 22px;} .sum{padding:18px;}
+    .turn{padding:12px 0;} .say{font-size:15.5px;}
+  }
+</style>
 </head>
 <body>
-  <header>
-    <div style="margin-bottom:10px;">
-        <a href="index.html" style="display:inline-block; color:#fff; text-decoration:none; background:#3498db; padding:5px 15px; border-radius:4px;">← 一覧に戻る</a>
-    </div>
-    <h1 style="margin-bottom: 5px;">R8.2.2_総務企画委員会</h1>
-    <p style="color: #7f8c8d; margin-top: 0; margin-bottom: 30px;">AIによる文字起こし・自動校正データ</p>
+<div class="prog" id="prog"></div>
+<div class="wrap">
+
+  <div class="top"><span class="sq"></span>小金井市議会 非公式会議録</div>
+
+  <header class="hero reveal">
+    <p class="date">令和8年2月2日</p>
+    <h1>総務企画委員会</h1>
+    <span class="src">YouTube字幕＋AI校正による記録（非公式）</span>
   </header>
-  
-  
-  <details style="background: #edf2f7; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #cbd5e0; cursor: pointer; outline: none;">
-    <summary style="font-weight: bold; color: #2b6cb0; font-size: 1.2em; display: flex; align-items: center;">
-      <span style="margin-right: 8px;">💡</span>AIが作成した要約をチェックする（クリックで開閉）
-    </summary>
-    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #a0aec0; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
+
+  <section class="sum reveal">
+    <p class="lab">A I 要 約</p>
+    <div>
       <h3>提出議案（報告・調査事項等）の一覧</h3>
 <ul>
 <li>所管事務調査：自治体DXの取り組みについて</li>
@@ -107,178 +121,263 @@
 * 部局は、アンケートの分析手法や満足度の評価については今後の施策評価見直しのなかで課題として検討すると回答。また、目標値（30%）については、前期からの継続性を重視しているが、実績との乖離が大きい場合は必要に応じて修正対応を行っていると答弁した。</p>
     </div>
   </details>
+  </section>
 
-  
-  <details style="background: #fff5f5; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #feb2b2; cursor: pointer; outline: none;">
-    <summary style="font-weight: bold; color: #c53030; font-size: 1.2em; display: flex; align-items: center;">
-      <span style="margin-right: 8px;">▶️</span>この議事録の原典動画を見る（1本）
-    </summary>
-    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #fc8181; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
-      <p style="color: #718096; font-size: 0.9em; margin-bottom: 20px;">動画を再生しながら議事録を読むことができます。</p>
-      
-    <div style="margin-bottom: 20px;">
-        <h4 style="margin-top: 0; margin-bottom: 10px; color: #4a5568;">📺 動画 1</h4>
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" src="https://www.youtube.com/embed/LBXeOjT69Hk" allowfullscreen></iframe>
-        </div>
-    </div>
+  <section class="media reveal">
+    <p class="lab">原 典 動 画</p>
+    <div class="frame"><iframe src="https://www.youtube.com/embed/LBXeOjT69Hk" allowfullscreen loading="lazy"></iframe></div>
+    <p class="cap">動画を再生しながら会議録を読めます（YouTube・1本）</p>
+  </section>
 
-    </div>
-  </details>
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=59s" data-timestamp="59"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>00:59</a></div><div class="say">おはようございます。時間前ですが、皆さんおそろいなので始めさせていただいてよろしいですか。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=90s" data-timestamp="90"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>01:30</a></div>
+</div>
 
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">じゃあ、まずは総務企画委員会協議会を始めてまいりたいと思います。皆さん、お手元に総務企画委員会協議会協議事項をお配りしておりますので、ご確認いただければと思います。まず1番、委員会の進行予定について、本日の委員会審査予定表の通り審査を行うということでございます。</div><div class="say">後ろも見ていただければと思うんですが、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=122s" data-timestamp="122"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>02:02</a>　今日、陳情はなくて所管事務調査ということで、あと行政報告が3点ありますよということで、まずあのところですね。審査案件は所管事務調査1件で、行政報告は3件ということで、所管事務については自治体DXの取り組みについて、（1）市民目線でのサービスの質の向上、（2）デジタル技術を活用した業務効率化の推進、（3）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=152s" data-timestamp="152"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>02:32</a>　DX推進意識醸成とデジタル人材の育成、で2がその他ということでございます。ここまでで何かありますか。大丈夫ですかね。はい。で、所管事項の有無についてということでありますが、所管事項ございますか。あ、天野さんどうぞ。天野さんでしたっけ。</div>
+</div>
 
-  <article class="markdown-body">
-    <h1>R8.2.2 総務企画委員会</h1>
-<p>◯委員長　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=59s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="59"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 00:59 再生</a></p>
-<p>おはようございます。時間前ですが、皆さんおそろいなので始めさせていただいてよろしいですか。</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=90s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="90"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 01:30 再生</a><br />
-◯（呼ぶ声）はい。</p>
-<p>◯委員長　じゃあ、まずは総務企画委員会協議会を始めてまいりたいと思います。皆さん、お手元に総務企画委員会協議会協議事項をお配りしておりますので、ご確認いただければと思います。まず1番、委員会の進行予定について、本日の委員会審査予定表の通り審査を行うということでございます。</p>
-<p>後ろも見ていただければと思うんですが、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=122s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="122"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 02:02 再生</a>　今日、陳情はなくて所管事務調査ということで、あと行政報告が3点ありますよということで、まずあのところですね。審査案件は所管事務調査1件で、行政報告は3件ということで、所管事務については自治体DXの取り組みについて、（1）市民目線でのサービスの質の向上、（2）デジタル技術を活用した業務効率化の推進、（3）<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=152s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="152"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 02:32 再生</a>　DX推進意識醸成とデジタル人材の育成、で2がその他ということでございます。ここまでで何かありますか。大丈夫ですかね。はい。で、所管事項の有無についてということでありますが、所管事項ございますか。あ、天野さんどうぞ。天野さんでしたっけ。</p>
-<p>◯天野 かな　すみません。所管事項で第5次小金井市基本構想・後期基本計画について質問させていただければと思います。</p>
-<p>◯委員長　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=186s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="186"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 03:06 再生</a></p>
-<p>はい。他にございますか。所管事項は。じゃあ、天野委員の1件のみということでよろしいですかね。はい。で、協議事項の2、3、4については終了後の協議会で協議をしていただくということになっております。</p>
-<p>ということで、その他で何かありますか。大丈夫。じゃあこのまま始めていってよろしいですか。はい。では、開会をしてまいります。よろしくお願いします。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=220s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="220"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 03:40 再生</a>　おはようございます。ただ今から総務企画委員会の会議を開きます。直ちに本日の議事に入ります。当委員会に付託されております案件は所管事務調査1件です。以上1件につきましては総務企画委員会審査予定表の通り行うことといたします。</p>
-<p>初めに所管事務調査、自治体DXの取り組みについてを議題といたします。部局から発言がありましたらこれを求めます。</p>
-<p>◯（呼ぶ声）　なし。</p>
-<p>◯委員長　これから質疑を行います。ございませんか。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=257s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="257"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 04:17 再生</a>　今日ね、午前中のみの審査ということになりますが、特にないということでよろしいですか。</p>
-<p>◯（呼ぶ声）　はい。</p>
-<p>◯委員長　以上で本件に対する現時点での質疑を終了することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯委員長　ご異議なしと認め、本件に対する現時点での質疑を終了いたします。お諮りいたします。本件は引き続き調査する必要があると認め、継続調査といたしたいと思います。これにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯委員長　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=287s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="287"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 04:47 再生</a></p>
-<p>ご異議なしと認め、本件は継続調査と決定いたしました。次に行政報告を行います。初めに行政報告1、小金井市ホームページのリニューアルについて行います。部局の説明を求めます。について、令和8年1月28日にリニューアルを実施しましたので報告いたします。</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=319s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="319"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 05:19 再生</a>　今回のリニューアルにあたっては、市民にとって知りたい情報が探しやすく使いたくなるホームページを目指すことを念頭にこの間取り組んでいきましたが、リニューアルのポイントとして2点ご説明させていただきます。まずトップページの変更についてです。情報の見やすさ及び探しやすさの向上を図るため、トップページのデザイン及びレイアウトを変更し、下階層以降も統一的なデザインに変更するとともに、これまで「生活場面から探す」として設定していたカテゴリーを「目的から探す」に変更し、これまでの10区分から<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=349s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="349"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 05:49 再生</a>　16区分に細分化いたしました。また、市民の方に特に見ていただきたい項目として、市民協働、パブリックコメント及びオープンデータのメニューボタンを新たにトップページに配置しています。次にアクセシビリティ対応についてです。</p>
-<p>言語対応をこれまでの3か国語から、131か国語に拡大<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=381s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="381"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 06:21 再生</a>　するとともに、表示されている文章をやさしい日本語に自動変換するサービスを新たに導入して、文字フォントをユニバーサルフォントに変更しました。リニューアルを終えた後も、ホームページを見ていただく方々にとって情報が探しやすいホームページを目指し、階層や情報の整理に引き続き取り組んでいきます。報告は以上です。</p>
-<p>これから質疑を行います。ございませんか。〇〇さん。</p>
-<p>◯不明　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=414s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="414"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 06:54 再生</a></p>
-<p>はい。ホームページのリニューアルについてのご報告ありがとうございます。これ、過日の総務企画委員会で、私も経過について質問させていただきましたけれども、拝見いたしました。</p>
-<p>確かに以前に比べると新しく見やすくなっている部分はあるかと思いますけど、まだ最後まで見切っていない状態ですので、また何かありましたらその時はどうぞよろしくお願いします。以上です。別に質問ではないです。</p>
-<p>◯委員長　他にございますか。ながとりさん。</p>
-<p>◯ながとり 太郎　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=449s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="449"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 07:29 再生</a></p>
-<p>まだ事前にお伺いしていないので、お答えできなかったら構わないんですけれども、ホームページをリニューアルしたことによって、もう緊急に対処しなければならない、大きなトラブルとまではいかないですけど、何かあったら教えてください。なければ結構です。それから、先日の広報・広聴協議会で<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=481s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="481"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 08:01 再生</a>　少し話題になったんですけれども、各ページにInstagram、LINE、それからFacebookのシェアボタンが付いているんですけれども、このシェアボタンが、一般的にこういうのをつけるということが分かるんですが、シェアボタンが少し分かりにくいんじゃないか。これがシェアボタンであるということが分かりにくいような気がするんです。特にですね、広報・広聴協議会で話題になったことは、議員の紹介ページに行くとですね、議員の写真の真上にそのシェアボタンが来る<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=514s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="514"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 08:34 再生</a>　ということで、それを押すと議員の何かページに行くように見えました。ですので、このシェアボタンについて少し分かりにくいかなということがあります。これについて変更が可能かどうか、今すぐお答えいただかなくても結構なんですが、知りたいと思います。</p>
-<p>それからあと、各項目の、スマホなんかで見ると、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=548s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="548"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 09:08 再生</a>　非常にコンテンツが上下するんですけど、その上下というのは、後からでも簡単にコントロールできるようなものなのかどうか。例えばここの一番下にあるこの項目を、トップページで上に持ってくるということが可能なのかどうか。もしお答えできなければ、次回でも結構です。</p>
-<p>以上です。</p>
-<p>◯広報秘書課長　3点ご質問いただきました。まず1点目です。トラブルがあったかどうかというところに関しましては、今のところ大きなトラブルというのは生じていない状況でございます。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=587s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="587"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 09:47 再生</a>　2点目、SNSのボタンの件につきましては、対応は可能かと思いますので、少しページを作成している担当課等と協議しながら、どういう対応ができるかというのを検討してみたいと思います。で、3点目ですね。ページのスクロールに関しましては、ページを作成する時にページの上部へというボタンを配置することが可能となっておりますので、各課が<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=618s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="618"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 10:18 再生</a>　ホームページのページを作成する際にですね、そういったボタンを配置するといったような対応が可能かと思いますので、そちら併せて検討していきたいと思います。以上です。</p>
-<p>◯ながとり 太郎　はい。よくわかりました。今のところトラブルがないということで安心しました。それからその他についても検討の余地があるということが今分かりましたので、是非とも今後とも使いやすいホームページにしていただくようにお願いいたします。以上です。</p>
-<p>◯委員長　他にございますか。藤川さん。</p>
-<p>◯藤川 賢治　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=660s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="660"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 11:00 再生</a></p>
-<p>はい。まずはページを見やすくしていただいたということで、これありがとうございます。特にですね、多言語化に対応しているということで、これに関しても色々な外国の方がいらっしゃいますので、大変ありがとうございます。</p>
-<p>マルチリンガルって書いてあるところを私も押して、プラス4か5ぐらいあるんだなと最初思ったんですけど、今、発言の中で100何十か国っておっしゃったんで、あれと思って、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=690s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="690"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 11:30 再生</a>　もう1回改めて押してみたら、View Allっていうのがあって、あ、そっか、ここに見えてる以上にもっとあるんだということが分かって。で、押してみるとたくさん出て、さらにそれがスクロールするということが分かったら、スクロールできるということが分かって。たくさん対応していただいてることは大変ありがたいんですけど、ちょっと実はものすごくたくさんの言語に対応してるということは、残念ながら分かりづらくなってるかなと<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=722s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="722"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 12:02 再生</a>　思いますので、今すぐ何か対応してくれというわけではないんですけども、どういうことを思いましたということを意見として述べさせていただきたいと思います。</p>
-<p>◯委員長　他にございますか。</p>
-<p>◯（呼ぶ声）　なし。</p>
-<p>◯委員長　以上で本件に対する質疑を終了することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯委員長　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=758s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="758"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 12:38 再生</a></p>
-<p>ご異議なしと認めます。従って本件に対する質疑を終了いたします。次に行政報告2、なかよし市民まつりの検討状況について行います。部局の説明を求めます。</p>
-<p>◯コミュニティ文化課長　市民部から市民まつりにかかる再構築に向けた検討状況を報告します。コミュニティ文化課では新しい市民まつりについて、令和7年度及び令和8年度の2か年度で市民協働支援センター再検討委員会を設置してセンター機能の見直しを行い、その一環として市民まつりの運営方法等についても整理を行うこととしています。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=791s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="791"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 13:11 再生</a>　市民協働支援センター検討委員会について、令和7年度開催予定の4回のうち第1回を令和8年1月16日に、第2回を1月30日に開催しました。市民協働支援センター検討委員会の主な内容として、平成24年に策定された小金井市民協働のあり方等検討委員会による答申「小金井市における市民協働及び（仮称）小金井市市民協働支援センターのあり方等について」をたたき台とし、第1回は市長との懇談、第2回は市の協働にかかるこれまでの取り組み状況等の情報<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=822s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="822"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 13:42 再生</a>　共有を行いました。今後としましては、再検討委員会を令和7年度中に2回、令和8年度中に4回開催し、協働の将来像の検討を進める予定となっています。報告は以上です。</p>
-<p>◯委員長　これから質疑を行います。なしということでよろしいですかね。はい。以上で本件に対する質疑を終了することにご異議ありませんか。</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=854s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="854"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 14:14 再生</a><br />
-◯（呼ぶ声）異議なし。</p>
-<p>◯委員長　ご異議なしと認めます。従って本件に対する質疑を終了いたします。大丈夫かな。次に行政報告3、小金井市産業振興プラン（素案）に対するパブリックコメントの実施について行います。部局の説明を求めます。</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=893s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="893"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 14:53 再生</a>　報告いたします。小金井市産業振興プランについては、将来にわたって活気が溢れ、楽しく豊かに暮らすことができるまちであり続けることを長期的な目的として、今後5年間における産業振興の目標と方向性を整理するために策定するものです。都心や繁華街にアクセスしやすいだけでなく、住んでいるところで楽しく豊かに暮らすことができる賑わいを、事業者、市民、行政などがそれぞれの立場から生み出すとともに、その賑わいづくりの持続可能性を担保するためにも、</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=924s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="924"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 15:24 再生</a>　稼ぐ事業者を増やし、地域産業基盤の形成にもアプローチすることで、生活者と事業者双方においてまちの活性化を図ることを目的として、令和8年度から令和12年度までを計画期間とした本プランを策定いたします。現行プランを踏襲し、6つの方針、「暮らしていて楽しい、訪れて楽しい魅力を生み出す」、「魅力を生み出す人を育み、増やす」、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=955s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="955"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 15:55 再生</a>　「魅力を生み出す人をつなげ、応援する人を増やす」、「住みたい、働きたい、訪れたいと思うような魅力を伝える」、「誰もが安心して出かけられる環境を作る」、「事業活動を継続していくための仕組みを作る」に基づき、本プランを推進していくものです。本素案について、令和8年1月26日月曜日から令和8年2月25日水曜日までの間、パブリックコメントを実施しているところであり、委員の皆様には事前に<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=985s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="985"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 16:25 再生</a>　本プランの素案を送付させていただいております。本プランは小金井市産業振興プラン策定委員会で検討を行っており、令和7年7月25日に第1回策定委員会を開催し、本日時点で5回開催されております。なお、本プラン素案の内容については、現在策定中の第5次小金井市基本構想・後期基本計画とも整合を図りながら策定しております。</p>
-<p>今後については、令和8年3月頃にパブリックコメントにおける検討結果に<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1015s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1015"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 16:55 再生</a>　ついて取りまとめ、公表したいと考えております。報告は以上でございます。</p>
-<p>はい。これから質疑を行います。ありませんか。よろしいですか。はい、以上で本件に対する質疑を終了することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯委員長　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1049s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1049"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 17:29 再生</a></p>
-<p>ご異議なしと認めます。従って本件に対する質疑を終了いたします。以上で行政報告を終了いたします。以上で本日の日程は全部終了いたしました。本日は以上で総務企画委員会を閉会いたします。</p>
-<p>お疲れ様でした。はい。で、じゃあこれから閉会後の協議会ということに入ってまいります。よろしいですか。このまま協議入って。</p>
-<p>◯（呼ぶ声）　はい。</p>
-<p>◯委員長　所管事項です。そうです。総務だね。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1083s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1083"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 18:03 再生</a>　あ、そうだ。関係ない部局の皆さん退席していただいて結構です。お疲れ様でした。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1125s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1125"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 18:45 再生</a>　はい。それでは総務企画委員会協議会を開会いたします。所管事項について行います。初めに、第5次小金井市基本構想・後期基本計画について天野委員の発言を許可します。天野さん。</p>
-<p>◯天野 かな　はい、ありがとうございます。こちら会派としてもコメント提出させていただきまして、それについての回答もいただいております。ご対応いただき誠にありがとうございました。<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1155s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1155"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 19:15 再生</a>　その中でも、少し全体的な点についてこの場で確認して、次回の計画策定につなげていただければと思い、質問を3点進めさせていただきます。まず調査の概要についての部分でございます。アンケートにつきましてです。</p>
-<p>回答数だけですと、年齢層で評価が変わる項目に対応ができない場合もあると考えます。回答者の年齢構成比と市民の年齢構成比を入れていただくようお願いしたいところ、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1188s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1188"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 19:48 再生</a>　お願いいたしますという点と、また重複した調査の実施にならないよう、かつ市民の皆さんがデータを有効に使いやすくなる状態が望ましいと考えますので、目的、調査対象、調査方式、有効回答数、データを一覧化し、リンクをつけて開示いただくことを期待しておりますが、市としての見解はいかがかご答弁をお願いいたします。続きまして2問目です。市民意向調査における丸4の市の取り組みに対する満足度と重要度につき<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1220s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1220"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 20:20 再生</a>　まして、満足度を指標とする場合、不満を訴える層への便宜が実態に反して拡大することが懸念されます。市の対応が偏ってしまってリソース配分が全体最適から外れてしまって、受益が偏ってしまうリスクもございます。投下される金額や受益している人数等と合わせて判断されるべきと考えております。</p>
-<p>丸4については表をこの形で可視化していく、次回も可視化していく<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1250s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1250"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 20:50 再生</a>　ということであれば、示唆や意図と合わせて市の理解も併記すべきと考えますが、市としての見解をお示しいただければと思います。続きまして行財政運営の計画的な行財政計画について、行財政運営に対する満足度の目標値30%と設定されていますが、その経緯及び妥当性についてご答弁をお願いできればと思います。</p>
-<p>◯企画政策課主査　<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1281s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1281"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 21:21 再生</a></p>
-<p>今3点ご質問いただきました。まず調査の概要ということでアンケートの関係の点でございます。議員のご指摘の点につきましては、審議会でも同様の趣旨のご意見をいただいていると認識してございます。</p>
-<p>いわゆるアンケートの回答を年齢ごとに出さないと、正しい分析ができないんではないかといったご意見等もございまして、私たちとしましては課題であると認識しているところでございます。今後、後期基本計画において施策評価というのを行っていきますが、<br />
-<a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1312s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1312"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 21:52 再生</a>　そういった施策評価の方法の見直し等を図っていく中で、こ</p>
-<p>このアンケート結果の取り扱いも含めて、検討してまいりたいと考えてございます。</p>
-<p>2点目、満足度の関係のご指摘をいただきました。こちらの満足度、重要度につきましては、結果に偏りが出てしまう可能性があるというご指摘につきましても、先ほどより細かく分析したり分かりやすく説明しないと、正しく評価や、場合によっては施策の検討ができないという点で、審議会からのご意見の趣旨と同様の</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1342s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1342"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 22:22 再生</a>　ニュアンスのものと考えてございまして、こちらにつきましても今後、後期基本計画における施策の方向の見直し等を図る中で、その問いも含め検討してまいりたいと考えてございます。</p>
-<p>3点目の目標値の30%の経緯というか妥当性といったようなご質問がございました。こちらの指標につきましては、前期基本計画からの継続性も踏まえて設定しているというところがございます。特にアンケートについては、継続的に見ていくという点で、継続することと</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1373s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1373"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 22:53 再生</a>　しています。</p>
-<p>この設定の仕方など、指標の内容等につきましては、第6次に向けて検討させていただきたいと思います。以上です。</p>
-<p>◯座長　水谷さん。</p>
-<p>◯水谷 たかこ　ご答弁ありがとうございます。1問目と2問目につきましては、こちら次回計画立案の際には何とぞご検討いただければと思っております。</p>
-<p>3問目につきましては、現状に即し目標数値を修正している事業もあるかと思いますが、この行財政運営に対する</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1404s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1404"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 23:24 再生</a>　満足度について、継続性を重視する必要性というところはどういったお考えなのか、お示しいただければと思います。</p>
-<p>◯企画政策課長　はい。目標の設定につきまして、施策の目指す姿を実現するための指標として数値設定をしまして、それに対して毎年政策評価も行っているため、いわゆる同じ物差しで見ていく必要があるという点から、継続性を重視しているところでございます。</p>
-<p>ただ、指標の中には、その時点の実績も踏まえまして、</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1436s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1436"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 23:56 再生</a>　その乖離が大きすぎれば、必要に応じて上方修正であったり下方修正を行うこともありまして、適切な対応に努めているところでございます。以上です。</p>
-<p>◯座長　水谷さん。</p>
-<p>◯水谷 たかこ　ご答弁ありがとうございます。そもそもの設定数値を30%とするのは、満足度を求める上での目標値設定として妥当なのかというところに疑問が残ります。</p>
-<p>統計調査等において物差しが変わると比較できないので、尺度や調査手法について継続</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1467s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1467"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 24:27 再生</a>　性を重視するというところは理解いたしますが、目標数値自体は、その物差しで測った時にどこまで行きたいか、どこまで行くべきかという話ですので、現実的である必要はあるかと思います。</p>
-<p>継続性よりも目的に合っているかどうか、それを目標にすることで事業や計画の妥当性が上がったり、適切にストレッチされるかといった点の方がはるかに重要と考えております。ですので、次回計画を立案する際は、目的に合っている</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1500s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1500"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 25:00 再生</a>　かと、設定を改めて踏まえつつご検討いただきまして、是非ともご対応いただけますようお願いできればと思います。こちら意見で終わります。</p>
-<p>◯座長　よろしいですね。以上で所管事項を終了いたします。</p>
-<p>以上で、総務企画委員会協議会を終了いたします。お疲れ様でした。事務局の皆さん、退出していただいて結構です。お疲れ様でした。</p>
-<p><a href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1550s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="1550"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 25:50 再生</a>　この後ですね、協議会事項の第1回定例会閉会中の委員会の開催日、決めていきたいんですが、スケジュール皆さんお持ちですか。お持ちでない方。職員さんが行ったね。そうだね。はい。</p>
-  </article>
+<div class="turn reveal">
+  <div class="meta"><span class="name">天野 かな</span></div>
+  <div class="say">すみません。所管事項で第5次小金井市基本構想・後期基本計画について質問させていただければと思います。</div>
+</div>
 
-  <div id="floating-player-container" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 350px; height: 197px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius: 8px; overflow: hidden; z-index: 1000; background: #000; border: 2px solid #cbd5e0;">
-    <div id="close-player-btn" style="position: absolute; top: -5px; right: 8px; color: white; cursor: pointer; z-index: 1001; font-weight: bold; font-size: 24px; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); line-height: 1;">&times;</div>
-    <div id="yt-player-wrapper" style="width: 100%; height: 100%;"></div>
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=186s" data-timestamp="186"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>03:06</a></div><div class="say">はい。他にございますか。所管事項は。じゃあ、天野委員の1件のみということでよろしいですかね。はい。で、協議事項の2、3、4については終了後の協議会で協議をしていただくということになっております。</div><div class="say">ということで、その他で何かありますか。大丈夫。じゃあこのまま始めていってよろしいですか。はい。では、開会をしてまいります。よろしくお願いします。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=220s" data-timestamp="220"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>03:40</a>　おはようございます。ただ今から総務企画委員会の会議を開きます。直ちに本日の議事に入ります。当委員会に付託されております案件は所管事務調査1件です。以上1件につきましては総務企画委員会審査予定表の通り行うことといたします。</div><div class="say">初めに所管事務調査、自治体DXの取り組みについてを議題といたします。部局から発言がありましたらこれを求めます。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">これから質疑を行います。ございませんか。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=257s" data-timestamp="257"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>04:17</a>　今日ね、午前中のみの審査ということになりますが、特にないということでよろしいですか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">はい。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">以上で本件に対する現時点での質疑を終了することにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">ご異議なしと認め、本件に対する現時点での質疑を終了いたします。お諮りいたします。本件は引き続き調査する必要があると認め、継続調査といたしたいと思います。これにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=287s" data-timestamp="287"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>04:47</a></div><div class="say">ご異議なしと認め、本件は継続調査と決定いたしました。次に行政報告を行います。初めに行政報告1、小金井市ホームページのリニューアルについて行います。部局の説明を求めます。について、令和8年1月28日にリニューアルを実施しましたので報告いたします。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=319s" data-timestamp="319"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>05:19</a>　今回のリニューアルにあたっては、市民にとって知りたい情報が探しやすく使いたくなるホームページを目指すことを念頭にこの間取り組んでいきましたが、リニューアルのポイントとして2点ご説明させていただきます。まずトップページの変更についてです。情報の見やすさ及び探しやすさの向上を図るため、トップページのデザイン及びレイアウトを変更し、下階層以降も統一的なデザインに変更するとともに、これまで「生活場面から探す」として設定していたカテゴリーを「目的から探す」に変更し、これまでの10区分から<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=349s" data-timestamp="349"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>05:49</a>　16区分に細分化いたしました。また、市民の方に特に見ていただきたい項目として、市民協働、パブリックコメント及びオープンデータのメニューボタンを新たにトップページに配置しています。次にアクセシビリティ対応についてです。</div><div class="say">言語対応をこれまでの3か国語から、131か国語に拡大<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=381s" data-timestamp="381"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>06:21</a>　するとともに、表示されている文章をやさしい日本語に自動変換するサービスを新たに導入して、文字フォントをユニバーサルフォントに変更しました。リニューアルを終えた後も、ホームページを見ていただく方々にとって情報が探しやすいホームページを目指し、階層や情報の整理に引き続き取り組んでいきます。報告は以上です。</div><div class="say">これから質疑を行います。ございませんか。〇〇さん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">不明</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=414s" data-timestamp="414"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>06:54</a></div><div class="say">はい。ホームページのリニューアルについてのご報告ありがとうございます。これ、過日の総務企画委員会で、私も経過について質問させていただきましたけれども、拝見いたしました。</div><div class="say">確かに以前に比べると新しく見やすくなっている部分はあるかと思いますけど、まだ最後まで見切っていない状態ですので、また何かありましたらその時はどうぞよろしくお願いします。以上です。別に質問ではないです。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">他にございますか。ながとりさん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">ながとり 太郎</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=449s" data-timestamp="449"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>07:29</a></div><div class="say">まだ事前にお伺いしていないので、お答えできなかったら構わないんですけれども、ホームページをリニューアルしたことによって、もう緊急に対処しなければならない、大きなトラブルとまではいかないですけど、何かあったら教えてください。なければ結構です。それから、先日の広報・広聴協議会で<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=481s" data-timestamp="481"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>08:01</a>　少し話題になったんですけれども、各ページにInstagram、LINE、それからFacebookのシェアボタンが付いているんですけれども、このシェアボタンが、一般的にこういうのをつけるということが分かるんですが、シェアボタンが少し分かりにくいんじゃないか。これがシェアボタンであるということが分かりにくいような気がするんです。特にですね、広報・広聴協議会で話題になったことは、議員の紹介ページに行くとですね、議員の写真の真上にそのシェアボタンが来る<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=514s" data-timestamp="514"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>08:34</a>　ということで、それを押すと議員の何かページに行くように見えました。ですので、このシェアボタンについて少し分かりにくいかなということがあります。これについて変更が可能かどうか、今すぐお答えいただかなくても結構なんですが、知りたいと思います。</div><div class="say">それからあと、各項目の、スマホなんかで見ると、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=548s" data-timestamp="548"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>09:08</a>　非常にコンテンツが上下するんですけど、その上下というのは、後からでも簡単にコントロールできるようなものなのかどうか。例えばここの一番下にあるこの項目を、トップページで上に持ってくるということが可能なのかどうか。もしお答えできなければ、次回でも結構です。</div><div class="say">以上です。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">広報秘書課長</span></div>
+  <div class="say">3点ご質問いただきました。まず1点目です。トラブルがあったかどうかというところに関しましては、今のところ大きなトラブルというのは生じていない状況でございます。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=587s" data-timestamp="587"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>09:47</a>　2点目、SNSのボタンの件につきましては、対応は可能かと思いますので、少しページを作成している担当課等と協議しながら、どういう対応ができるかというのを検討してみたいと思います。で、3点目ですね。ページのスクロールに関しましては、ページを作成する時にページの上部へというボタンを配置することが可能となっておりますので、各課が<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=618s" data-timestamp="618"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>10:18</a>　ホームページのページを作成する際にですね、そういったボタンを配置するといったような対応が可能かと思いますので、そちら併せて検討していきたいと思います。以上です。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">ながとり 太郎</span></div>
+  <div class="say">はい。よくわかりました。今のところトラブルがないということで安心しました。それからその他についても検討の余地があるということが今分かりましたので、是非とも今後とも使いやすいホームページにしていただくようにお願いいたします。以上です。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">他にございますか。藤川さん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">藤川 賢治</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=660s" data-timestamp="660"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>11:00</a></div><div class="say">はい。まずはページを見やすくしていただいたということで、これありがとうございます。特にですね、多言語化に対応しているということで、これに関しても色々な外国の方がいらっしゃいますので、大変ありがとうございます。</div><div class="say">マルチリンガルって書いてあるところを私も押して、プラス4か5ぐらいあるんだなと最初思ったんですけど、今、発言の中で100何十か国っておっしゃったんで、あれと思って、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=690s" data-timestamp="690"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>11:30</a>　もう1回改めて押してみたら、View Allっていうのがあって、あ、そっか、ここに見えてる以上にもっとあるんだということが分かって。で、押してみるとたくさん出て、さらにそれがスクロールするということが分かったら、スクロールできるということが分かって。たくさん対応していただいてることは大変ありがたいんですけど、ちょっと実はものすごくたくさんの言語に対応してるということは、残念ながら分かりづらくなってるかなと<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=722s" data-timestamp="722"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>12:02</a>　思いますので、今すぐ何か対応してくれというわけではないんですけども、どういうことを思いましたということを意見として述べさせていただきたいと思います。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">他にございますか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">以上で本件に対する質疑を終了することにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=758s" data-timestamp="758"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>12:38</a></div><div class="say">ご異議なしと認めます。従って本件に対する質疑を終了いたします。次に行政報告2、なかよし市民まつりの検討状況について行います。部局の説明を求めます。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">コミュニティ文化課長</span></div>
+  <div class="say">市民部から市民まつりにかかる再構築に向けた検討状況を報告します。コミュニティ文化課では新しい市民まつりについて、令和7年度及び令和8年度の2か年度で市民協働支援センター再検討委員会を設置してセンター機能の見直しを行い、その一環として市民まつりの運営方法等についても整理を行うこととしています。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=791s" data-timestamp="791"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>13:11</a>　市民協働支援センター検討委員会について、令和7年度開催予定の4回のうち第1回を令和8年1月16日に、第2回を1月30日に開催しました。市民協働支援センター検討委員会の主な内容として、平成24年に策定された小金井市民協働のあり方等検討委員会による答申「小金井市における市民協働及び（仮称）小金井市市民協働支援センターのあり方等について」をたたき台とし、第1回は市長との懇談、第2回は市の協働にかかるこれまでの取り組み状況等の情報<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=822s" data-timestamp="822"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>13:42</a>　共有を行いました。今後としましては、再検討委員会を令和7年度中に2回、令和8年度中に4回開催し、協働の将来像の検討を進める予定となっています。報告は以上です。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">これから質疑を行います。なしということでよろしいですかね。はい。以上で本件に対する質疑を終了することにご異議ありませんか。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=854s" data-timestamp="854"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>14:14</a></div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">ご異議なしと認めます。従って本件に対する質疑を終了いたします。大丈夫かな。次に行政報告3、小金井市産業振興プラン（素案）に対するパブリックコメントの実施について行います。部局の説明を求めます。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=893s" data-timestamp="893"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>14:53</a>　報告いたします。小金井市産業振興プランについては、将来にわたって活気が溢れ、楽しく豊かに暮らすことができるまちであり続けることを長期的な目的として、今後5年間における産業振興の目標と方向性を整理するために策定するものです。都心や繁華街にアクセスしやすいだけでなく、住んでいるところで楽しく豊かに暮らすことができる賑わいを、事業者、市民、行政などがそれぞれの立場から生み出すとともに、その賑わいづくりの持続可能性を担保するためにも、</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=924s" data-timestamp="924"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>15:24</a>　稼ぐ事業者を増やし、地域産業基盤の形成にもアプローチすることで、生活者と事業者双方においてまちの活性化を図ることを目的として、令和8年度から令和12年度までを計画期間とした本プランを策定いたします。現行プランを踏襲し、6つの方針、「暮らしていて楽しい、訪れて楽しい魅力を生み出す」、「魅力を生み出す人を育み、増やす」、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=955s" data-timestamp="955"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>15:55</a>　「魅力を生み出す人をつなげ、応援する人を増やす」、「住みたい、働きたい、訪れたいと思うような魅力を伝える」、「誰もが安心して出かけられる環境を作る」、「事業活動を継続していくための仕組みを作る」に基づき、本プランを推進していくものです。本素案について、令和8年1月26日月曜日から令和8年2月25日水曜日までの間、パブリックコメントを実施しているところであり、委員の皆様には事前に<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=985s" data-timestamp="985"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>16:25</a>　本プランの素案を送付させていただいております。本プランは小金井市産業振興プラン策定委員会で検討を行っており、令和7年7月25日に第1回策定委員会を開催し、本日時点で5回開催されております。なお、本プラン素案の内容については、現在策定中の第5次小金井市基本構想・後期基本計画とも整合を図りながら策定しております。</div><div class="say">今後については、令和8年3月頃にパブリックコメントにおける検討結果に<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1015s" data-timestamp="1015"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>16:55</a>　ついて取りまとめ、公表したいと考えております。報告は以上でございます。</div><div class="say">はい。これから質疑を行います。ありませんか。よろしいですか。はい、以上で本件に対する質疑を終了することにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1049s" data-timestamp="1049"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>17:29</a></div><div class="say">ご異議なしと認めます。従って本件に対する質疑を終了いたします。以上で行政報告を終了いたします。以上で本日の日程は全部終了いたしました。本日は以上で総務企画委員会を閉会いたします。</div><div class="say">お疲れ様でした。はい。で、じゃあこれから閉会後の協議会ということに入ってまいります。よろしいですか。このまま協議入って。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">はい。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">委員長</span></div>
+  <div class="say">所管事項です。そうです。総務だね。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1083s" data-timestamp="1083"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>18:03</a>　あ、そうだ。関係ない部局の皆さん退席していただいて結構です。お疲れ様でした。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1125s" data-timestamp="1125"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>18:45</a>　はい。それでは総務企画委員会協議会を開会いたします。所管事項について行います。初めに、第5次小金井市基本構想・後期基本計画について天野委員の発言を許可します。天野さん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">天野 かな</span></div>
+  <div class="say">はい、ありがとうございます。こちら会派としてもコメント提出させていただきまして、それについての回答もいただいております。ご対応いただき誠にありがとうございました。<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1155s" data-timestamp="1155"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>19:15</a>　その中でも、少し全体的な点についてこの場で確認して、次回の計画策定につなげていただければと思い、質問を3点進めさせていただきます。まず調査の概要についての部分でございます。アンケートにつきましてです。</div><div class="say">回答数だけですと、年齢層で評価が変わる項目に対応ができない場合もあると考えます。回答者の年齢構成比と市民の年齢構成比を入れていただくようお願いしたいところ、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1188s" data-timestamp="1188"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>19:48</a>　お願いいたしますという点と、また重複した調査の実施にならないよう、かつ市民の皆さんがデータを有効に使いやすくなる状態が望ましいと考えますので、目的、調査対象、調査方式、有効回答数、データを一覧化し、リンクをつけて開示いただくことを期待しておりますが、市としての見解はいかがかご答弁をお願いいたします。続きまして2問目です。市民意向調査における丸4の市の取り組みに対する満足度と重要度につき<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1220s" data-timestamp="1220"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>20:20</a>　まして、満足度を指標とする場合、不満を訴える層への便宜が実態に反して拡大することが懸念されます。市の対応が偏ってしまってリソース配分が全体最適から外れてしまって、受益が偏ってしまうリスクもございます。投下される金額や受益している人数等と合わせて判断されるべきと考えております。</div><div class="say">丸4については表をこの形で可視化していく、次回も可視化していく<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1250s" data-timestamp="1250"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>20:50</a>　ということであれば、示唆や意図と合わせて市の理解も併記すべきと考えますが、市としての見解をお示しいただければと思います。続きまして行財政運営の計画的な行財政計画について、行財政運営に対する満足度の目標値30%と設定されていますが、その経緯及び妥当性についてご答弁をお願いできればと思います。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">企画政策課主査</span></div>
+  <div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1281s" data-timestamp="1281"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>21:21</a></div><div class="say">今3点ご質問いただきました。まず調査の概要ということでアンケートの関係の点でございます。議員のご指摘の点につきましては、審議会でも同様の趣旨のご意見をいただいていると認識してございます。</div><div class="say">いわゆるアンケートの回答を年齢ごとに出さないと、正しい分析ができないんではないかといったご意見等もございまして、私たちとしましては課題であると認識しているところでございます。今後、後期基本計画において施策評価というのを行っていきますが、<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1312s" data-timestamp="1312"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>21:52</a>　そういった施策評価の方法の見直し等を図っていく中で、こ</div><div class="say">このアンケート結果の取り扱いも含めて、検討してまいりたいと考えてございます。</div><div class="say">2点目、満足度の関係のご指摘をいただきました。こちらの満足度、重要度につきましては、結果に偏りが出てしまう可能性があるというご指摘につきましても、先ほどより細かく分析したり分かりやすく説明しないと、正しく評価や、場合によっては施策の検討ができないという点で、審議会からのご意見の趣旨と同様の</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1342s" data-timestamp="1342"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>22:22</a>　ニュアンスのものと考えてございまして、こちらにつきましても今後、後期基本計画における施策の方向の見直し等を図る中で、その問いも含め検討してまいりたいと考えてございます。</div><div class="say">3点目の目標値の30%の経緯というか妥当性といったようなご質問がございました。こちらの指標につきましては、前期基本計画からの継続性も踏まえて設定しているというところがございます。特にアンケートについては、継続的に見ていくという点で、継続することと</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1373s" data-timestamp="1373"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>22:53</a>　しています。</div><div class="say">この設定の仕方など、指標の内容等につきましては、第6次に向けて検討させていただきたいと思います。以上です。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">座長</span></div>
+  <div class="say">水谷さん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">水谷 たかこ</span></div>
+  <div class="say">ご答弁ありがとうございます。1問目と2問目につきましては、こちら次回計画立案の際には何とぞご検討いただければと思っております。</div><div class="say">3問目につきましては、現状に即し目標数値を修正している事業もあるかと思いますが、この行財政運営に対する</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1404s" data-timestamp="1404"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>23:24</a>　満足度について、継続性を重視する必要性というところはどういったお考えなのか、お示しいただければと思います。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">企画政策課長</span></div>
+  <div class="say">はい。目標の設定につきまして、施策の目指す姿を実現するための指標として数値設定をしまして、それに対して毎年政策評価も行っているため、いわゆる同じ物差しで見ていく必要があるという点から、継続性を重視しているところでございます。</div><div class="say">ただ、指標の中には、その時点の実績も踏まえまして、</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1436s" data-timestamp="1436"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>23:56</a>　その乖離が大きすぎれば、必要に応じて上方修正であったり下方修正を行うこともありまして、適切な対応に努めているところでございます。以上です。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">座長</span></div>
+  <div class="say">水谷さん。</div>
+</div>
+
+<div class="turn reveal">
+  <div class="meta"><span class="name">水谷 たかこ</span></div>
+  <div class="say">ご答弁ありがとうございます。そもそもの設定数値を30%とするのは、満足度を求める上での目標値設定として妥当なのかというところに疑問が残ります。</div><div class="say">統計調査等において物差しが変わると比較できないので、尺度や調査手法について継続</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1467s" data-timestamp="1467"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>24:27</a>　性を重視するというところは理解いたしますが、目標数値自体は、その物差しで測った時にどこまで行きたいか、どこまで行くべきかという話ですので、現実的である必要はあるかと思います。</div><div class="say">継続性よりも目的に合っているかどうか、それを目標にすることで事業や計画の妥当性が上がったり、適切にストレッチされるかといった点の方がはるかに重要と考えております。ですので、次回計画を立案する際は、目的に合っている</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1500s" data-timestamp="1500"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>25:00</a>　かと、設定を改めて踏まえつつご検討いただきまして、是非ともご対応いただけますようお願いできればと思います。こちら意見で終わります。</div>
+</div>
+
+<div class="turn chair reveal">
+  <div class="meta"><span class="name">座長</span></div>
+  <div class="say">よろしいですね。以上で所管事項を終了いたします。</div><div class="say">以上で、総務企画委員会協議会を終了いたします。お疲れ様でした。事務局の皆さん、退出していただいて結構です。お疲れ様でした。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=LBXeOjT69Hk&t=1550s" data-timestamp="1550"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>25:50</a>　この後ですね、協議会事項の第1回定例会閉会中の委員会の開催日、決めていきたいんですが、スケジュール皆さんお持ちですか。お持ちでない方。職員さんが行ったね。そうだね。はい。</div>
+</div>
+
+</div>
+
+  <div id="floating-player-container" style="display:none; position:fixed; bottom:20px; right:20px; width:350px; height:197px; box-shadow:0 4px 10px rgba(0,0,0,0.3); border-radius:8px; overflow:hidden; z-index:1000; background:#000; border:2px solid #cbd5e0;">
+    <div id="close-player-btn" style="position:absolute; top:-5px; right:8px; color:white; cursor:pointer; z-index:1001; font-weight:bold; font-size:24px; text-shadow:1px 1px 3px rgba(0,0,0,0.8); line-height:1;">&times;</div>
+    <div id="yt-player-wrapper" style="width:100%; height:100%;"></div>
   </div>
   <script>
-    var container = document.getElementById("floating-player-container");
-    var closeBtn = document.getElementById("close-player-btn");
-    var wrapper = document.getElementById("yt-player-wrapper");
-    
-    closeBtn.addEventListener("click", function() {
-        container.style.display = "none";
-        wrapper.innerHTML = "";
+    var container=document.getElementById("floating-player-container");
+    var closeBtn=document.getElementById("close-player-btn");
+    var wrapper=document.getElementById("yt-player-wrapper");
+    closeBtn.addEventListener("click",function(){container.style.display="none";wrapper.innerHTML="";});
+    document.querySelectorAll(".yt-btn").forEach(function(link){
+      link.addEventListener("click",function(e){
+        e.preventDefault();
+        var href=this.getAttribute("href");
+        var mv=href.match(/v=([a-zA-Z0-9_-]+)/), mt=href.match(/t=(\d+)s?/);
+        if(mv){var vid=mv[1],t=mt?parseInt(mt[1],10):0;
+          container.style.display="block";
+          wrapper.innerHTML='<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/'+vid+'?start='+t+'&autoplay=1&playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';}
+      });
     });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        var links = document.querySelectorAll(".yt-btn");
-        links.forEach(function(link) {
-            link.addEventListener("click", function(e) {
-                e.preventDefault();
-                var href = this.getAttribute("href");
-                var matchVid = href.match(/v=([a-zA-Z0-9_-]+)/);
-                var matchTime = href.match(/t=(\d+)s?/);
-                
-                if (matchVid) {
-                    var vid = matchVid[1];
-                    var time = matchTime ? parseInt(matchTime[1], 10) : 0;
-                    
-                    container.style.display = "block";
-                    var iframeHtml = '<iframe width="100%" height="100%" ' +
-                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1" ' +
-                        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
-                        'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-                    wrapper.innerHTML = iframeHtml;
-                }
-            });
-        });
-    });
+    var els=[].slice.call(document.querySelectorAll('.reveal'));
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+      els.forEach(function(e){io.observe(e);});
+    } else { els.forEach(function(e){e.classList.add('in');}); }
+    var prog=document.getElementById('prog');
+    addEventListener('scroll',function(){var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight||1);prog.style.width=(p*100)+'%';},{passive:true});
   </script>
+
 </body>
 </html>

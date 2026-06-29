@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>R8.6.2_予算特別委員会</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      background-color: #f7f9fc;
-    }
-    .markdown-body {
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.5em;
-      margin-bottom: 0.5em;
-      color: #2c3e50;
-    }
-    ul, ol {
-      padding-left: 20px;
-    }
-    code {
-      background-color: #f0f3f5;
-      padding: 2px 4px;
-      border-radius: 4px;
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    }
-    pre {
-      background-color: #f0f3f5;
-      padding: 15px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    blockquote {
-      border-left: 4px solid #3498db;
-      padding-left: 15px;
-      color: #7f8c8d;
-      margin-left: 0;
-    }
-    @media (max-width: 768px) {
-      body { padding: 15px; }
-      .markdown-body { padding: 20px; }
-    }
-    .yt-btn:hover {
-      opacity: 0.8;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    @media (max-width: 480px) {
-      #floating-player-container {
-        bottom: 0 !important;
-        right: 0 !important;
-        width: 100% !important;
-        border-radius: 0 !important;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>令和8年6月2日 予算特別委員会</title>
+<style>
+  :root{
+    --paper:#ffffff; --ink:#17150f; --navy:#1d3a63; --pop:#e8482a;
+    --muted:#6f6d68; --line:#e6e6e2;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--serif);
+       line-height:1.4; -webkit-font-smoothing:antialiased;}
+  .prog{position:fixed; top:0; left:0; height:3px; width:0; background:var(--pop); z-index:50;}
+  .wrap{max-width:780px; margin:0 auto; padding:0 24px 72px;}
+
+  .top{display:flex; align-items:center; gap:9px; font-family:var(--sans); font-size:12px;
+       letter-spacing:.14em; color:var(--muted); padding:22px 0 10px;}
+  .top .sq{width:9px;height:9px;background:var(--pop);}
+  .top a{color:var(--muted); text-decoration:none;}
+  .top a:hover{color:var(--pop);}
+
+  .hero{padding:16px 0 24px;}
+  .hero .date{font-family:var(--sans); font-weight:500; font-size:17px; letter-spacing:.1em; color:var(--muted); margin:0 0 10px;}
+  .hero h1{font-family:var(--sans); font-weight:900; font-size:clamp(24px,4vw,34px); line-height:1.2;
+           letter-spacing:.01em; margin:0; color:var(--ink);}
+  .hero .src{font-family:var(--sans); font-size:14px; color:var(--muted); margin-top:10px;
+             display:inline-block;}
+
+  /* 要約 */
+  .sum{padding:22px 26px; background:#f5f7fa; border:1px solid var(--line); margin-bottom:28px;}
+  .sum .lab{font-family:var(--sans); font-weight:700; font-size:12px; letter-spacing:.2em; color:var(--pop); margin:0 0 16px;}
+  .sum h3{font-family:var(--sans); font-weight:700; font-size:16px; margin:20px 0 8px; color:var(--navy);}
+  .sum h3:first-of-type{margin-top:0;}
+  .sum h4{font-family:var(--sans); font-weight:700; font-size:14.5px; margin:16px 0 6px; color:var(--ink); line-height:1.4;}
+  .sum ul{font-size:14.5px; line-height:1.35; color:var(--ink); margin:0 0 10px; padding-left:1.3em;}
+  .sum li{margin:1px 0;}
+  .sum p{font-size:14.5px; margin:0 0 10px;}
+  .sum strong{color:var(--navy); font-weight:700;}
+
+  /* 原典動画 */
+  .media{margin-bottom:28px;}
+  .media .lab{font-family:var(--sans); font-weight:700; font-size:12px; letter-spacing:.2em; color:var(--pop); margin:0 0 14px;}
+  .media .frame{position:relative; aspect-ratio:16/9; background:#000; border:1px solid var(--line);}
+  .media .frame+.frame{margin-top:12px;}
+  .media .frame iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+  .media .cap{font-family:var(--sans); font-size:12.5px; color:var(--muted); margin:10px 0 0;}
+
+  /* 本文 */
+  .turn{padding:10px 0; border-top:1px solid var(--line);}
+  .turn:first-of-type{border-top:none;}
+  .meta{display:flex; align-items:baseline; gap:16px; margin-bottom:7px;}
+  .meta .name{font-family:var(--sans); font-weight:700; font-size:16px; color:var(--navy); letter-spacing:.02em;}
+  .turn.chair .meta .name{font-weight:500; font-size:15px; color:var(--muted);}
+  .turn.voice .meta .name{font-weight:500; font-size:13px; color:var(--muted);}
+  .turn.voice .say{color:var(--muted); font-size:14px;}
+  .say{font-size:16px; line-height:1.4; letter-spacing:.01em;}
+  .say+.say{margin-top:8px;}
+
+  /* インライン動画チップ */
+  .ts{display:inline-flex; align-items:center; gap:3px; vertical-align:baseline;
+      font-family:var(--sans); font-weight:700; font-size:11px; letter-spacing:.03em;
+      color:var(--pop); text-decoration:none; margin:0 5px; white-space:nowrap; cursor:pointer;}
+  .ts svg{width:10px; height:10px;}
+  .ts:hover{text-decoration:underline;}
+
+  /* スクロール出現 */
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:none;}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+  @media(max-width:680px){
+    .hero{padding:14px 0 22px;} .sum{padding:18px;}
+    .turn{padding:12px 0;} .say{font-size:15.5px;}
+  }
+</style>
 </head>
 <body>
-  <header>
-    <div style="margin-bottom:10px;">
-        <a href="index.html" style="display:inline-block; color:#fff; text-decoration:none; background:#3498db; padding:5px 15px; border-radius:4px;">← 一覧に戻る</a>
-    </div>
-    <h1 style="margin-bottom: 5px;">R8.6.2_予算特別委員会</h1>
-    <p style="color: #7f8c8d; margin-top: 0; margin-bottom: 30px;">AIによる文字起こし・自動校正データ</p>
+<div class="prog" id="prog"></div>
+<div class="wrap">
+
+  <div class="top"><span class="sq"></span>小金井市議会 非公式会議録</div>
+
+  <header class="hero reveal">
+    <p class="date">令和8年6月2日</p>
+    <h1>予算特別委員会</h1>
+    <span class="src">YouTube字幕＋AI校正による記録（非公式）</span>
   </header>
-  
-  
-  <details style="background: #edf2f7; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #cbd5e0; cursor: pointer; outline: none;">
-    <summary style="font-weight: bold; color: #2b6cb0; font-size: 1.2em; display: flex; align-items: center;">
-      <span style="margin-right: 8px;">💡</span>AIが作成した要約をチェックする（クリックで開閉）
-    </summary>
-    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #a0aec0; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
+
+  <section class="sum reveal">
+    <p class="lab">A I 要 約</p>
+    <div>
       <p>ご提示いただいた会議録は、予算特別委員会における役員選出の様子を記録したものであり、「議案の質疑」や「一般質問」には該当いたしません。本会議録は委員会運営のための「役員選出」に関する議題で構成されています。</p>
 <h3>予算特別委員会 役員選出の要約</h3>
 <ul>
@@ -94,104 +108,116 @@
 </ul>
     </div>
   </details>
+  </section>
 
-  
-  <details style="background: #fff5f5; padding: 15px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #feb2b2; cursor: pointer; outline: none;">
-    <summary style="font-weight: bold; color: #c53030; font-size: 1.2em; display: flex; align-items: center;">
-      <span style="margin-right: 8px;">▶️</span>この議事録の原典動画を見る（1本）
-    </summary>
-    <div style="margin-top: 15px; padding-top: 20px; border-top: 1px dashed #fc8181; cursor: default; background: #ffffff; padding: 20px; border-radius: 6px;">
-      <p style="color: #718096; font-size: 0.9em; margin-bottom: 20px;">動画を再生しながら議事録を読むことができます。</p>
-      
-    <div style="margin-bottom: 20px;">
-        <h4 style="margin-top: 0; margin-bottom: 10px; color: #4a5568;">📺 動画 1</h4>
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" src="https://www.youtube.com/embed/RJ2wog43Yvc" allowfullscreen></iframe>
-        </div>
-    </div>
+  <section class="media reveal">
+    <p class="lab">原 典 動 画</p>
+    <div class="frame"><iframe src="https://www.youtube.com/embed/RJ2wog43Yvc" allowfullscreen loading="lazy"></iframe></div>
+    <p class="cap">動画を再生しながら会議録を読めます（YouTube・1本）</p>
+  </section>
 
-    </div>
-  </details>
+<div class="turn reveal">
+  <div class="meta"><span class="name">—</span></div>
+  <div class="say">◯（臨時議長）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=14s" data-timestamp="14"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>00:14</a>　ただいまから予算特別委員会の会議を開きます。本日は年長の私が、委員長が選出されるまでの間、委員長の職務を行います。</div><div class="say">直ちに議題に入ります。議題は当委員会の委員長の選出についてであります。選出の方法についてはいかがいたしましょうか。どなたか選出方法についてご意見がありますでしょうか。</div><div class="say">◯（発言者）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=46s" data-timestamp="46"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>00:46</a>　指名推薦でお願いいたします。</div>
+</div>
 
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（臨時議長）</span></div>
+  <div class="say">ただいま指名推薦による選出方法についてのご意見がありましたが、指名推薦による決定にすることにご異議ありませんか。</div>
+</div>
 
-  <article class="markdown-body">
-    <h1>R8.6.2_予算特別委員会</h1>
-<p>◯（臨時議長）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=14s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="14"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 00:14 再生</a>　ただいまから予算特別委員会の会議を開きます。本日は年長の私が、委員長が選出されるまでの間、委員長の職務を行います。</p>
-<p>直ちに議題に入ります。議題は当委員会の委員長の選出についてであります。選出の方法についてはいかがいたしましょうか。どなたか選出方法についてご意見がありますでしょうか。</p>
-<p>◯（発言者）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=46s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="46"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 00:46 再生</a>　指名推薦でお願いいたします。</p>
-<p>◯（臨時議長）　ただいま指名推薦による選出方法についてのご意見がありましたが、指名推薦による決定にすることにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯（臨時議長）　ご異議なしと認め、ただいま申し上げました通り決定いたします。どなたかご推薦いただけますでしょうか。</p>
-<p>◯（発言者）　はい。片山委員。</p>
-<p>◯（片山かおる委員）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=78s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="78"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 01:18 再生</a>　おそらくですね、この議員生活の中で今回初めてだということをお聞きしました。30数年以上のですね、議員生活の中で初めてということで、予算特別委員会の委員長として、あの、お願いしたいと思っております。森戸よう子議員に、是非とも委員長をお願いしたいと思っております。</p>
-<p>どうぞよろしくお願いします。</p>
-<p>ただ、あの、この予算ですね、生活保護の非常に重要な議案なども入っておりますので、ま、その時は是非ですね、ご質問も何かしらの形で交代して行うとかですね、是非、慎重な審議をお願いというか、慎重な質問というか、是非とも質問もしっかりとした形でできればいいかなというふうに考えております。よろしくお願いいたします。</p>
-<p>◯（臨時議長）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=110s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="110"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 01:50 再生</a>　ただいま森戸よう子委員を委員長にとご推薦がございました。お諮りいたします。森戸よう子委員を委員長に選出することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯（臨時議長）　ご異議なしと認めます。したがって、ただいまお示ししました通り選出することを決定いたしました。ただいま選出されました森戸よう子委員のご挨拶をお願いいたします。</p>
-<p>◯（森戸よう子委員）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=145s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="145"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 02:25 再生</a>　はい。先ほど皆様の、あの、委員長に推薦また選任していただきましてありがとうございます。先ほどもありましたように、36年の経験の中で初めての予算特別委員長でございます。</p>
-<p>不慣れではございますが、是非とも、皆様のご協力をいただきまして、議会の権能が十分に発揮できる予算特別委員会として頑張っていきたいと思いますので、どうぞ皆様のご協力よろしくお願いいたします。ありがとうございました。</p>
-<p>これで私の職務は終了いたしました。委員長と交代するため、しばらく休憩いたします。</p>
-<p>◯（委員長）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=221s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="221"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 03:41 再生</a>　はい、ありがとうございます。再開いたします。</p>
-<p>これから副委員長の選出を行います。選出の方法についてはいかがいたしましょうか。どなたか選出方法についてご意見ありませんか。</p>
-<p>◯（水上洋志委員）　指名推薦でお願いします。</p>
-<p>◯（委員長）　ただいま選出方法について指名推薦による、とのご意見がありますが、指名推薦により決定することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=252s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="252"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 04:12 再生</a>　なし。</p>
-<p>◯（委員長）　ご異議なしと認め、ただいま申し上げました通り決定をいたします。どなたかご推薦いただけますか。</p>
-<p>◯（水上洋志委員）　新人議員でありながら、市民要求に基づき、論旨明快に、堂々と質疑されてる姿はとても新人議員とは思えない活躍をされております。吉良のりこ議員を副委員長に推薦したいと思います。</p>
-<p>何分、委員長が予算特別委員長初めてということで、新人でありますので、ぜひ支えていただいて、円滑な議事進行に努めていただきたいと思います。よろしくお願いします。</p>
-<p>◯（委員長）<br />
-<a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=297s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="297"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 04:57 再生</a>　ただいま吉良のりこ委員を副委員長にと推薦がございました。お諮りいたします。吉良のりこ委員を副委員長に選出することにご異議ありませんか。</p>
-<p>◯（呼ぶ声）　異議なし。</p>
-<p>◯（委員長）　ご異議なしと認めます。したがって、ただいま指名しました通り選出することに決定をいたしました。ただいま副委員長に選出された吉良のりこ委員のご挨拶をお願いいたします。ご指名いただきましてありがとうございます。</p>
-<p><a href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=332s" target="_blank" style="display: inline-flex; align-items: center; background-color: #fceeee; color: #a53d31; padding: 2px 10px; border-radius: 20px; text-decoration: none; font-size: 0.85em; font-weight: bold; border: 2px solid #edc2c2; margin-left: 10px; transition: all 0.2s; vertical-align: middle; line-height: 1.2;" class="yt-btn" data-timestamp="332"><svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom; margin-right: 4px; margin-bottom: 2px;"><rect width="24" height="24" rx="4" fill="#7193f5"/><polygon points="9,6 18,12 9,18" fill="#fff"/></svg>動画 05:32 再生</a>　議員になってまだ2年目で、本当に不慣れなところ多いと思いますけれども、精一杯全力で委員長を支えていきたいと思います。委員会の皆さんにはご協力をお願い申し上げます。よろしくお願いいたします。</p>
-<p>他に皆さんの方でございませんね。それでは以上で予算特別委員会の会議を終了いたします。お疲れ様でした。</p>
-  </article>
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
 
-  <div id="floating-player-container" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 350px; height: 197px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius: 8px; overflow: hidden; z-index: 1000; background: #000; border: 2px solid #cbd5e0;">
-    <div id="close-player-btn" style="position: absolute; top: -5px; right: 8px; color: white; cursor: pointer; z-index: 1001; font-weight: bold; font-size: 24px; text-shadow: 1px 1px 3px rgba(0,0,0,0.8); line-height: 1;">&times;</div>
-    <div id="yt-player-wrapper" style="width: 100%; height: 100%;"></div>
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（臨時議長）</span></div>
+  <div class="say">ご異議なしと認め、ただいま申し上げました通り決定いたします。どなたかご推薦いただけますでしょうか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（発言者）</span></div>
+  <div class="say">はい。片山委員。</div><div class="say">◯（片山かおる委員）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=78s" data-timestamp="78"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>01:18</a>　おそらくですね、この議員生活の中で今回初めてだということをお聞きしました。30数年以上のですね、議員生活の中で初めてということで、予算特別委員会の委員長として、あの、お願いしたいと思っております。森戸よう子議員に、是非とも委員長をお願いしたいと思っております。</div><div class="say">どうぞよろしくお願いします。</div><div class="say">ただ、あの、この予算ですね、生活保護の非常に重要な議案なども入っておりますので、ま、その時は是非ですね、ご質問も何かしらの形で交代して行うとかですね、是非、慎重な審議をお願いというか、慎重な質問というか、是非とも質問もしっかりとした形でできればいいかなというふうに考えております。よろしくお願いいたします。</div><div class="say">◯（臨時議長）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=110s" data-timestamp="110"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>01:50</a>　ただいま森戸よう子委員を委員長にとご推薦がございました。お諮りいたします。森戸よう子委員を委員長に選出することにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（臨時議長）</span></div>
+  <div class="say">ご異議なしと認めます。したがって、ただいまお示ししました通り選出することを決定いたしました。ただいま選出されました森戸よう子委員のご挨拶をお願いいたします。</div><div class="say">◯（森戸よう子委員）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=145s" data-timestamp="145"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>02:25</a>　はい。先ほど皆様の、あの、委員長に推薦また選任していただきましてありがとうございます。先ほどもありましたように、36年の経験の中で初めての予算特別委員長でございます。</div><div class="say">不慣れではございますが、是非とも、皆様のご協力をいただきまして、議会の権能が十分に発揮できる予算特別委員会として頑張っていきたいと思いますので、どうぞ皆様のご協力よろしくお願いいたします。ありがとうございました。</div><div class="say">これで私の職務は終了いたしました。委員長と交代するため、しばらく休憩いたします。</div><div class="say">◯（委員長）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=221s" data-timestamp="221"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>03:41</a>　はい、ありがとうございます。再開いたします。</div><div class="say">これから副委員長の選出を行います。選出の方法についてはいかがいたしましょうか。どなたか選出方法についてご意見ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（水上洋志委員）</span></div>
+  <div class="say">指名推薦でお願いします。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（委員長）</span></div>
+  <div class="say">ただいま選出方法について指名推薦による、とのご意見がありますが、指名推薦により決定することにご異議ありませんか。</div><div class="say">◯（呼ぶ声）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=252s" data-timestamp="252"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>04:12</a>　なし。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（委員長）</span></div>
+  <div class="say">ご異議なしと認め、ただいま申し上げました通り決定をいたします。どなたかご推薦いただけますか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（水上洋志委員）</span></div>
+  <div class="say">新人議員でありながら、市民要求に基づき、論旨明快に、堂々と質疑されてる姿はとても新人議員とは思えない活躍をされております。吉良のりこ議員を副委員長に推薦したいと思います。</div><div class="say">何分、委員長が予算特別委員長初めてということで、新人でありますので、ぜひ支えていただいて、円滑な議事進行に努めていただきたいと思います。よろしくお願いします。</div><div class="say">◯（委員長）<br />
+<a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=297s" data-timestamp="297"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>04:57</a>　ただいま吉良のりこ委員を副委員長にと推薦がございました。お諮りいたします。吉良のりこ委員を副委員長に選出することにご異議ありませんか。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（呼ぶ声）</span></div>
+  <div class="say">異議なし。</div>
+</div>
+
+<div class="turn voice reveal">
+  <div class="meta"><span class="name">（委員長）</span></div>
+  <div class="say">ご異議なしと認めます。したがって、ただいま指名しました通り選出することに決定をいたしました。ただいま副委員長に選出された吉良のりこ委員のご挨拶をお願いいたします。ご指名いただきましてありがとうございます。</div><div class="say"><a class="ts yt-btn" href="https://www.youtube.com/watch?v=RJ2wog43Yvc&t=332s" data-timestamp="332"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>05:32</a>　議員になってまだ2年目で、本当に不慣れなところ多いと思いますけれども、精一杯全力で委員長を支えていきたいと思います。委員会の皆さんにはご協力をお願い申し上げます。よろしくお願いいたします。</div><div class="say">他に皆さんの方でございませんね。それでは以上で予算特別委員会の会議を終了いたします。お疲れ様でした。</div>
+</div>
+
+</div>
+
+  <div id="floating-player-container" style="display:none; position:fixed; bottom:20px; right:20px; width:350px; height:197px; box-shadow:0 4px 10px rgba(0,0,0,0.3); border-radius:8px; overflow:hidden; z-index:1000; background:#000; border:2px solid #cbd5e0;">
+    <div id="close-player-btn" style="position:absolute; top:-5px; right:8px; color:white; cursor:pointer; z-index:1001; font-weight:bold; font-size:24px; text-shadow:1px 1px 3px rgba(0,0,0,0.8); line-height:1;">&times;</div>
+    <div id="yt-player-wrapper" style="width:100%; height:100%;"></div>
   </div>
   <script>
-    var container = document.getElementById("floating-player-container");
-    var closeBtn = document.getElementById("close-player-btn");
-    var wrapper = document.getElementById("yt-player-wrapper");
-    
-    closeBtn.addEventListener("click", function() {
-        container.style.display = "none";
-        wrapper.innerHTML = "";
+    var container=document.getElementById("floating-player-container");
+    var closeBtn=document.getElementById("close-player-btn");
+    var wrapper=document.getElementById("yt-player-wrapper");
+    closeBtn.addEventListener("click",function(){container.style.display="none";wrapper.innerHTML="";});
+    document.querySelectorAll(".yt-btn").forEach(function(link){
+      link.addEventListener("click",function(e){
+        e.preventDefault();
+        var href=this.getAttribute("href");
+        var mv=href.match(/v=([a-zA-Z0-9_-]+)/), mt=href.match(/t=(\d+)s?/);
+        if(mv){var vid=mv[1],t=mt?parseInt(mt[1],10):0;
+          container.style.display="block";
+          wrapper.innerHTML='<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/'+vid+'?start='+t+'&autoplay=1&playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';}
+      });
     });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        var links = document.querySelectorAll(".yt-btn");
-        links.forEach(function(link) {
-            link.addEventListener("click", function(e) {
-                e.preventDefault();
-                var href = this.getAttribute("href");
-                var matchVid = href.match(/v=([a-zA-Z0-9_-]+)/);
-                var matchTime = href.match(/t=(\d+)s?/);
-                
-                if (matchVid) {
-                    var vid = matchVid[1];
-                    var time = matchTime ? parseInt(matchTime[1], 10) : 0;
-                    
-                    container.style.display = "block";
-                    var iframeHtml = '<iframe width="100%" height="100%" ' +
-                        'src="https://www.youtube-nocookie.com/embed/' + vid + '?start=' + time + '&autoplay=1&playsinline=1" ' +
-                        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
-                        'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-                    wrapper.innerHTML = iframeHtml;
-                }
-            });
-        });
-    });
+    var els=[].slice.call(document.querySelectorAll('.reveal'));
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+      els.forEach(function(e){io.observe(e);});
+    } else { els.forEach(function(e){e.classList.add('in');}); }
+    var prog=document.getElementById('prog');
+    addEventListener('scroll',function(){var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight||1);prog.style.width=(p*100)+'%';},{passive:true});
   </script>
+
 </body>
 </html>
