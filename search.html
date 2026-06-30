@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全文検索 — 小金井市議会 非公式会議録</title>
+<meta name="description" content="小金井市議会の本会議・委員会の会議録を、発言内容・発言者・議案番号で横断検索できます（非公式）。">
+<style>
+:root{
+  --navy:#15315a; --navy-soft:#e9eef5; --pop:#e8482a;
+  --bg:#f2f2f2; --surface:#fff; --ink:#1a1a1a; --text:#333; --muted:#666;
+  --line:#e6e6e6; --border:#ccc; --radius:8px;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.6;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans JP","Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;}
+.topbar{height:6px;background:var(--navy);}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px 64px;}
+header.h{padding:26px 0 8px;}
+header.h .kicker{font-size:.72rem;letter-spacing:.2em;color:var(--navy);font-weight:700;margin:0 0 6px;}
+header.h h1{font-size:1.5rem;font-weight:900;color:var(--navy);margin:0;}
+header.h p.tag{margin:8px 0 0;color:var(--muted);font-size:.82rem;}
+header.h a.back{display:inline-block;margin-top:10px;color:var(--navy);font-weight:700;font-size:.82rem;text-decoration:none;}
+header.h a.back:hover{text-decoration:underline;}
+
+.searchbox{position:sticky;top:0;background:var(--bg);padding:14px 0 8px;z-index:5;}
+.searchbox .ip{position:relative;}
+.searchbox svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:#767676;}
+.searchbox input{width:100%;padding:14px 16px 14px 42px;font-size:1rem;font-family:inherit;color:var(--ink);
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);outline:none;}
+.searchbox input:focus{border-color:var(--navy);box-shadow:0 0 0 3px var(--navy-soft);}
+.hint{margin:8px 2px 0;color:var(--muted);font-size:.74rem;}
+
+.facets{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px;}
+.facet{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--border);color:var(--text);
+  font-family:inherit;font-size:.76rem;font-weight:500;padding:5px 11px;border-radius:999px;cursor:pointer;transition:.12s;}
+.facet:hover{background:#e9e9e9;}
+.facet.is-active{background:var(--navy-soft);color:var(--navy);border-color:var(--navy);font-weight:700;}
+
+.status{margin:14px 2px 6px;color:var(--muted);font-size:.82rem;}
+.results{display:flex;flex-direction:column;gap:10px;margin-top:6px;}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:13px 15px;text-decoration:none;color:inherit;transition:.12s;}
+.card:hover{border-color:var(--navy);box-shadow:0 2px 8px rgba(21,49,90,.08);}
+.card .row1{display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+.card .date{font-variant-numeric:tabular-nums;font-weight:700;font-size:.78rem;color:var(--ink);}
+.card .ttl{font-weight:700;color:var(--navy);font-size:.96rem;}
+.card .badge{font-size:.6rem;font-weight:700;color:#fff;background:var(--navy);padding:1px 7px;border-radius:999px;letter-spacing:.04em;}
+.card .badge.sokuho{background:#a06a00;}
+.card .cat{font-size:.68rem;color:var(--muted);}
+.card .snip{margin:8px 0 0;font-size:.84rem;color:var(--text);line-height:1.7;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+.card .snip mark{background:#fff2b3;color:inherit;padding:0 1px;border-radius:2px;}
+.card .meta2{margin:7px 0 0;font-size:.72rem;color:var(--muted);}
+.empty{text-align:center;padding:48px 16px;color:var(--muted);font-size:.9rem;}
+.loading{text-align:center;padding:48px 16px;color:var(--muted);font-size:.9rem;}
+.footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:.74rem;line-height:1.8;}
+.footer a{color:var(--navy);font-weight:700;}
+@media(max-width:560px){header.h h1{font-size:1.25rem;} .card .ttl{font-size:.9rem;}}
+</style>
+</head>
+<body>
+<div class="topbar"></div>
+<div class="wrap">
+  <header class="h">
+    <p class="kicker">小金井市議会</p>
+    <h1>会議録 全文検索</h1>
+    <p class="tag">発言内容・発言者名・議案番号で、本会議・委員会を横断検索できます（非公式アーカイブ）。</p>
+    <a class="back" href="index.html">← 会議一覧に戻る</a>
+  </header>
+
+  <div class="searchbox">
+    <div class="ip">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input type="text" id="q" placeholder="例: 学童保育　給食費　議案第40号　ながとり" autocomplete="off" autofocus>
+    </div>
+    <p class="hint">スペース区切りで複数語のAND検索。発言者名・議案番号・キーワードに対応。</p>
+    <div class="facets" id="catFacets"></div>
+    <div class="facets" id="srcFacets">
+      <button class="facet is-active" data-src="all">すべて</button>
+      <button class="facet" data-src="official">公式版のみ</button>
+      <button class="facet" data-src="sokuho">速報版のみ</button>
+    </div>
+  </div>
+
+  <p class="status" id="status">インデックスを読み込み中…</p>
+  <div class="results" id="results"></div>
+  <div class="loading" id="loading">📚 会議録データを読み込んでいます…（初回のみ少し時間がかかります）</div>
+
+  <div class="footer">
+    本文は <a href="https://www.city.koganei.tokyo.dbsr.jp/" target="_blank" rel="noopener">小金井市議会 公式会議録</a> 版（「公式」表示）と、YouTube中継からのAI生成「速報」版を含みます。
+    速報版は発言者名・語句に誤りを含む場合があります。正確な内容は公式会議録または
+    <a href="https://www.youtube.com/@koganei_shigikai" target="_blank" rel="noopener">議会YouTube</a> の原本をご確認ください。
+  </div>
+</div>
+
+<script>
+(function(){
+  var DATA=null, activeCat="all", activeSrc="all";
+  var q=document.getElementById('q'),
+      results=document.getElementById('results'),
+      status=document.getElementById('status'),
+      loading=document.getElementById('loading'),
+      catFacets=document.getElementById('catFacets');
+
+  function norm(s){ return (s||"").toLowerCase().normalize('NFKC'); }
+  function esc(s){ return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  function highlight(text, terms){
+    var out=esc(text);
+    terms.forEach(function(t){
+      if(!t) return;
+      var re=new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
+      out=out.replace(re,function(m){return '<mark>'+m+'</mark>';});
+    });
+    return out;
+  }
+
+  function snippet(rec, terms, hay){
+    var pos=-1, first=null;
+    terms.forEach(function(t){ var p=hay.indexOf(t); if(p>=0&&(pos<0||p<pos)){pos=p;first=t;} });
+    if(pos<0){ return esc(rec.text.slice(0,160))+'…'; }
+    var start=Math.max(0,pos-50), end=Math.min(rec.text.length,pos+110);
+    var raw=(start>0?'…':'')+rec.text.slice(start,end)+(end<rec.text.length?'…':'');
+    return highlight(raw, terms);
+  }
+
+  function render(){
+    if(!DATA){ return; }
+    var query=q.value.trim();
+    var terms=query?norm(query).split(/\s+/).filter(Boolean):[];
+    var list=DATA.records.filter(function(r){
+      if(activeCat!=='all' && r.cat!==activeCat) return false;
+      if(activeSrc==='official' && !r.official) return false;
+      if(activeSrc==='sokuho' && r.official) return false;
+      if(!terms.length) return true;
+      r._hay=r._hay||norm(r.title+' '+r.speakers.join(' ')+' '+r.giann.join(' ')+' '+r.text);
+      return terms.every(function(t){ return r._hay.indexOf(t)>=0; });
+    });
+    // 関連度（語の総出現数）→ 日付降順
+    if(terms.length){
+      list.forEach(function(r){
+        var c=0; terms.forEach(function(t){ var i=0; while((i=r._hay.indexOf(t,i))>=0){c++;i+=t.length;} });
+        r._score=c;
+      });
+      list.sort(function(a,b){ return (b._score-a._score)||(b.sortkey-a.sortkey); });
+    } else {
+      list.sort(function(a,b){ return b.sortkey-a.sortkey; });
+    }
+    status.textContent = query
+      ? list.length+' 件の会議で「'+query+'」が見つかりました'
+      : '全 '+DATA.records.length+' 会議（キーワードを入力すると本文を検索します）';
+    if(!list.length){ results.innerHTML='<div class="empty">該当する会議が見つかりませんでした。</div>'; return; }
+    var html=list.slice(0,80).map(function(r){
+      var snip = terms.length ? snippet(r, terms, r._hay) : esc(r.text.slice(0,150))+'…';
+      var hitSpeakers = terms.length ? r.speakers.filter(function(s){var ns=norm(s);return terms.some(function(t){return ns.indexOf(t)>=0;});}) : [];
+      return '<a class="card" href="'+encodeURI(r.file)+'">'
+        +'<div class="row1">'
+          +'<span class="date">'+esc(r.date)+'</span>'
+          +'<span class="ttl">'+esc(r.meeting)+'</span>'
+          +(r.official?'<span class="badge">公式</span>':'<span class="badge sokuho">速報</span>')
+          +'<span class="cat">'+esc(r.cat)+'</span>'
+        +'</div>'
+        +'<p class="snip">'+snip+'</p>'
+        +(hitSpeakers.length?'<p class="meta2">発言者一致：'+esc(hitSpeakers.slice(0,6).join('、'))+'</p>':'')
+      +'</a>';
+    }).join('');
+    if(list.length>80) html+='<div class="empty">上位80件を表示しています。語を追加して絞り込んでください。</div>';
+    results.innerHTML=html;
+  }
+
+  function buildCatFacets(){
+    var cats={}; DATA.records.forEach(function(r){cats[r.cat]=(cats[r.cat]||0)+1;});
+    var order=["本会議","予算特別委員会","決算特別委員会","総務企画委員会","厚生文教委員会","建設環境委員会","議会運営委員会","広報・広聴協議会","特別委員会","協議会・その他"];
+    var html='<button class="facet is-active" data-cat="all">すべて</button>';
+    order.forEach(function(c){ if(cats[c]) html+='<button class="facet" data-cat="'+c+'">'+c+'</button>'; });
+    catFacets.innerHTML=html;
+    [].forEach.call(catFacets.querySelectorAll('.facet'),function(b){
+      b.addEventListener('click',function(){
+        [].forEach.call(catFacets.querySelectorAll('.facet'),function(x){x.classList.remove('is-active');});
+        b.classList.add('is-active'); activeCat=b.getAttribute('data-cat'); render();
+      });
+    });
+  }
+
+  [].forEach.call(document.querySelectorAll('#srcFacets .facet'),function(b){
+    b.addEventListener('click',function(){
+      [].forEach.call(document.querySelectorAll('#srcFacets .facet'),function(x){x.classList.remove('is-active');});
+      b.classList.add('is-active'); activeSrc=b.getAttribute('data-src'); render();
+    });
+  });
+
+  q.addEventListener('input',function(){ clearTimeout(q._t); q._t=setTimeout(render,120); });
+
+  fetch('search_index.json').then(function(r){return r.json();}).then(function(d){
+    DATA=d; loading.style.display='none'; buildCatFacets(); render();
+  }).catch(function(e){
+    loading.style.display='none';
+    status.textContent='インデックスの読み込みに失敗しました: '+e;
+  });
+})();
+</script>
+</body>
+</html>
