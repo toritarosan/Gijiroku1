@@ -229,5 +229,35 @@ q.addEventListener('input',e=>{ curQ=e.target.value.trim().toLowerCase(); applyF
 const f0=document.querySelector('.entry');
 if(f0) f0.classList.add('is-active');
 </script>
+<script id="urlsync-js">
+(function(){
+  var frame=document.getElementById('frame');
+  if(!frame) return;
+  var entries=[].slice.call(document.querySelectorAll('.entry'));
+  function setHash(base){ try{ history.replaceState(null,'','#'+encodeURIComponent(base)); }catch(e){ try{location.hash=encodeURIComponent(base);}catch(_){} } }
+  function baseOf(href){ return (href||'').replace(/\.html$/,''); }
+  entries.forEach(function(e){ e.addEventListener('click',function(){ if(e.dataset.href) setHash(baseOf(e.dataset.href)); }); });
+  var sl=document.getElementById('searchlink');
+  if(sl) sl.addEventListener('click',function(){ setHash('search'); });
+  function openByHash(){
+    var raw=(location.hash||'').replace(/^#/,'');
+    if(!raw) return false;
+    var base; try{ base=decodeURIComponent(raw); }catch(e){ base=raw; }
+    if(base==='search'){ if(frame.getAttribute('src')!=='search.html') frame.src='search.html'; document.body.classList.add('show-detail'); return true; }
+    var want=base+'.html', target=null;
+    entries.forEach(function(e){ if(e.dataset.href===want) target=e; });
+    if(!target) return false;
+    entries.forEach(function(x){ x.classList.remove('is-active'); });
+    target.classList.add('is-active');
+    var det=target.closest('details'); if(det) det.open=true;
+    if(frame.getAttribute('src')!==target.dataset.href) frame.src=target.dataset.href;
+    document.body.classList.add('show-detail');
+    try{ target.scrollIntoView({block:'nearest'}); }catch(e){}
+    return true;
+  }
+  openByHash();
+  window.addEventListener('hashchange', openByHash);
+})();
+</script>
 </body>
 </html>
