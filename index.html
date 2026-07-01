@@ -106,6 +106,9 @@ svg{display:block;}
 .site-header{
   background:var(--bg);
   border-bottom:1px solid var(--border);
+  position:sticky;
+  top:0;
+  z-index:60;
 }
 .site-header .inner{
   min-height:76px;
@@ -1074,6 +1077,8 @@ svg{display:block;}
   .cmt-item .wh{font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums;}
   .cmt-item .bd{font-size:.9rem;color:var(--text);line-height:1.8;white-space:pre-wrap;word-break:break-word;}
   .cmt-state{text-align:center;padding:28px 16px;color:var(--muted);font-size:.85rem;}
+
+  @media(max-width:640px){.site-header{position:static;}}
 </style>
 </head>
 <body>
