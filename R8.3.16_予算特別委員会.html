@@ -100,6 +100,15 @@ mark.qhit{background:#ffe066;color:inherit;border-radius:2px;padding:0 1px;}
   .sitenav-links a:hover{color:#157a4b;background:#e7f4ec;}
   .sitenav-links .ext{color:#8a8073;font-size:.8em;margin-left:1px;}
   @media(max-width:640px){.sitenav-in{min-height:0;padding:8px 14px;}.sitenav-links a{padding:6px 9px;font-size:.8rem;}}
+
+  /* パンくず */
+  .crumb{background:#fbf9f4;border-bottom:1px solid #eee7db;}
+  html.embedded .crumb{display:none;}
+  .crumb-in{max-width:1100px;margin:0 auto;padding:8px 18px;font-size:.76rem;color:#8a8073;display:flex;align-items:center;gap:7px;flex-wrap:wrap;line-height:1.5;}
+  .crumb a{color:#157a4b;text-decoration:none;font-weight:600;}
+  .crumb a:hover{text-decoration:underline;}
+  .crumb .sep{color:#c9c0b2;}
+  .crumb .cur{color:#4a443b;font-weight:600;}
 </style>
 </head>
 <body>
@@ -116,6 +125,7 @@ mark.qhit{background:#ffe066;color:inherit;border-radius:2px;padding:0 1px;}
     </div>
   </div>
 </nav>
+<nav class="crumb" aria-label="パンくずリスト"><div class="crumb-in"><a href="index.html">ホーム</a><span class="sep">›</span><a href="list.html">全会議一覧</a><span class="sep">›</span><span class="cur">令和8年3月16日 予算特別委員会</span></div></nav>
 
 <div class="prog" id="prog"></div>
 <div class="wrap">
